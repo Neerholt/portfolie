@@ -1,2 +1,12 @@
+/*Stylesheet for body*/
+body{
+    background-color: white;
+}
 
-
+/*Stylesheet for min container*/
+#container{
+    background-color: #cccccc;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
