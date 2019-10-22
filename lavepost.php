@@ -77,7 +77,7 @@ if(!isset($_SESSION['login'])){
                                     <input type="file" required="">
                                     <hr>
                                     <h3>Skriv din artikel her</h4>
-                                    <center><textarea rows="30" name="atikeltext" cols="100" placeholder="Skriv din artikel her." required></textarea></center>
+                                    <center><textarea rows="22%" name="atikeltext" cols="80%" placeholder="Skriv din artikel her." required></textarea></center> <!--har lavet lidt om på rows og cols værdigerne-->
                                    <br/>
                                     <button class="opretknap" type="submit" name="GEM">Opret artikel</button>
                                 </form></center>  

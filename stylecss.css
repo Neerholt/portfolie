@@ -2,13 +2,14 @@
 body{
     background-color:wheat;
     /*background-image: url("img/hjemmesidebaggrund.JPG");*/
+    width: auto;
 }
 
 /*Stylesheet for min container*/
 #container{
     background-color: wheat;
-    width: 1500px;
-    height: 1070px;
+    width: 80%;
+    height: 100%;/*Har lavet på den her den 22/10/2019 Tirsdag*/
     margin-left: auto;
     margin-right: auto;
     /*background-image: url("img/hjemmesidebaggrund.JPG");*/
@@ -30,14 +31,13 @@ body{
 /*Stylesheet for min mainform*/
 #mainform{
     width:auto;
-    height: 890px;
+    height: 82%;/*Jeg har lavet på den her den 22/10/2019 Tirsdag*/
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     background-color: #e6dada;
     box-shadow: 10px 10px 5px grey;
     border: outset;
-    
 }
 
 /*Stylesheet for min nav*/
