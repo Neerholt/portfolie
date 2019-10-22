@@ -29,18 +29,20 @@ if(!isset($_SESSION['login'])){
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->            
-               <center><form method="POST" action="">
+                <center><form method="POST" action=""><br/><br/>
                                     <h3>Overskrift</h3>
-                                    <input type="text"  class="opretcss" name="navn" placeholder="Navn" required > 
+                                    <input type="text"  class="textboxs" name="navn" placeholder="Overskrift" required > <br/><br/>
+                                    <h3>Uploade en thumbnail</h3>
+                                    <input type="file" required="">
                                     <hr>
                                     <h3>Skriv din atikel her</h4>
-                                    <center><textarea rows="15" class="opretcss" name="besked" cols="50" placeholder="Skriv din opskrift her." required></textarea></center>
+                                    <center><textarea rows="30" name="besked" cols="100" placeholder="Skriv din opskrift her." required></textarea></center>
                                    <br/>
-                                    <button class="knap" type="submit" name="GEM">Opret atikel</button>
+                                    <button class="opretknap" type="submit" name="GEM">Opret atikel</button>
                                 </form></center>  
                         <center><div>
-                                    <form method="POST" action="index.php">
-                                    <input class="logincss" type="submit" name="logut" value="Cancel post">
+                                    <form method="POST" action="loggedind.php">
+                                    <input class="opretknap" type="submit" name="logut" value="Cancel post">
                                     </form>
                         </div></center>
                

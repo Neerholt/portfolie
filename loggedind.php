@@ -30,7 +30,7 @@ if(!isset($_SESSION['login'])){
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 
-                <form action="lavepost.html" method="POST">
+                <form action="lavepost.php" method="POST">
                     <input type="submit" value="Lave en post">   
                 </form>
                

@@ -115,19 +115,22 @@ li a:hover:not(.active) {
 
 
 
-/*Stylesheet for når du opretter en atikel er det denne css der bliver påført*/
-opretcss {
-  background-color: #EEE; 
+
+/*Styelsheet for opret knappen*/
+.opretknap{
+  background-color: #f44336; 
   border: none;
-  color: black;
-  padding: 15px 32px;
+  color: white;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
 }
+
+
 
 
 
