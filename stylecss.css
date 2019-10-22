@@ -36,6 +36,7 @@ body{
     margin-right: auto;
     background-color: whitesmoke;
     box-shadow: 10px 10px 5px grey;
+    border: outset;
     
 }
 
@@ -84,6 +85,8 @@ li a:hover:not(.active) {
     background-color: #FFFFFF;
     width: 300px;
     padding: 10px 3px 3px 3px;
+    box-shadow: 10px 10px 5px grey;
+    border: outset;
 }
 
 
@@ -96,21 +99,23 @@ li a:hover:not(.active) {
     margin-right: auto;
     background-color: whitesmoke;
     box-shadow: 10px 10px 5px grey;
+    border: outset;
 }
 
 
-/*Stylesheet til mine knapper*/
-.knap{
+/*Stylesheet til mine  login knap*/
+.loginknap{
   background-color: #f44336; 
   border: none;
   color: white;
-  padding: 20px 30px;
+  padding: 10px 200px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
+  border: outset;
 }
 
 

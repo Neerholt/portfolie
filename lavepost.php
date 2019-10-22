@@ -1,9 +1,42 @@
+<?php 
+if(isset($_POST['GEM'])){
+  
+$servername = 'localhost';
+$username = 'root';
+$password = '';
+$databasename = 'portfolielogin';
+
+
+$overskrift = $_POST ['overskrift'];
+//$efternavn = $_POST ['efternavn'];
+$besked = $_POST ['atikeltext'];
+
+ 
+$connect = mysqli_connect($servername, $username, $password, $databasename);
+
+
+if(!$connect){
+    die("Connectiuon failed because" .mysqli_connect_error());
+} 
+
+$sql_tabel = "INSERT INTO `opret`(`ID`, `overskrift`, `billede`, `atikeltext`) VALUES (NULL,'$overskrift',NULL,'$besked')";
+
+$data = mysqli_query($connect,$sql_tabel);
+
+
+header("location:loggedind.php");
+
+mysqli_close($connect);
+
+}
+?>    
+
 <?php
 session_start();
 if(!isset($_SESSION['login'])){
     header("location:index.html");
     exit;
-}   
+}
 ?>
 <html>
     <head>
@@ -32,8 +65,8 @@ if(!isset($_SESSION['login'])){
                 <center><form method="POST" action=""><br/><br/>
                                     <h3>Overskrift</h3>
                                     <input type="text"  class="textboxs" name="navn" placeholder="Overskrift" required > <br/><br/>
-                                    <h3>Uploade en thumbnail</h3>
-                                    <input type="file" required="">
+                                   <!-- <h3>Uploade en thumbnail</h3>
+                                    <input type="file" required="">-->
                                     <hr>
                                     <h3>Skriv din atikel her</h4>
                                     <center><textarea rows="30" name="besked" cols="100" placeholder="Skriv din opskrift her." required></textarea></center>
