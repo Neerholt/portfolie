@@ -20,7 +20,7 @@ body{
 #mainheader{
     width: auto;
     height: 70px;
-    background-color: #ed2b2b;
+    background-color: #4dc989;
     color: whitesmoke;
     /*text-shadow: 3px 3px 5px white;*/
     box-shadow: 10px 10px 5px grey;
@@ -97,7 +97,7 @@ li a:hover:not(.active) {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: whitesmoke;
+    background-color: #e6dada;
     box-shadow: 10px 10px 5px grey;
     border: outset;
 }
