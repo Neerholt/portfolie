@@ -1,12 +1,12 @@
 /*Stylesheet for body*/
 body{
-    background-color: white;
+    background-color:wheat;
     /*background-image: url("img/hjemmesidebaggrund.JPG");*/
 }
 
 /*Stylesheet for min container*/
 #container{
-    background-color: white;
+    background-color: wheat;
     width: 1500px;
     height: 1070px;
     margin-left: auto;
@@ -20,8 +20,8 @@ body{
 #mainheader{
     width: auto;
     height: 70px;
-    background-color: red;
-    color: black;
+    background-color: #ed2b2b;
+    color: whitesmoke;
     /*text-shadow: 3px 3px 5px white;*/
     box-shadow: 10px 10px 5px grey;
 }
@@ -34,7 +34,7 @@ body{
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: whitesmoke;
+    background-color: #e6dada;
     box-shadow: 10px 10px 5px grey;
     border: outset;
     
@@ -105,10 +105,10 @@ li a:hover:not(.active) {
 
 /*Stylesheet til mine  login knap*/
 .loginknap{
-  background-color: #f44336; 
+  background-color: #ed2b2b;
   border: none;
   color: white;
-  padding: 10px 200px;
+  padding: 4px 125px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
