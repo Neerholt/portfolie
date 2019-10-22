@@ -28,14 +28,67 @@ if(!isset($_SESSION['login'])){
                     <li style="float:right"><a href="https://twitter.com/">Twitter</a></li>
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
-            <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
-                
-                <form action="lavepost.html" method="POST">
-                    <input type="submit" value="Lave en post">   
-                </form>
+            <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->            
+               <center><form method="POST" action="">
+                                    <h3>Overskrift</h3>
+                                    <input type="text"  class="opretcss" name="navn" placeholder="Navn" required > 
+                                    <hr>
+                                    <h3>Skriv din atikel her</h4>
+                                    <center><textarea rows="15" class="opretcss" name="besked" cols="50" placeholder="Skriv din opskrift her." required></textarea></center>
+                                   <br/>
+                                    <button class="knap" type="submit" name="GEM">Opret atikel</button>
+                                </form></center>  
+                        <center><div>
+                                    <form method="POST" action="index.php">
+                                    <input class="logincss" type="submit" name="logut" value="Cancel post">
+                                    </form>
+                        </div></center>
                
                 
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->
         </div><!--Slut på min container div, Søge ord: Container container-->
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
