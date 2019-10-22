@@ -84,14 +84,14 @@ li a:hover:not(.active) {
 /*Stylesheet for min textboxs style*/
 .textboxs{
     background-color: #FFFFFF;
-    width: 600px;
+    width: 300px;
     padding: 10px 3px 3px 3px;
 }
 
 
 /*Stylesheet for login main form. css gælder kun på login formen!*/
 #loginmainform{
-    width:700px;
+    width: 300px;
     height: 400px;
     margin-top: 50px;
     margin-left: auto;
@@ -107,11 +107,11 @@ li a:hover:not(.active) {
   background-color: #f44336; 
   border: none;
   color: white;
-  padding: 20px 40px;
+  padding: 20px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 10px;
   margin: 4px 2px;
   cursor: pointer;
 }

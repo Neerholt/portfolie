@@ -3,7 +3,7 @@ session_start();
 if(!isset($_SESSION['login'])){
     header("location:index.html");
     exit;
-}
+}   
 ?>
 <html>
     <head>
@@ -22,6 +22,7 @@ if(!isset($_SESSION['login'])){
                     <li><a href="index.html">Forside</a></li>
                     <li><a href="pro.html">Projektere</a></li>
                     <li><a href="kon.html">Kontakt</a></li>
+                    <li><a href="index.html">Log ud</a></li>
                     <li style="float:right"><a href="https://store.steampowered.com/">Steam </a></li>
                     <li style="float:right"><a href="https://en-gb.facebook.com/login/">Facebook</a></li>
                     <li style="float:right"><a href="https://twitter.com/">Twitter</a></li>
