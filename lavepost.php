@@ -55,21 +55,29 @@ if(!isset($_SESSION['login'])){
                     <li><a href="index.html">Forside</a></li>
                     <li><a href="pro.html">Projektere</a></li>
                     <li><a href="kon.html">Kontakt</a></li>
-                    <li><a href="index.html">Log ud</a></li>
-                    <li style="float:right"><a href="https://store.steampowered.com/">Steam </a></li>
+                    <li class="selected"><a href="lavepost.php">Opret Artikel</a></li>
+                    <li><a href="pro.html">Opdater Artikel</a></li>
+                    <li><a href="kon.html">Slet Artikel</a></li>
+                    <li><a href="loggedind.php">Admin Panel</a></li>
+                    <li style="float:right"><a href="index.html">Log ud</a></li>
+                    <!--<li style="float:right"><a href="https://store.steampowered.com/">Steam </a></li>
                     <li style="float:right"><a href="https://en-gb.facebook.com/login/">Facebook</a></li>
-                    <li style="float:right"><a href="https://twitter.com/">Twitter</a></li>
+                    <li style="float:right"><a href="https://twitter.com/">Twitter</a></li>-->
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
-            <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->            
-                <center><form action="lavepost.php" method="POST" ><br/><br/>
+            <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform--> 
+                 
+                <form action="loggedind.php" method="POST">
+                    <button class="opretknap" type="submit">Tilbage</button>
+                </form>
+                <center><form action="lavepost.php" method="POST" >
                                     <h3>Overskrift</h3>
                                     <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" required > <br/><br/>
                                    <!-- <h3>Uploade en thumbnail</h3>
                                     <input type="file" required="">-->
                                     <hr>
                                     <h3>Skriv din artikel her</h4>
-                                    <center><textarea rows="30" name="atikeltext" cols="100" placeholder="Skriv din opskrift her." required></textarea></center>
+                                    <center><textarea rows="30" name="atikeltext" cols="100" placeholder="Skriv din artikel her." required></textarea></center>
                                    <br/>
                                     <button class="opretknap" type="submit" name="GEM">Opret artikel</button>
                                 </form></center>  
