@@ -40,7 +40,7 @@ if(!isset($_SESSION['login'])){
 ?>
 <html>
     <head>
-        <title>Admin Panel</title>
+        <title>Opret en artikel</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="stylecss.css">
@@ -48,7 +48,7 @@ if(!isset($_SESSION['login'])){
     <body>
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
             <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
-                <center><h1><font size="30">Admin Panle</font></h1></center>
+                <center><h1><font size="30">Opret Artikel</font></h1></center>
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
@@ -64,14 +64,14 @@ if(!isset($_SESSION['login'])){
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->            
                 <center><form action="lavepost.php" method="POST" ><br/><br/>
                                     <h3>Overskrift</h3>
-                                    <input type="text"  class="textboxs" name="overskrift" placeholder="Overskrift" required > <br/><br/>
+                                    <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" required > <br/><br/>
                                    <!-- <h3>Uploade en thumbnail</h3>
                                     <input type="file" required="">-->
                                     <hr>
-                                    <h3>Skriv din atikel her</h4>
+                                    <h3>Skriv din artikel her</h4>
                                     <center><textarea rows="30" name="atikeltext" cols="100" placeholder="Skriv din opskrift her." required></textarea></center>
                                    <br/>
-                                    <button class="opretknap" type="submit" name="GEM">Opret atikel</button>
+                                    <button class="opretknap" type="submit" name="GEM">Opret artikel</button>
                                 </form></center>  
                         <center><div>
                                     <form method="POST" action="loggedind.php">
