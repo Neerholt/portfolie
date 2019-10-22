@@ -119,8 +119,6 @@ li a:hover:not(.active) {
 }
 
 
-
-
 /*Styelsheet for opret knappen*/
 .opretknap{
   background-color: #ed2b2b;
@@ -128,12 +126,28 @@ li a:hover:not(.active) {
   color: white;
   padding: 10px 15px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
+  margin-right: -200px;
+  display: flex;
 }
+
+/*Styelsheet for cancel knappen*/
+.cancelknap{
+  background-color: #ed2b2b;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+  margin-left: -200px;
+  margin-top: -53px;
+}
+
 
 /*Stylesheet til hvis man skal disable noget*/
 .selected {
@@ -148,4 +162,22 @@ li a:hover:not(.active) {
     background-color: #FFFFFF;
     width: 300px;
     padding: 10px 3px 3px 3px;
+}
+
+
+
+/*Stylesheet for min tilbage knap. gælder kun for opret,slet og opdater siderne*/
+.tilbageknap{
+    background-color: #ed2b2b;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: flex;
+    margin-bottom: -45px;
 }

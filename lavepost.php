@@ -68,13 +68,13 @@ if(!isset($_SESSION['login'])){
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform--> 
                  
                 <form action="loggedind.php" method="POST">
-                    <button class="opretknap" type="submit">Tilbage</button>
+                    <button class="tilbageknap" type="submit">Tilbage</button>
                 </form>
                 <center><form action="lavepost.php" method="POST" >
                                     <h3>Overskrift</h3>
                                     <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" required > 
                                    <h3>Uploade en thumbnail</h3>
-                                    <input type="file" required="">
+                                    <input type="file" required=""><br/><br/>
                                     <hr>
                                     <h3>Skriv din artikel her</h4>
                                     <center><textarea rows="22%" name="atikeltext" cols="80%" placeholder="Skriv din artikel her." required></textarea></center> <!--har lavet lidt om på rows og cols værdigerne-->
@@ -83,7 +83,7 @@ if(!isset($_SESSION['login'])){
                                 </form></center>  
                         <center><div>
                                     <form method="POST" action="loggedind.php">
-                                    <input class="opretknap" type="submit" name="logut" value="Cancel post">
+                                    <input class="cancelknap" type="submit" name="logut" value="Cancel post">
                                     </form>
                         </div></center>
                
