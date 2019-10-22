@@ -9,7 +9,7 @@ $databasename = 'portfolielogin';
 
 $overskrift = $_POST ['overskrift'];
 //$efternavn = $_POST ['efternavn'];
-$besked = $_POST ['atikeltext'];
+$atikeltext = $_POST ['atikeltext'];
 
  
 $connect = mysqli_connect($servername, $username, $password, $databasename);
@@ -19,7 +19,7 @@ if(!$connect){
     die("Connectiuon failed because" .mysqli_connect_error());
 } 
 
-$sql_tabel = "INSERT INTO `opret`(`ID`, `overskrift`, `billede`, `atikeltext`) VALUES (NULL,'$overskrift',NULL,'$besked')";
+$sql_tabel = "INSERT INTO opret (ID, overskrift, billede, atikeltext) VALUES (NULL,'$overskrift',NULL,'$atikeltext')";
 
 $data = mysqli_query($connect,$sql_tabel);
 
@@ -62,14 +62,14 @@ if(!isset($_SESSION['login'])){
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->            
-                <center><form method="POST" action=""><br/><br/>
+                <center><form action="lavepost.php" method="POST" ><br/><br/>
                                     <h3>Overskrift</h3>
-                                    <input type="text"  class="textboxs" name="navn" placeholder="Overskrift" required > <br/><br/>
+                                    <input type="text"  class="textboxs" name="overskrift" placeholder="Overskrift" required > <br/><br/>
                                    <!-- <h3>Uploade en thumbnail</h3>
                                     <input type="file" required="">-->
                                     <hr>
                                     <h3>Skriv din atikel her</h4>
-                                    <center><textarea rows="30" name="besked" cols="100" placeholder="Skriv din opskrift her." required></textarea></center>
+                                    <center><textarea rows="30" name="atikeltext" cols="100" placeholder="Skriv din opskrift her." required></textarea></center>
                                    <br/>
                                     <button class="opretknap" type="submit" name="GEM">Opret atikel</button>
                                 </form></center>  
@@ -81,6 +81,7 @@ if(!isset($_SESSION['login'])){
                
                 
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->
+            <footer style="float:right">&copy; Copyright 2019 Victor Neerholt</footer>
         </div><!--Slut på min container div, Søge ord: Container container-->
     </body>
 </html>
