@@ -33,10 +33,12 @@ if($count == 1){
 
     $_SESSION ['login'] = 1;
 
-    header("location:https://www.youtube.com/");
+    header("location:loggedind.php");
 
 } else {
 
     header("location:index.html");
 
 }
+
+mysqli_close($connect);//Jeg er ikke helt sikker på om jeg skal lukke min connection?
