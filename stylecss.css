@@ -1,15 +1,17 @@
 /*Stylesheet for body*/
 body{
     background-color: white;
+    /*background-image: url("img/hjemmesidebaggrund.JPG");*/
 }
 
 /*Stylesheet for min container*/
 #container{
     background-color: white;
     width: 1500px;
-    height: 1081px;
+    height: 1070px;
     margin-left: auto;
     margin-right: auto;
+    /*background-image: url("img/hjemmesidebaggrund.JPG");*/
     
 }
 
@@ -20,7 +22,7 @@ body{
     height: 70px;
     background-color: red;
     color: black;
-    text-shadow: 3px 3px 5px white;
+    /*text-shadow: 3px 3px 5px white;*/
     box-shadow: 10px 10px 5px grey;
 }
 
@@ -28,12 +30,13 @@ body{
 /*Stylesheet for min mainform*/
 #mainform{
     width:auto;
-    height: 900px;
+    height: 890px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     background-color: whitesmoke;
     box-shadow: 10px 10px 5px grey;
+    
 }
 
 /*Stylesheet for min nav*/
@@ -73,7 +76,42 @@ li a:hover:not(.active) {
   background-color: #111;
 }
 
-.active {
-  background-color: #4CAF50;
-}
 /*Head nav slut*/
+
+
+
+
+/*Stylesheet for min textboxs style*/
+.textboxs{
+    background-color: #FFFFFF;
+    width: 600px;
+    padding: 10px 3px 3px 3px;
+}
+
+
+/*Stylesheet for login main form. css gælder kun på login formen!*/
+#loginmainform{
+    width:700px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+
+/*Stylesheet til mine knapper*/
+.knap{
+  background-color: #f44336; 
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
