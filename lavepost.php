@@ -52,13 +52,13 @@ if(!isset($_SESSION['login'])){
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
-                    <li><a href="index.html">Forside</a></li>
+                    <!--<li><a href="index.html">Forside</a></li>
                     <li><a href="pro.html">Projektere</a></li>
-                    <li><a href="kon.html">Kontakt</a></li>
-                    <li class="selected"><a href="lavepost.php">Opret Artikel</a></li>
-                    <li><a href="pro.html">Opdater Artikel</a></li>
-                    <li><a href="kon.html">Slet Artikel</a></li>
+                    <li><a href="kon.html">Kontakt</a></li>-->
                     <li><a href="loggedind.php">Admin Panel</a></li>
+                    <li class="selected"><a href="lavepost.php">Opret en Artikel</a></li>
+                    <li><a href="pro.html">Opdater en Artikel</a></li>
+                    <li><a href="kon.html">Slet en Artikel</a></li>
                     <li style="float:right"><a href="index.html">Log ud</a></li>
                     <!--<li style="float:right"><a href="https://store.steampowered.com/">Steam </a></li>
                     <li style="float:right"><a href="https://en-gb.facebook.com/login/">Facebook</a></li>
