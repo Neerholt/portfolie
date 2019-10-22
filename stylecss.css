@@ -135,11 +135,11 @@ li a:hover:not(.active) {
   cursor: pointer;
 }
 
-
-
-
-
-
-
 .idk {background-color: #EEE;} 
 
+/*Stylesheet til hvis man skal disable noget*/
+.selected {
+    pointer-events:none; 
+    background-color: red;
+    
+}
