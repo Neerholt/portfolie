@@ -9,11 +9,11 @@ $databasename = 'portfolielogin';
 
 
 
-$billede = $_FILES['img']['name'];
+$billede = $_FILES['images']['name'];
 $overskrift = $_POST ['overskrift'];
 $atikeltext = $_POST ['atikeltext'];
 
-$target = "\img".basename($billede);
+$target = "img".basename($billede);
 
  
 $connect = mysqli_connect($servername, $username, $password, $databasename);
@@ -73,7 +73,7 @@ if(!isset($_SESSION['login'])){
                                     <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" required > <br/><br/>
                                     <hr>
                                   <h3>Uploade en thumbnail</h3>
-                                  <label> Uploade et billede: </label><input type="file" name="img"><br/><br/>
+                                  <label> Uploade et billede: </label><input type="file" name="images"><br/><br/>
                                     <hr>
                                     <h3>Skriv din artikel her</h4>
                                     <center><textarea rows="22%" name="atikeltext" cols="80%" placeholder="Skriv din artikel her." required></textarea></center> <!--har lavet lidt om på rows og cols værdigerne-->

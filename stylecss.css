@@ -189,3 +189,15 @@ li a:hover:not(.active) {
     display: flex;
     margin-bottom: -45px;
 }
+
+#textkasse{
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 3.2%;
+  width: 20%;
+  height: 46%;
+  border: outset;
+  box-shadow: 10px 10px 5px grey;
+  overflow: hidden;
+  float: right;
+}

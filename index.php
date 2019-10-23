@@ -23,13 +23,6 @@
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
-                <table>
-                    <td>
-                      <!--Nothing-->
-                    
-                    </td>
-                    <tr>
-                        <td>  
                         <?php
                      $sql_tabel = "SELECT * FROM opret;"; 
                      $data = mysqli_query($connect,$sql_tabel);
@@ -37,22 +30,20 @@
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                             echo '<img height="200" width="290" src="img/'.$row['billede'].' "> ';
-                             echo '<br>';
+                             echo '<div id="textkasse">';
+                             echo '<img height="250" width="300" src="img/hjemmesidebaggrund.JPG'.$row['billede'].' "> ';
+                            // echo '&nbsp;';
                              echo $row['overskrift'];
-                             echo '<br>';
-                             echo 'Timestamp&nbsp;';
-                             echo $row['dato'];
-                             echo '<br><br>';
+                             //echo '<br>';
+                             //echo $row['dato'];
+                             //echo '<br>';
+                             echo '&nbsp;';
                              echo $row['atikeltext'];
-                              echo '<br>';
+                             echo '</div>';
                          }  
                      } 
                      
-                     ?></td>
-                        
-                    </tr>
-                </table>
+                     ?>
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->
             <footer style="float:right">&copy; Copyright <?php echo date("Y");?> Victor Neerholt</footer>
         </div><!--Slut på min container div, Søge ord: Container container-->
