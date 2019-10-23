@@ -33,9 +33,9 @@
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                             echo $row['overskrift'];
+                             echo "<img src='img".$row['billede']."' >";
                              echo '<br>';
-                             echo $row['billede'];
+                             echo $row['overskrift'];
                              echo '<br>';
                              echo 'Timestamp&nbsp;';
                              echo $row['dato'];

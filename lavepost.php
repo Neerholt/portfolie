@@ -1,15 +1,19 @@
 <?php 
 if(isset($_POST['GEM'])){
   
+  
 $servername = 'localhost';
 $username = 'root';
 $password = '';
 $databasename = 'portfolielogin';
 
 
+
+$billede = $_FILES['img']['name'];
 $overskrift = $_POST ['overskrift'];
-//$efternavn = $_POST ['efternavn'];
 $atikeltext = $_POST ['atikeltext'];
+
+$target = "images/".basename($image);
 
  
 $connect = mysqli_connect($servername, $username, $password, $databasename);
@@ -19,8 +23,7 @@ if(!$connect){
     die("Connectiuon failed because" .mysqli_connect_error());
 } 
 
-
-$sql_tabel = "INSERT INTO `opret`(`ID`, `overskrift`, `billede`, `atikeltext`) VALUES (NULL,'$overskrift','NULL','$atikeltext')";
+$sql_tabel = "INSERT INTO `opret`(`ID`, `overskrift`, `billede`, `atikeltext`) VALUES (NULL,'$overskrift','$billede','$atikeltext')";
 
 $data = mysqli_query($connect,$sql_tabel);
 
@@ -65,7 +68,7 @@ if(!isset($_SESSION['login'])){
                 <form action="loggedind.php" method="POST">
                     <button class="tilbageknap" type="submit">Tilbage</button>
                 </form>
-                <center><form action="lavepost.php" method="POST" >
+                <center><form action="lavepost.php" method="POST" enctype="multipart/form-data">
                                     <h3>Overskrift</h3>
                                     <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" required > <br/><br/>
                                     <hr>
