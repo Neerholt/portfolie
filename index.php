@@ -24,8 +24,12 @@
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 <table>
+                    <td>
+                      <!--Nothing-->
+                    
+                    </td>
                     <tr>
-                        
+                        <td>  
                         <?php
                      $sql_tabel = "SELECT * FROM opret;"; 
                      $data = mysqli_query($connect,$sql_tabel);
@@ -33,7 +37,7 @@
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                             echo "<img src='img".$row['billede']."' >";
+                             echo '<img height="200" width="290" src="data:img;base64,'.$row['billede'].' "> ';
                              echo '<br>';
                              echo $row['overskrift'];
                              echo '<br>';
@@ -41,15 +45,11 @@
                              echo $row['dato'];
                              echo '<br><br>';
                              echo $row['atikeltext'];
-                             echo '<hr>';
+                              echo '<br>';
                          }  
                      } 
                      
-                     ?>
-                    
-                    </tr>
-                    <tr>
-                        <th></th>
+                     ?></td>
                         
                     </tr>
                 </table>

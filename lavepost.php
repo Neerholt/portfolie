@@ -13,7 +13,7 @@ $billede = $_FILES['img']['name'];
 $overskrift = $_POST ['overskrift'];
 $atikeltext = $_POST ['atikeltext'];
 
-$target = "images/".basename($image);
+$target = "\img".basename($billede);
 
  
 $connect = mysqli_connect($servername, $username, $password, $databasename);
