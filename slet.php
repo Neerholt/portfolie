@@ -36,7 +36,7 @@ if(!isset($_SESSION['login'])){
                
                 
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->
-            <footer style="float:right">&copy; Copyright 2019 Victor Neerholt</footer>
+            <footer style="float:right">&copy; Copyright <?php echo date("Y");?> Victor Neerholt</footer>
         </div><!--Slut på min container div, Søge ord: Container container-->
     </body>
 </html>
