@@ -25,6 +25,7 @@
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 <table>
                     <tr>
+                        
                         <?php
                      $sql_tabel = "SELECT * FROM opret;"; 
                      $data = mysqli_query($connect,$sql_tabel);
@@ -45,10 +46,11 @@
                      } 
                      
                      ?>
+                    
                     </tr>
                     <tr>
-                        <th>Test</th>
-                        <th>Test</th>
+                        <th></th>
+                        
                     </tr>
                 </table>
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->
