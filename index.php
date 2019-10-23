@@ -1,3 +1,4 @@
+<?php include 'databaseconn.php';?>
 <html>
     <head>
         <title>Portfolie-Forside</title>
@@ -24,10 +25,26 @@
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 <table>
                     <tr>
-                        <th>Test</th>
-                        <th>Test</th>
-                        <th>Test</th>
-                        <th>Test</th>
+                        <?php
+                     $sql_tabel = "SELECT * FROM opret;"; 
+                     $data = mysqli_query($connect,$sql_tabel);
+                     $datacheck = mysqli_num_rows($data);
+                     
+                     if($data){
+                         while ($row = mysqli_fetch_assoc($data)){
+                             echo $row['overskrift'];
+                             echo '<br>';
+                             echo $row['billede'];
+                             echo '<br>';
+                             echo 'Timestamp&nbsp;';
+                             echo $row['dato'];
+                             echo '<br><br>';
+                             echo $row['atikeltext'];
+                             echo '<hr>';
+                         }  
+                     } 
+                     
+                     ?>
                     </tr>
                     <tr>
                         <th>Test</th>
