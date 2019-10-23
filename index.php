@@ -37,7 +37,7 @@
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                             echo '<img height="200" width="290" src="data:img;base64,'.$row['billede'].' "> ';
+                             echo '<img height="200" width="290" src="img/'.$row['billede'].' "> ';
                              echo '<br>';
                              echo $row['overskrift'];
                              echo '<br>';
