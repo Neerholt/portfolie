@@ -190,14 +190,27 @@ li a:hover:not(.active) {
     margin-bottom: -45px;
 }
 
+
+/*stylesheet for det kasser som er uden om et opslag*/
 #textkasse{
   margin-top: 1%;
   margin-left: 1%;
   margin-right: 3.3%;
+  margin-bottom: 1%;
   width: 19.8%;
   height: 46%;
   border: outset;
   box-shadow: 10px 10px 5px grey;
   overflow: hidden;
   float: right;
+}
+
+/*Stylesheet for at når der kommer et hvis antal opslag lave denne funktion
+en scroll bare mid på siden så den stadig for bliver standart fixt*/
+
+div.ex1 {
+
+  width: 100%;
+  height: 100%;
+  overflow: auto;
 }

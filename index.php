@@ -23,27 +23,11 @@
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
-                        <?php
-                     $sql_tabel = "SELECT * FROM opret;"; 
-                     $data = mysqli_query($connect,$sql_tabel);
-                     $datacheck = mysqli_num_rows($data);
-                     
-                     if($data){
-                         while ($row = mysqli_fetch_assoc($data)){
-                             echo '<div id="textkasse">';
-                             echo '<img height="250" width="300" src="img/hjemmesidebaggrund.JPG'.$row['billede'].' "> ';
-                            // echo '&nbsp;';
-                             echo $row['overskrift'];
-                             //echo '<br>';
-                             //echo $row['dato'];
-                             //echo '<br>';
-                             echo '&nbsp;';
-                             echo $row['atikeltext'];
-                             echo '</div>';
-                         }  
-                     } 
-                     
-                     ?>
+                
+                
+                
+                <!--Code the main funktion here-->
+                  
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->
             <footer style="float:right">&copy; Copyright <?php echo date("Y");?> Victor Neerholt</footer>
         </div><!--Slut på min container div, Søge ord: Container container-->
