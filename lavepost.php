@@ -19,7 +19,8 @@ if(!$connect){
     die("Connectiuon failed because" .mysqli_connect_error());
 } 
 
-$sql_tabel = "INSERT INTO opret (ID, overskrift, billede, atikeltext) VALUES (NULL,'$overskrift',NULL,'$atikeltext')";
+
+$sql_tabel = "INSERT INTO `opret`(`ID`, `overskrift`, `billede`, `atikeltext`) VALUES (NULL,'$overskrift','NULL','$atikeltext')";
 
 $data = mysqli_query($connect,$sql_tabel);
 
@@ -72,9 +73,10 @@ if(!isset($_SESSION['login'])){
                 </form>
                 <center><form action="lavepost.php" method="POST" >
                                     <h3>Overskrift</h3>
-                                    <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" required > 
-                                   <h3>Uploade en thumbnail</h3>
-                                    <input type="file" required=""><br/><br/>
+                                    <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" required > <br/><br/>
+                                    <hr>
+                                  <h3>Uploade en thumbnail</h3>
+                                  <label> Uploade et billede: </label><input type="file" name="img"><br/><br/>
                                     <hr>
                                     <h3>Skriv din artikel her</h4>
                                     <center><textarea rows="22%" name="atikeltext" cols="80%" placeholder="Skriv din artikel her." required></textarea></center> <!--har lavet lidt om på rows og cols værdigerne-->
