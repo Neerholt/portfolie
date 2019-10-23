@@ -19,17 +19,11 @@ if(!isset($_SESSION['login'])){
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
-                    <!--<li><a href="index.html">Forside</a></li>
-                    <li><a href="pro.html">Projektere</a></li>
-                    <li><a href="kon.html">Kontakt</a></li>-->
                     <li><a href="loggedind.php">Admin Panel</a></li>
                     <li><a href="lavepost.php">Opret en Artikel</a></li>
                     <li><a href="updater.php">Opdater en Artikel</a></li>
                     <li class="selected"><a href="slet.php">Slet en Artikel</a></li>
                     <li style="float:right"><a href="index.php">Log ud</a></li>
-                    <!--<li style="float:right"><a href="https://store.steampowered.com/">Steam </a></li>
-                    <li style="float:right"><a href="https://en-gb.facebook.com/login/">Facebook</a></li>
-                    <li style="float:right"><a href="https://twitter.com/">Twitter</a></li>-->
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform--> 
