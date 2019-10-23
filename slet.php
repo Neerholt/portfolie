@@ -26,7 +26,7 @@ if(!isset($_SESSION['login'])){
                     <li><a href="lavepost.php">Opret en Artikel</a></li>
                     <li><a href="updater.php">Opdater en Artikel</a></li>
                     <li class="selected"><a href="slet.php">Slet en Artikel</a></li>
-                    <li style="float:right"><a href="index.html">Log ud</a></li>
+                    <li style="float:right"><a href="index.php">Log ud</a></li>
                     <!--<li style="float:right"><a href="https://store.steampowered.com/">Steam </a></li>
                     <li style="float:right"><a href="https://en-gb.facebook.com/login/">Facebook</a></li>
                     <li style="float:right"><a href="https://twitter.com/">Twitter</a></li>-->

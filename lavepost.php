@@ -60,7 +60,7 @@ if(!isset($_SESSION['login'])){
                     <li class="selected"><a href="lavepost.php">Opret en Artikel</a></li>
                     <li><a href="updater.php">Opdater en Artikel</a></li>
                     <li><a href="slet.php">Slet en Artikel</a></li>
-                    <li style="float:right"><a href="index.html">Log ud</a></li>
+                    <li style="float:right"><a href="index.php">Log ud</a></li>
                     <!--<li style="float:right"><a href="https://store.steampowered.com/">Steam </a></li>
                     <li style="float:right"><a href="https://en-gb.facebook.com/login/">Facebook</a></li>
                     <li style="float:right"><a href="https://twitter.com/">Twitter</a></li>-->
@@ -81,7 +81,7 @@ if(!isset($_SESSION['login'])){
                                     <h3>Skriv din artikel her</h4>
                                     <center><textarea rows="22%" name="atikeltext" cols="80%" placeholder="Skriv din artikel her." required></textarea></center> <!--har lavet lidt om på rows og cols værdigerne-->
                                    <br/>
-                                    <button class="opretknap" type="submit" name="GEM">Opret artikel</button>
+                                    <button class="opretknap" onclick="sendbesked" type="submit" name="GEM">Opret artikel</button>
                                 </form></center>  
                         <center><div>
                                     <form method="POST" action="loggedind.php">
