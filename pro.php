@@ -14,7 +14,7 @@
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
                     <li><a href="index.php">Forside</a></li>
-                    <li class="selected"><a href="pro.html" >Alle Projekter</a></li>
+                    <li class="selected"><a href="pro.html" >Projekter</a></li>
                     <li><a href="kon.php">Kontakt</a></li>
                     <li><a href="login.html">Login</a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Steam </a></li>

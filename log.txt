@@ -1,13 +1,21 @@
 #Ting jeg skal kigge på#
 Jeg skal have kigge sql injection.
+......
+Hordan jeg kan gøre det sådan at når man kikker læse mere på et
+opslag skal den opne et ny window hvor man kan læse alle detaljer
+......
+Måske lave en side hvor man kan skifte/ måske add flere accounts til hjemmesiden.
 
-Jeg skal have kigge på hvordan jeg kan opdele min data
-jeg får fra databasen op i tabs for sige selv på forsinde samt på porjecter 
-siden.
 ______________________________________
 
 #Problemer#
+Der er ikke nogen lige nu
+.........
+______________________________________
+
+#Løste problemer#
 Der er et problem hvor når man gemmer et billede, gemmer 
 koden ikke billedet i den rigtige file og der ved er det ikke muligt
-at kunne printe billedet ud på hjemmesiden. 
+at kunne printe billedet ud på hjemmesiden.[Det er det nu]
+....... 
 ______________________________________
