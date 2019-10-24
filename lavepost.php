@@ -9,11 +9,12 @@ $databasename = 'portfolielogin';
 
 
 
-$billede = $_FILES['images']['name'];
+$billede = $_FILES['imagess']['name'];
 $overskrift = $_POST ['overskrift'];
 $atikeltext = $_POST ['atikeltext'];
+$brodtekst = $_POST ['brodtekst'];
 
-$target = "img".basename($billede);
+$target = 'images/'.$billede;
 
  
 $connect = mysqli_connect($servername, $username, $password, $databasename);
@@ -23,7 +24,7 @@ if(!$connect){
     die("Connectiuon failed because" .mysqli_connect_error());
 } 
 
-$sql_tabel = "INSERT INTO `opret`(`ID`, `overskrift`, `billede`, `atikeltext`) VALUES (NULL,'$overskrift','$billede','$atikeltext')";
+$sql_tabel = "INSERT INTO `opret`(`ID`, `overskrift`, `billede`, `atikeltext`, `dato`, `brodtekst`) VALUES (NULL,'$overskrift','$billede','$atikeltext',NULL,'$brodtekst')";
 
 $data = mysqli_query($connect,$sql_tabel);
 
@@ -70,10 +71,13 @@ if(!isset($_SESSION['login'])){
                 </form>
                 <center><form action="lavepost.php" method="POST" enctype="multipart/form-data">
                                     <h3>Overskrift</h3>
-                                    <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" required > <br/><br/>
+                                    <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" maxlength="28" required > <br/>
+                                    <hr>
+                                    <h3>Brødtekst</h3>
+                                    <center><textarea rows="3%" name="brodtekst"cols="40%" placeholder="Brødtekst"  maxlength="130" required></textarea></center>
                                     <hr>
                                   <h3>Uploade en thumbnail</h3>
-                                  <label> Uploade et billede: </label><input type="file" name="images"><br/><br/>
+                                  <label> Uploade et billede: </label><input type="file" name="imagess"><br/><br/>
                                     <hr>
                                     <h3>Skriv din artikel her</h4>
                                     <center><textarea rows="22%" name="atikeltext" cols="80%" placeholder="Skriv din artikel her." required></textarea></center> <!--har lavet lidt om på rows og cols værdigerne-->

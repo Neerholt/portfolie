@@ -34,12 +34,13 @@
                              echo '<div id="textkasse">';
                              echo '<img height="250" width="300" src="img/hjemmesidebaggrund.JPG'.$row['billede'].' "> ';
                             // echo '&nbsp;';
-                             echo $row['overskrift'];
+                             echo "<h3>".$row['overskrift']."</h3>";
                              //echo '<br>';
                              //echo $row['dato'];
                              //echo '<br>';
                              echo '&nbsp;';
-                             echo $row['atikeltext'];
+                             //echo $row['atikeltext'];
+                             echo $row['brodtekst'];
                              echo '</div>';
                          }  
                      } 
