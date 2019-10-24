@@ -14,7 +14,7 @@ $overskrift = $_POST ['overskrift'];
 $atikeltext = $_POST ['atikeltext'];
 $brodtekst = $_POST ['brodtekst'];
 
-$target = 'images/'.$billede;
+$target = 'images/';
 
  
 $connect = mysqli_connect($servername, $username, $password, $databasename);
@@ -27,6 +27,8 @@ if(!$connect){
 $sql_tabel = "INSERT INTO `opret`(`ID`, `overskrift`, `billede`, `atikeltext`, `dato`, `brodtekst`) VALUES (NULL,'$overskrift','$billede','$atikeltext',NULL,'$brodtekst')";
 
 $data = mysqli_query($connect,$sql_tabel);
+
+ move_uploaded_file($_FILES['imagess']['tmp_name'],$target.$billede);
 
 
 header("location:loggedind.php");
