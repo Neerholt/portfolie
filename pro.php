@@ -20,6 +20,7 @@
                     <li style="float:right"><a href="#IdoNothingYet">Steam </a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Facebook</a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Twitter</a></li>
+                     <li style="float:right"><a href="#IdoNothingYet">Linkedin</a></li>
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
