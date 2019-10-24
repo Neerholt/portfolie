@@ -35,7 +35,7 @@
                             echo "<img src='images/".$row['billede']."' height='250' width='300'>";
                              //Dette billede skal kunne hentes fra databasen og skal ikke være prefix
                              //Dette er bare et exsempel på hvordan jeg gerne vil have det skal se ud!
-                             echo '<br>';
+                             echo '<hr>';
                             // echo '&nbsp;';
                              echo "<h3>".$row['overskrift']."</h3>";
                              //echo '<br>';
@@ -43,7 +43,7 @@
                              //echo '<br>';
                              //echo $row['atikeltext'];
                              echo $row['brodtekst'];
-                             echo '<br><br>';
+                             echo '<br>';
                              echo '<a href="#Nothing">Læse mere...</a>';
                              //Det her er bare n test på hvordan jeg gerne vil have det skal se ude
                              //Det skal laves sådan at det link over denne tekst linker til en ny side hvor
