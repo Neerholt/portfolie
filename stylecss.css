@@ -215,3 +215,33 @@ div.ex1 {
   overflow: auto;
 }
 
+
+#personlig{
+    width: 33.3%;
+    height: 100%;
+    background-color:red;
+    border: none;
+    float: left;
+    <!--#e6dada;-->
+    
+}
+
+
+#arbejde{
+    width: 33.3%;
+    height: 100%;
+    background-color:green;
+    border: none;
+    float: left;
+    <!--#e6dada;-->   
+}
+
+
+#Aboutme{
+    width: 33.3%;
+    height: 100%;
+    background-color:yellow;
+    border: none;
+    float: left;
+    <!--#e6dada;-->
+}
