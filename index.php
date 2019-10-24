@@ -14,17 +14,18 @@
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
                     <li class="selected"><a href="index.html">Forside</a></li>
-                    <li><a href="pro.php">Alle Projekter</a></li>
+                    <li><a href="pro.php">Projekter</a></li>
                     <li><a href="kon.php">Kontakt</a></li>
                     <li><a href="login.html">Login</a></li>
-                    <li style="float:right"><a href="https://store.steampowered.com/">Steam </a></li>
-                    <li style="float:right"><a href="https://en-gb.facebook.com/login/">Facebook</a></li>
-                    <li style="float:right"><a href="https://twitter.com/">Twitter</a></li>
+                    <li style="float:right"><a href="#IdoNothingYet">Steam</a></li>
+                    <li style="float:right"><a href="#IdoNothingYet">Facebook</a></li>
+                    <li style="float:right"><a href="#IdoNothingYet">Twitter</a></li>
+                    <li style="float:right"><a href="#IdoNothingYet">Linkedin</a></li>
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 
-                
+               
                 
                 <!--Code the main funktion here-->
                   

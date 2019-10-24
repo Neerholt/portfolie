@@ -37,7 +37,7 @@ if($count == 1){
 
 } else {
 
-    header("location:index.html");
+    header("location:index.php");
 
 }
 

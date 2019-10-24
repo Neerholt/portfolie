@@ -206,11 +206,44 @@ li a:hover:not(.active) {
 }
 
 /*Stylesheet for at når der kommer et hvis antal opslag lave denne funktion
-en scroll bare mid på siden så den stadig for bliver standart fixt*/
-
+en scroll bar mid på siden så den stadig for bliver standart fixt*/
 div.ex1 {
 
   width: 100%;
   height: 100%;
   overflow: auto;
+}
+
+/*Stylesheet til et af mine divs under kontak siden*/
+#personlig{
+    width: 33.3%;
+    height: 95%;
+    background-color:#e6dada;
+    border: none;
+    float: left; 
+}
+
+/*Stylesheet til et af mine divs under kontak siden*/
+#arbejde{
+    width: 33.3%;
+    height: 95%;
+    background-color:#e6dada;
+    border: none;
+    float: left;
+}
+
+/*Stylesheet til et af mine divs under kontak siden*/
+#Aboutme{
+    width: 33.3%;
+    height: 95%;
+    background-color: #e6dada;
+    border: none;
+    float: left;
+}
+
+/*Stylesheet for den lille prik der er uden for de 2 første feltet under kontakt mig siden*/
+
+#dot{
+    font-size:30px;
+    /*&#8226;*/
 }

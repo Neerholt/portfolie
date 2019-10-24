@@ -1,13 +1,35 @@
 #Ting jeg skal kigge på#
 Jeg skal have kigge sql injection.
-
-Jeg skal have kigge på hvordan jeg kan opdele min data
-jeg får fra databasen op i tabs for sige selv på forsinde samt på porjecter 
-siden.
+......
+Hordan jeg kan gøre det sådan at når man kikker læse mere på et
+opslag skal den opne et ny window hvor man kan læse alle detaljer
+......
+Måske lave en side hvor man kan skifte/ måske add flere accounts til hjemmesiden.
+......
+Lave en side hvor amn kan opdater ens oplysninger på "Personlig, arbejdsområde og omkring mig"
+alt den data der er i disse divs skal kunne ænderes senere hen i livet!
+lave et interface til denne opagev
+......
+lave en dropdown hvor man kan vælge om om vil opdater personlig, arbejdsområde eller omkringmig!
+......
+Forsiden kan bruge spm en introduktion til min hjemmeside, måske fortæl lidt om hvad det er for 
+en type hjemmeside?
+Bare ikke noget med database på forsiden! Måske
+......
+Måske kunne det være en god idé at lave det på sådan en måde at når man hover musen over en artikle 
+poper den frem som om den bliver valgt, samt at man bare kan klikke på hele arktikle preview for at
+komme til at læse hele artiklen, isted for at man skal kunne klikke på læse mere, det vil gøre 
+siden mere lækker at kigge på / sjover at browse min projecter! bare en tanke
 ______________________________________
 
 #Problemer#
+Der er ikke nogen lige nu
+.........
+______________________________________
+
+#Løste problemer#
 Der er et problem hvor når man gemmer et billede, gemmer 
 koden ikke billedet i den rigtige file og der ved er det ikke muligt
-at kunne printe billedet ud på hjemmesiden. 
+at kunne printe billedet ud på hjemmesiden.[Det er det nu]
+....... 
 ______________________________________
