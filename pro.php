@@ -32,7 +32,7 @@
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
                              echo '<div id="textkasse">';
-                            echo "<img src='images/".$row['billede']."'>";
+                            echo "<img src='images/".$row['billede']."' height='250' width='300'>";
                              //Dette billede skal kunne hentes fra databasen og skal ikke være prefix
                              //Dette er bare et exsempel på hvordan jeg gerne vil have det skal se ud!
                              echo '<br>';
