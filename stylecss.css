@@ -215,33 +215,36 @@ div.ex1 {
   overflow: auto;
 }
 
-
+/*Stylesheet til et af mine divs under kontak siden*/
 #personlig{
     width: 33.3%;
-    height: 100%;
-    background-color:red;
+    height: 95%;
+    background-color:#e6dada;
     border: none;
-    float: left;
-    <!--#e6dada;-->
-    
+    float: left; 
 }
 
-
+/*Stylesheet til et af mine divs under kontak siden*/
 #arbejde{
     width: 33.3%;
-    height: 100%;
-    background-color:green;
+    height: 95%;
+    background-color:#e6dada;
     border: none;
     float: left;
-    <!--#e6dada;-->   
 }
 
-
+/*Stylesheet til et af mine divs under kontak siden*/
 #Aboutme{
     width: 33.3%;
-    height: 100%;
-    background-color:yellow;
+    height: 95%;
+    background-color: #e6dada;
     border: none;
     float: left;
-    <!--#e6dada;-->
+}
+
+/*Stylesheet for den lille prik der er uden for de 2 første feltet under kontakt mig siden*/
+
+#dot{
+    font-size:30px;
+    /*&#8226;*/
 }

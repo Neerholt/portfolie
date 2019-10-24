@@ -23,15 +23,38 @@
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 <div id="personlig"><!--Starten på min personligform. søge ord personlig Personlig-->
+                    <center><h1>Kontakt oplysinger</h1></center>
+                    <center><hr align="center" width="50%"></center>
+                    
+                   
+                    <!--make your main code here-->
                     
                 </div><!--slutning på min personligform. søge ord personlig Personlig-->
                 <div id="arbejde"><!--starten på min arbejdefom, søge ord arbejde Arbejde-->
+                     <center><h1>Arbejdsområder</h1></center>
+                    <center><hr align="center" width="50%"></center>
+                    <!--Linje-->
+                    <svg height="100%">
+                    <line y2="700" style="stroke:rgb(0,0,0);stroke-width:4" />
+                    </svg>
+                    
+                    
+                       <!--make your main code here-->
+                    
                     
                 </div><!--slutning på min arbejdefom, søge ord arbejde Arbejde-->
                 <div id="Aboutme"><!--starten på aboutmeformen, søge ord Aboutme aboutme-->
+                    <center><h1>Omkring mig</h1></center>
+                    <center><hr align="center" width="50%"></center>
+                    
+                    <!--Linje-->
+                    <svg height="100%">
+                    <line y2="700" style="stroke:rgb(0,0,0);stroke-width:4" />
+                    </svg>
+                    
+                       <!--make your main code here-->
                     
                 </div><!--slutning på aboutmeformen, søge ord Aboutme aboutme-->
-                
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->
            <footer style="float:right">&copy; Copyright <?php echo date("Y");?> Victor Neerholt</footer>
         </div><!--Slut på min container div, Søge ord: Container container-->

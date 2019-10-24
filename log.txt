@@ -5,7 +5,10 @@ Hordan jeg kan gøre det sådan at når man kikker læse mere på et
 opslag skal den opne et ny window hvor man kan læse alle detaljer
 ......
 Måske lave en side hvor man kan skifte/ måske add flere accounts til hjemmesiden.
-
+......
+Lave en side hvor amn kan opdater ens oplysninger på "Personlig, arbejdsområde og omkring mig"
+alt den data der er i disse divs skal kunne ænderes senere hen i livet!
+lave et interface til denne opagev
 ______________________________________
 
 #Problemer#
