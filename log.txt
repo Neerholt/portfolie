@@ -9,6 +9,13 @@ Måske lave en side hvor man kan skifte/ måske add flere accounts til hjemmesid
 Lave en side hvor amn kan opdater ens oplysninger på "Personlig, arbejdsområde og omkring mig"
 alt den data der er i disse divs skal kunne ænderes senere hen i livet!
 lave et interface til denne opagev
+......
+lave en dropdown hvor man kan vælge om om vil opdater personlig, arbejdsområde eller omkringmig!
+......
+Forsiden kan bruge spm en introduktion til min hjemmeside, måske fortæl lidt om hvad det er for 
+en type hjemmeside?
+Bare ikke noget med database på forsiden! Måske
+......
 ______________________________________
 
 #Problemer#
