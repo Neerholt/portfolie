@@ -41,7 +41,6 @@
                              //echo '<br>';
                              //echo $row['dato'];
                              //echo '<br>';
-                             echo '&nbsp;';
                              //echo $row['atikeltext'];
                              echo $row['brodtekst'];
                              echo '<br><br>';
