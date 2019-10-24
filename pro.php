@@ -17,9 +17,9 @@
                     <li class="selected"><a href="pro.html" >Alle Projekter</a></li>
                     <li><a href="kon.php">Kontakt</a></li>
                     <li><a href="login.html">Login</a></li>
-                    <li style="float:right"><a href="https://store.steampowered.com/">Steam </a></li>
-                    <li style="float:right"><a href="https://en-gb.facebook.com/login/">Facebook</a></li>
-                    <li style="float:right"><a href="https://twitter.com/">Twitter</a></li>
+                    <li style="float:right"><a href="#IdoNothingYet">Steam </a></li>
+                    <li style="float:right"><a href="#IdoNothingYet">Facebook</a></li>
+                    <li style="float:right"><a href="#IdoNothingYet">Twitter</a></li>
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
@@ -32,7 +32,10 @@
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
                              echo '<div id="textkasse">';
-                             echo '<img height="250" width="300" src="img/hjemmesidebaggrund.JPG'.$row['billede'].' "> ';
+                             echo '<img height="250" width="300" src="images/hjemmesidebaggrund.JPG"';
+                             //Dette billede skal kunne hentes fra databasen og skal ikke være prefix
+                             //Dette er bare et exsempel på hvordan jeg gerne vil have det skal se ud!
+                             echo '<br>';
                             // echo '&nbsp;';
                              echo "<h3>".$row['overskrift']."</h3>";
                              //echo '<br>';
@@ -41,6 +44,11 @@
                              echo '&nbsp;';
                              //echo $row['atikeltext'];
                              echo $row['brodtekst'];
+                             echo '<br><br>';
+                             echo '<a href="#Nothing">Læse mere...</a>';
+                             //Det her er bare n test på hvordan jeg gerne vil have det skal se ude
+                             //Det skal laves sådan at det link over denne tekst linker til en ny side hvor
+                             //man kan læse hele artiklen!
                              echo '</div>';
                          }  
                      } 
