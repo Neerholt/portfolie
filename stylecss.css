@@ -217,7 +217,7 @@ div.ex1 {
 /*Stylesheet til et af mine divs under kontak siden*/
 #personlig{
     width: 33.3%;
-    height: 95%;
+    height: 90%;
     background-color:#e6dada;
     border: none;
     float: left; 
@@ -226,8 +226,8 @@ div.ex1 {
 /*Stylesheet til et af mine divs under kontak siden*/
 #arbejde{
     width: 33.3%;
-    height: 95%;
-    background-color:#e6dada;
+    height: 90%;
+    background-color: #e6dada;
     border: none;
     float: left;
 }
@@ -235,7 +235,7 @@ div.ex1 {
 /*Stylesheet til et af mine divs under kontak siden*/
 #Aboutme{
     width: 33.3%;
-    height: 95%;
+    height: 90%;
     background-color: #e6dada;
     border: none;
     float: left;
