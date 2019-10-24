@@ -22,18 +22,16 @@
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
-                <table>
-                    <tr>
-                        <th>Test</th>
-                        <th>Test</th>
-                        <th>Test</th>
-                        <th>Test</th>
-                    </tr>
-                    <tr>
-                        <th>Test</th>
-                        <th>Test</th>
-                    </tr>
-                </table>
+                <div id="personlig"><!--Starten på min personligform. søge ord personlig Personlig-->
+                    
+                </div><!--slutning på min personligform. søge ord personlig Personlig-->
+                <div id="arbejde"><!--starten på min arbejdefom, søge ord arbejde Arbejde-->
+                    
+                </div><!--slutning på min arbejdefom, søge ord arbejde Arbejde-->
+                <div id="Aboutme"><!--starten på aboutmeformen, søge ord Aboutme aboutme-->
+                    
+                </div><!--slutning på aboutmeformen, søge ord Aboutme aboutme-->
+                
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->
            <footer style="float:right">&copy; Copyright <?php echo date("Y");?> Victor Neerholt</footer>
         </div><!--Slut på min container div, Søge ord: Container container-->
