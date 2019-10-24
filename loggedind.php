@@ -23,6 +23,7 @@ if(!isset($_SESSION['login'])){
                     <li><a href="lavepost.php">Opret en Artikel</a></li>
                     <li><a href="updater.php">Opdater en Artikel</a></li>
                     <li><a href="slet.php">Slet en Artikel</a></li>
+                    <li><a href="pro.php">Se opslag</a></li>
                     <li style="float:right"><a href="index.php">Log ud</a></li>
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
