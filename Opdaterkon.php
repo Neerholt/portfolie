@@ -34,20 +34,17 @@ if(!isset($_SESSION['login'])){
                     <center><hr align="center" width="100%"></center>
                     
                     <center><form action="" method="">
-                            <h2>Opdater mail</h2>
+                            <h3>Opdater mail</h3>
                             <input type="text" name="mail" placeholder="Opdater Mail" class="textboxsopret"> 
-                             <center><hr align="center" width="100%"></center>
-                             <h2>Opdater Telefonnummer</h2>
+                            <h3>Opdater Telefonnummer</h3>
                             <input type="text" name="tf" placeholder="Opdater Telefonnummer" class="textboxsopret"> 
-                             <center><hr align="center" width="100%"></center>
-                            <h2>Opdater bopæl</h2>
+                            <h3>Opdater bopæl</h3>
                             <input type="text" name="bo" placeholder="Opdater Bopæl" class="textboxsopret"> 
-                             <center><hr align="center" width="100%"></center>
-                            <h2>Opdater Postnummer</h2>
+                            <h3>Opdater Postnummer</h3>
                             <input type="text" name="post" placeholder="Opdater Postnummer" class="textboxsopret"> 
-                             <center><hr align="center" width="100%"></center>
-                            <h2>Opdater By</h2>
-                            <input type="text" name="by" placeholder="Opdater By" class="textboxsopret"> 
+                            <h3>Opdater By</h3>
+                            <input type="text" name="by" placeholder="Opdater By" class="textboxsopret">
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                              <center><hr align="center" width="100%"></center>
                               <button class="opdaterknapcss" type="submit" name="OPAR">Opdater Kontakt Oplysninger</button> 
                     </form></center>
@@ -68,19 +65,19 @@ if(!isset($_SESSION['login'])){
                    
                     
                     <center> <form action="" method="">
-                    <h2>Opdater Arbejdsområder 1</h2>
+                            <h3>Opdater Arbejdsområder 1</h3>
                     <input type="text" name="a" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
-                    <h2>Opdater Arbejdsområder 2</h2>
+                    <h3>Opdater Arbejdsområder 2</h3>
                     <input type="text" name="r" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
-                    <h2>Opdater Arbejdsområder 3</h2>
+                    <h3>Opdater Arbejdsområder 3</h3>
                     <input type="text" name="b" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
-                    <h2>Opdater Arbejdsområder 4</h2>
+                    <h3>Opdater Arbejdsområder 4</h3>
                     <input type="text" name="e" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
-                    <h2>Opdater Arbejdsområder 5</h2>
+                    <h3>Opdater Arbejdsområder 5</h3>
                     <input type="text" name="j" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
-                    <h2>Opdater Arbejdsområder 6</h2>
+                    <h3>Opdater Arbejdsområder 6</h3>
                     <input type="text" name="d" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
-                    <h2>Opdater Arbejdsområder 7</h2>
+                    <h3>Opdater Arbejdsområder 7</h3>
                     <input type="text" name="e" placeholder="Opdater arbejdsområde" class="textboxsopret">    
                     <center><hr align="center" width="100%"></center>
                     <button class="opdaterknapcss" type="submit" name="OPAR">Opdater arbejdsområde</button>     
@@ -100,7 +97,7 @@ if(!isset($_SESSION['login'])){
                     
                     <center> <form action="" method="">
                         <h3>Opdater Omkring mig</h4>
-                      <center><textarea rows="42%" name="omkring" cols="45%" placeholder="Skriv din opdatering af omkring mig ." required></textarea></center> 
+                      <center><textarea rows="38%" name="omkring" cols="45%" placeholder="Skriv din opdatering af omkring mig ." required></textarea></center> 
                       <center><hr align="center" width="100%"></center>
                       <button class="opdaterknapcss" onclick="sendbesked" type="submit" name="OPOM">Opdater omkring</button><!--Mangler css-->
                         </form></center>
