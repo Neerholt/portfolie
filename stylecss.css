@@ -199,8 +199,7 @@ li a:hover:not(.active) {
   margin-bottom: 1%;
   width: 19.8%;
   height: 46%;
-  border: none;
-  box-shadow: 10px 10px 5px grey;
+  border: ridge;
   overflow: hidden;
   float: right;
 }
@@ -216,7 +215,7 @@ div.ex1 {
 
 /*Stylesheet til et af mine divs under kontak siden*/
 #personlig{
-    width: 33.3%;
+    width: 33%;
     height: 90%;
     background-color:#e6dada;
     border: none;
@@ -225,7 +224,7 @@ div.ex1 {
 
 /*Stylesheet til et af mine divs under kontak siden*/
 #arbejde{
-    width: 33.3%;
+    width: 33%;
     height: 90%;
     background-color: #e6dada;
     border: none;
@@ -235,7 +234,7 @@ div.ex1 {
 
 /*Stylesheet til et af mine divs under kontak siden*/
 #Aboutme{
-    width: 33.3%;
+    width: 33%;
     height: 90%;
     background-color: #e6dada;
     border: none;
@@ -248,5 +247,4 @@ div.ex1 {
     /*&#8226;*/
  
 }
-
 

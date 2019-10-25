@@ -49,15 +49,22 @@ if(!isset($_SESSION['login'])){
                             <h2>Opdater By</h2>
                             <input type="text" name="by" placeholder="Opdater By" class="textboxsopret"> 
                              <center><hr align="center" width="100%"></center>
+                              <button class="" type="submit" name="OPAR">Opdater Kontakt Oplysninger</button> 
                     </form></center>
                    
                     
+                   
                     
                 </div><!--slutning på min personligform. søge ord personlig Personlig-->
                 <div id="arbejde"><!--starten på min arbejdefom, søge ord arbejde Arbejde-->
                      <center><h1>Opdater Arbejdsområder</h1></center>
                     <center><hr align="center" width="100%"></center>
+                     
                     <!--Linje-->
+                    <svg height="100%">
+                    <line y2="100%" style="stroke:rgb(0,0,0);stroke-width:2" />
+                    </svg>
+                    
                    
                     
                     <center> <form action="" method="">
@@ -75,8 +82,8 @@ if(!isset($_SESSION['login'])){
                     <input type="text" name="d" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
                     <h2>Opdater Arbejdsområder 7</h2>
                     <input type="text" name="e" placeholder="Opdater arbejdsområde" class="textboxsopret">    
-                     <h2>Opdater Arbejdsområder 8</h2>
-                    <input type="text" name="t" placeholder="Opdater arbejdsområde" class="textboxsopret">    
+                    <center><hr align="center" width="100%"></center>
+                    <button class="" type="submit" name="OPAR">Opdater arbejdsområde</button>     
                         </form>   </center>
                   
                  
@@ -91,7 +98,12 @@ if(!isset($_SESSION['login'])){
                     <line y2="100%" style="stroke:rgb(0,0,0);stroke-width:2" />
                     </svg>
                     
-                       <!--make your main code here-->
+                    <center> <form action="" method="">
+                        <h3>Opdater Omkring mig</h4>
+                      <center><textarea rows="42%" name="omkring" cols="45%" placeholder="Skriv din opdatering af omkring mig ." required></textarea></center> 
+                      <center><hr align="center" width="100%"></center>
+                      <button class="" onclick="sendbesked" type="submit" name="OPOM">Opdater omkring</button><!--Mangler css-->
+                        </form></center>
                     
                 </div><!--slutning på aboutmeformen, søge ord Aboutme aboutme-->
                 
