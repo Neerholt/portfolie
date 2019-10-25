@@ -38,11 +38,11 @@
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                             echo '<center><h3> Mail: '.$row['mail'].'</h3></center>';
-                             echo '<center><h3> Telefonnummer: '.$row['tf'].'</h3></center>';
-                             echo '<center><h3> Address: '.$row['bo'].'</h3></center>';
-                             echo '<center><h3> Postnummer: '.$row['post'].'</h3></center>';
-                             echo '<center><h3> Bynanv: '.$row['bynavn'].'</h3></center>';
+                             echo '<center><h2> Mail: '.$row['mail'].'</h2></center>';
+                             echo '<center><h2> Telefonnummer: '.$row['tf'].'</h2></center>';
+                             echo '<center><h2> Address: '.$row['bo'].'</h2></center>';
+                             echo '<center><h2> Postnummer: '.$row['post'].'</h2></center>';
+                             echo '<center><h2> Bynanv: '.$row['bynavn'].'</h2></center>';
                              
                              
                          }  
