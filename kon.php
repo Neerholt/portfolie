@@ -56,13 +56,29 @@
                 <div id="arbejde"><!--starten på min arbejdefom, søge ord arbejde Arbejde-->
                      <center><h1>Arbejdsområder</h1></center>
                     <center><hr align="center" width="50%"></center>
-                    <!--Linje-->
-                    <svg height="90%">
-                    <line y2="90%" style="stroke:rgb(0,0,0);stroke-width:2" />
-                    </svg>
+                   
                     
-                    
-                       <!--make your main code here-->
+                      <?php
+                     $sql_tabel = "SELECT * FROM arbejde;"; 
+                     $data = mysqli_query($connect,$sql_tabel);
+                     $datacheck = mysqli_num_rows($data);
+                     
+                     if($data){
+                         while ($row = mysqli_fetch_assoc($data)){
+                             echo '<center><h2>Har arbejdet med: '.$row['a'].'</h2></center>';
+                              echo '<center><h2>Har arbejdet med: '.$row['r'].'</h2></center>';
+                               echo '<center><h2>Har arbejdet med: '.$row['b'].'</h2></center>';
+                                echo '<center><h2>Har arbejdet med: '.$row['e'].'</h2></center>';
+                                 echo '<center><h2>Har arbejdet med: '.$row['j'].'</h2></center>';
+                                  echo '<center><h2>Har arbejdet med: '.$row['d'].'</h2></center>';
+                                   echo '<center><h2>Har arbejdet med: '.$row['t'].'</h2></center>';
+
+                             
+                             
+                         }  
+                     } 
+                     
+                     ?>
                     
                     
                 </div><!--slutning på min arbejdefom, søge ord arbejde Arbejde-->
@@ -70,10 +86,7 @@
                     <center><h1>Omkring mig</h1></center>
                     <center><hr align="center" width="50%"></center>
                     
-                    <!--Linje-->
-                    <svg height="90%">
-                    <line y2="90%" style="stroke:rgb(0,0,0);stroke-width:2" />
-                    </svg>
+                   
                     
                        <!--make your main code here-->
                     

@@ -1,4 +1,5 @@
 <?php 
+//Starten på min opdater kontakt oplysninger senderform code ting :)
 if(isset($_POST['OPKO'])){
 
 include 'databaseconn.php';
@@ -21,8 +22,8 @@ $data = mysqli_query($connect,$sql_tabel);
 
 mysqli_close($connect);
 }
-?> 
-<?php 
+
+//Starten på min opdater arbejdsmorade senderform code ting :)
 if(isset($_POST['OPA'])){
 
 include 'databaseconn.php';
@@ -47,8 +48,9 @@ $data = mysqli_query($connect,$sql_tabel);
 
 mysqli_close($connect);
 }
-?>    
-<?php
+
+//Funktion som sikkrer at man skal være logget ind for at kunne til gå denne side
+//selvom man har et link til siden!
 session_start();
 if(!isset($_SESSION['login'])){
     header("location:index.html");

@@ -215,32 +215,47 @@ div.ex1 {
   overflow: auto;
 }
 
-/*Stylesheet til et af mine divs under kontak siden*/
+/*Stylesheet til et af mine divs under kontakt siden*/
 #personlig{
-    width: 33.3%;
-    height: 100%;
-    background-color:#e6dada;
-    border: none;
+    border-left-color: #e6dada;
+    border-bottom-color:#e6dada;
+    border-top-color: #e6dada;
+    border-right-color:black;
+    margin-left: 2%;
+    width: 30%;
+    height: 99%;
+    background-color:#e6dada; 
     float: left; 
+    border: ridge;
 }
 
-/*Stylesheet til et af mine divs under kontak siden*/
+/*Stylesheet til et af mine divs under kontakt siden*/
 #arbejde{
-    width: 33.3%;
-    height: 100%;
-    background-color: #e6dada;
-    border: none;
+    border-left-color: #e6dada;
+    border-bottom-color:#e6dada;
+    border-top-color: #e6dada;
+    border-right-color:black;
+    margin-left: 2%;
+    width: 30%;
+    height: 99%;
+    background-color: #e6dada; 
     float: left;
     margin-bottom: -100px;
+    border: ridge;
 }
 
-/*Stylesheet til et af mine divs under kontak siden*/
+/*Stylesheet til et af mine divs under kontakt siden */
 #Aboutme{
-    width: 33.3%;
-    height: 100%;
-    background-color: #e6dada;
-    border: none;
+    border-left-color: #e6dada;
+    border-bottom-color:#e6dada;
+    border-top-color: #e6dada;
+    border-right-color:black;
+    margin-left: 2%;
+    width: 30%;
+    height: 99%;
+    background-color:#e6dada; 
     float: left;
+    border: ridge;
 }
 
 /*Stylesheet for den lille prik der er uden for de 2 første feltet under kontakt mig siden*/
