@@ -42,15 +42,9 @@
                              echo '<center><h2> Address: '.$row['bo'].'</h2></center>';
                              echo '<center><h2> Postnummer: '.$row['post'].'</h2></center>';
                              echo '<center><h2> Bynanv: '.$row['bynavn'].'</h2></center>';
-                             
-                             
                          }  
                      } 
-                     
                      ?>
-                    
-                    
-                    
                     
                 </div><!--slutning på min personligform. søge ord personlig Personlig-->
                 <div id="arbejde"><!--starten på min arbejdefom, søge ord arbejde Arbejde-->
@@ -72,15 +66,9 @@
                                  echo '<center><h2>Har arbejdet med: '.$row['j'].'</h2></center>';
                                   echo '<center><h2>Har arbejdet med: '.$row['d'].'</h2></center>';
                                    echo '<center><h2>Har arbejdet med: '.$row['t'].'</h2></center>';
-
-                             
-                             
                          }  
                      } 
-                     
                      ?>
-                    
-                    
                 </div><!--slutning på min arbejdefom, søge ord arbejde Arbejde-->
                 <div id="Aboutme"><!--starten på aboutmeformen, søge ord Aboutme aboutme-->
                     <center><h1>Omkring mig</h1></center>
