@@ -33,19 +33,18 @@
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
                              echo '<div id="textkasse">';
-                            echo "<img src='images/".$row['billede']."' height='250' width='300'>";
+                            echo "<img src='images/".$row['billede']."' height='50%' width='100%'>";
                              //Dette billede skal kunne hentes fra databasen og skal ikke være prefix
                              //Dette er bare et exsempel på hvordan jeg gerne vil have det skal se ud!
-                             echo '<hr>';
                             // echo '&nbsp;';
-                             echo "<h3>".$row['overskrift']."</h3>";
+                             echo "<h4><font size='4%'>".$row['overskrift']."</font></h4>";
                              //echo '<br>';
                              //echo $row['dato'];
                              //echo '<br>';
                              //echo $row['atikeltext'];
-                             echo $row['brodtekst'];
+                             echo "<font size='3%'>".$row['brodtekst']."</font>";
                              echo '<br>';
-                             echo '<a href="#Nothing">Læse mere...</a>';
+                             echo "<font size='3%'><a href='#Nothing'>Læse mere...</a></font>";
                              //Det her er bare n test på hvordan jeg gerne vil have det skal se ude
                              //Det skal laves sådan at det link over denne tekst linker til en ny side hvor
                              //man kan læse hele artiklen!

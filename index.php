@@ -26,6 +26,7 @@
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 
                
+                  <font size="5%">This is smaller text.</font>
                 
                 <!--Code the main funktion here-->
                   
