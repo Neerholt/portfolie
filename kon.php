@@ -37,7 +37,7 @@
                     <center><hr align="center" width="50%"></center>
                     <!--Linje-->
                     <svg height="100%">
-                    <line y2="80%" style="stroke:rgb(0,0,0);stroke-width:2" />
+                    <line y2="90%" style="stroke:rgb(0,0,0);stroke-width:2" />
                     </svg>
                     
                     
@@ -51,7 +51,7 @@
                     
                     <!--Linje-->
                     <svg height="100%">
-                    <line y2="80%" style="stroke:rgb(0,0,0);stroke-width:2" />
+                    <line y2="90%" style="stroke:rgb(0,0,0);stroke-width:2" />
                     </svg>
                     
                        <!--make your main code here-->

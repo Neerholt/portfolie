@@ -58,26 +58,25 @@ if(!isset($_SESSION['login'])){
                      <center><h1>Opdater Arbejdsområder</h1></center>
                     <center><hr align="center" width="100%"></center>
                     <!--Linje-->
-                    <svg height="100%">
-                    <line y2="100%" style="stroke:rgb(0,0,0);stroke-width:2" />
-                    </svg>
-                    
+                   
                     
                     <center> <form action="" method="">
-                    <h2>Opdater 1</h2>
+                    <h2>Opdater Arbejdsområder 1</h2>
                     <input type="text" name="a" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
-                    <h2>Opdater 2</h2>
+                    <h2>Opdater Arbejdsområder 2</h2>
                     <input type="text" name="r" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
-                    <h2>Opdater 3</h2>
+                    <h2>Opdater Arbejdsområder 3</h2>
                     <input type="text" name="b" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
-                    <h2>Opdater 4</h2>
+                    <h2>Opdater Arbejdsområder 4</h2>
                     <input type="text" name="e" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
-                    <h2>Opdater 5</h2>
+                    <h2>Opdater Arbejdsområder 5</h2>
                     <input type="text" name="j" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
-                    <h2>Opdater 6</h2>
+                    <h2>Opdater Arbejdsområder 6</h2>
                     <input type="text" name="d" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
-                    <h2>Opdater 7</h2>
+                    <h2>Opdater Arbejdsområder 7</h2>
                     <input type="text" name="e" placeholder="Opdater arbejdsområde" class="textboxsopret">    
+                     <h2>Opdater Arbejdsområder 8</h2>
+                    <input type="text" name="t" placeholder="Opdater arbejdsområde" class="textboxsopret">    
                         </form>   </center>
                   
                  
