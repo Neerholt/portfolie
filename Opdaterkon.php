@@ -49,6 +49,28 @@ $data = mysqli_query($connect,$sql_tabel);
 mysqli_close($connect);
 }
 
+//starten på min opdater omkring mig 
+if(isset($_POST['OPOM'])){
+
+include 'databaseconn.php';
+    
+$besked = $_POST['omkring'];
+
+
+$connect = mysqli_connect($servername, $username, $password, $databasename);
+
+if(!$connect){
+    die("Connectiuon failed because" .mysqli_connect_error());
+} 
+
+$sql_tabel = "UPDATE opdaterbesked SET ID=NULL,opdaterbesked='$besked'"; 
+
+$data = mysqli_query($connect,$sql_tabel);
+
+mysqli_close($connect);
+}
+
+
 //Funktion som sikkrer at man skal være logget ind for at kunne til gå denne side
 //selvom man har et link til siden!
 session_start();
@@ -152,7 +174,7 @@ if(!isset($_SESSION['login'])){
                         <h3>Opdater Omkring mig</h4>
                       <center><textarea rows="38%" name="omkring" cols="45%" placeholder="Skriv din opdatering af omkring mig ." required></textarea></center> 
                       <center><hr align="center" width="100%"></center>
-                      <button class="opdaterknapcss" onclick="sendbesked" type="submit" name="OPOM">Opdater omkring</button><!--Mangler css-->
+                      <button class="opdaterknapcss" type="submit" name="OPOM">Opdater omkring</button><!--Mangler css-->
                         </form></center>
                     
                 </div><!--slutning på aboutmeformen, søge ord Aboutme aboutme-->
