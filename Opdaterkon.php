@@ -29,34 +29,41 @@ if(!isset($_SESSION['login'])){
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform--> 
-               <div id="personligop"><!--Starten på min personligform. søge ord personlig Personlig-->
+               <div id="personlig"><!--Starten på min personligform. søge ord personlig Personlig-->
                     <center><h1>Opdater Kontakt oplysinger</h1></center>
                     <center><hr align="center" width="100%"></center>
+                    
                     <center><form action="" method="">
                             <h2>Opdater mail</h2>
                             <input type="text" name="mail" placeholder="Opdater Mail" class="textboxsopret"> 
+                             <center><hr align="center" width="100%"></center>
                              <h2>Opdater Telefonnummer</h2>
                             <input type="text" name="tf" placeholder="Opdater Telefonnummer" class="textboxsopret"> 
+                             <center><hr align="center" width="100%"></center>
                             <h2>Opdater bopæl</h2>
                             <input type="text" name="bo" placeholder="Opdater Bopæl" class="textboxsopret"> 
+                             <center><hr align="center" width="100%"></center>
                             <h2>Opdater Postnummer</h2>
                             <input type="text" name="post" placeholder="Opdater Postnummer" class="textboxsopret"> 
+                             <center><hr align="center" width="100%"></center>
                             <h2>Opdater By</h2>
                             <input type="text" name="by" placeholder="Opdater By" class="textboxsopret"> 
+                             <center><hr align="center" width="100%"></center>
                     </form></center>
                    
                     
                     
                 </div><!--slutning på min personligform. søge ord personlig Personlig-->
-                <div id="arbejdeop"><!--starten på min arbejdefom, søge ord arbejde Arbejde-->
+                <div id="arbejde"><!--starten på min arbejdefom, søge ord arbejde Arbejde-->
                      <center><h1>Opdater Arbejdsområder</h1></center>
                     <center><hr align="center" width="100%"></center>
                     <!--Linje-->
                     <svg height="100%">
-                    <line y2="85%" style="stroke:rgb(0,0,0);stroke-width:4" />
+                    <line y2="100%" style="stroke:rgb(0,0,0);stroke-width:2" />
                     </svg>
                     
-                      <form action="" method="">
+                    
+                    <center> <form action="" method="">
                     <h2>Opdater 1</h2>
                     <input type="text" name="a" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
                     <h2>Opdater 2</h2>
@@ -71,18 +78,18 @@ if(!isset($_SESSION['login'])){
                     <input type="text" name="d" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
                     <h2>Opdater 7</h2>
                     <input type="text" name="e" placeholder="Opdater arbejdsområde" class="textboxsopret">    
-                    </form>   
+                        </form>   </center>
                   
                  
                     
                 </div><!--slutning på min arbejdefom, søge ord arbejde Arbejde-->
-                <div id="Aboutmeop"><!--starten på aboutmeformen, søge ord Aboutme aboutme-->
+                <div id="Aboutme"><!--starten på aboutmeformen, søge ord Aboutme aboutme-->
                     <center><h1>Opdater Omkring mig</h1></center>
                     <center><hr align="center" width="100%"></center>
                     
                     <!--Linje-->
                     <svg height="100%">
-                    <line y2="85%" style="stroke:rgb(0,0,0);stroke-width:4" />
+                    <line y2="100%" style="stroke:rgb(0,0,0);stroke-width:2" />
                     </svg>
                     
                        <!--make your main code here-->
