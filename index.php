@@ -21,12 +21,15 @@
                     <li style="float:right"><a href="#IdoNothingYet">Facebook</a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Twitter</a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Linkedin</a></li>
+                    <li style="float:right"><a href="#IdoNothingYet">Praktikpladsen</a></li>
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 
-               
-                  <font size="5%">This is smaller text.</font>
+        
+
+                
+                  <font size="5%">This is test text.</font>
                 
                 <!--Code the main funktion here-->
                   

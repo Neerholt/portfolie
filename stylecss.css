@@ -248,3 +248,32 @@ div.ex1 {
     /*&#8226;*/
  
 }
+
+
+
+/*Stylesheet til et af mine divs under opdater kontakt information siden*/
+#personligop{
+    width: 33.3%;
+    height: 90%;
+    background-color:#e6dada;
+    border: none;
+    float: left; 
+}
+
+/*Stylesheet til et af mine divs under opdater kontakt information siden*/
+#arbejdeop{
+    width: 33.3%;
+    height: 90%;
+    background-color: #e6dada;
+    border: none;
+    float: left;
+}
+
+/*Stylesheet til et af mine divs under opdater kontakt information siden*/
+#Aboutmeop{
+    width: 33.3%;
+    height: 90%;
+    background-color: #e6dada;
+    border: none;
+    float: left;
+}
