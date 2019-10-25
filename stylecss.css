@@ -3,8 +3,8 @@ body{
     background-color:wheat;
     /*background-image: url("img/hjemmesidebaggrund.JPG");*/
     width: auto;
-    min-height: 50px;
-    min-width: 500px;
+    min-height: 1020px;
+    min-width: 1170px;
 }
 
 /*Stylesheet for min container*/
@@ -24,7 +24,7 @@ body{
 /*Stylesheet for mainheader*/
 #mainheader{
     width: auto;
-    height: 70px;
+    height: 7%;
     background-color: #4dc989;
     color: whitesmoke;
     /*text-shadow: 3px 3px 5px white;*/
@@ -202,6 +202,8 @@ li a:hover:not(.active) {
   border: ridge;
   overflow: hidden;
   float: right;
+  box-shadow: 10px 10px 5px grey;
+  line-height: 100%;
 }
 
 /*Stylesheet for at når der kommer et hvis antal opslag lave denne funktion
@@ -215,8 +217,8 @@ div.ex1 {
 
 /*Stylesheet til et af mine divs under kontak siden*/
 #personlig{
-    width: 33%;
-    height: 90%;
+    width: 33.3%;
+    height: 100%;
     background-color:#e6dada;
     border: none;
     float: left; 
@@ -224,8 +226,8 @@ div.ex1 {
 
 /*Stylesheet til et af mine divs under kontak siden*/
 #arbejde{
-    width: 33%;
-    height: 90%;
+    width: 33.3%;
+    height: 100%;
     background-color: #e6dada;
     border: none;
     float: left;
@@ -234,8 +236,8 @@ div.ex1 {
 
 /*Stylesheet til et af mine divs under kontak siden*/
 #Aboutme{
-    width: 33%;
-    height: 90%;
+    width: 33.3%;
+    height: 100%;
     background-color: #e6dada;
     border: none;
     float: left;
@@ -248,3 +250,53 @@ div.ex1 {
  
 }
 
+
+/*Stylesheet til et af mine divs under opdater kontakt siden*/
+#personligop{
+    margin-bottom: -30%;
+    margin-left: 1%;
+    width: 31.5%;
+    height: 99%;
+    background-color:#e6dada; 
+    float: left; 
+    border: ridge;
+}
+
+/*Stylesheet til et af mine divs under opdater kontakt siden*/
+#arbejdeop{
+    margin-bottom: -30%;
+    margin-left: 1%;
+    width: 31.5%;
+    height: 99%;
+    background-color: #e6dada; 
+    float: left;
+    margin-bottom: -100px;
+    border: ridge;
+}
+
+/*Stylesheet til et af mine divs under opdater kontakt siden */
+#Aboutmeop{
+    margin-bottom: -30%;
+    margin-left: 1%;
+    width: 31.5%;
+    height: 99%;
+    background-color:#e6dada; 
+    float: left;
+    border: ridge;
+}
+
+
+
+
+/*Styelsheet for opdater knap knappen*/
+.opdaterknapcss{
+  background-color: #ed2b2b;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+}

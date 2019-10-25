@@ -36,7 +36,7 @@
                      <center><h1>Arbejdsområder</h1></center>
                     <center><hr align="center" width="50%"></center>
                     <!--Linje-->
-                    <svg height="100%">
+                    <svg height="90%">
                     <line y2="90%" style="stroke:rgb(0,0,0);stroke-width:2" />
                     </svg>
                     
@@ -50,7 +50,7 @@
                     <center><hr align="center" width="50%"></center>
                     
                     <!--Linje-->
-                    <svg height="100%">
+                    <svg height="90%">
                     <line y2="90%" style="stroke:rgb(0,0,0);stroke-width:2" />
                     </svg>
                     
