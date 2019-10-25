@@ -1,3 +1,34 @@
+<?php 
+if(isset($_POST['OPAR'])){
+
+  
+$servername = 'localhost';
+$username = 'root';
+$password = '';
+$databasename = 'portfolielogin';
+
+$mail = $_POST['mail'];
+$tf = $_POST['tf'];
+$bo = $_POST['bo'];
+$post = $_POST['post'];
+$bynavn = $_POST['by'];
+
+$connect = mysqli_connect($servername, $username, $password, $databasename);
+
+if(!$connect){
+    die("Connectiuon failed because" .mysqli_connect_error());
+} 
+
+$sql_tabel = "UPDATE kontaktop SET ID= NULL,mail='$mail',tf='$tf',bo='$bo',post='$post',bynavn='$bynavn'";
+
+$data = mysqli_query($connect,$sql_tabel);
+
+//header("location:loggedind.php");
+
+mysqli_close($connect);
+
+}
+?>    
 <?php
 session_start();
 if(!isset($_SESSION['login'])){
@@ -5,6 +36,7 @@ if(!isset($_SESSION['login'])){
     exit;
 }
 ?>
+
 <html>
     <head>
         <title>Portfolie-Updater Artikel</title>
@@ -33,15 +65,15 @@ if(!isset($_SESSION['login'])){
                     <center><h1>Opdater Kontakt oplysinger</h1></center>
                     <center><hr align="center" width="100%"></center>
                     
-                    <center><form action="" method="">
+                    <center><form action="" method="POST">
                             <h3>Opdater mail</h3>
                             <input type="text" name="mail" placeholder="Opdater Mail" class="textboxsopret"> 
                             <h3>Opdater Telefonnummer</h3>
-                            <input type="text" name="tf" placeholder="Opdater Telefonnummer" class="textboxsopret"> 
+                            <input type="number" name="tf" placeholder="Opdater Telefonnummer" maxlength="8" class="textboxsopret"> 
                             <h3>Opdater bopæl</h3>
                             <input type="text" name="bo" placeholder="Opdater Bopæl" class="textboxsopret"> 
                             <h3>Opdater Postnummer</h3>
-                            <input type="text" name="post" placeholder="Opdater Postnummer" class="textboxsopret"> 
+                            <input type="number" name="post" placeholder="Opdater Postnummer" maxlength="4" class="textboxsopret"> 
                             <h3>Opdater By</h3>
                             <input type="text" name="by" placeholder="Opdater By" class="textboxsopret">
                             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
@@ -64,7 +96,7 @@ if(!isset($_SESSION['login'])){
                     
                    
                     
-                    <center> <form action="" method="">
+                    <center> <form action="" method="POST">
                             <h3>Opdater Arbejdsområder 1</h3>
                     <input type="text" name="a" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
                     <h3>Opdater Arbejdsområder 2</h3>
@@ -95,7 +127,7 @@ if(!isset($_SESSION['login'])){
                     <line y2="100%" style="stroke:rgb(0,0,0);stroke-width:2" />
                     </svg>-->
                     
-                    <center> <form action="" method="">
+                    <center> <form action="" method="POST">
                         <h3>Opdater Omkring mig</h4>
                       <center><textarea rows="38%" name="omkring" cols="45%" placeholder="Skriv din opdatering af omkring mig ." required></textarea></center> 
                       <center><hr align="center" width="100%"></center>

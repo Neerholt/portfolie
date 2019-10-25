@@ -1,3 +1,4 @@
+<?php include 'databaseconn.php'; ?>
 <html>
     <head>
         <title>Portfolie-Kontakt</title>
@@ -28,8 +29,29 @@
                     <center><h1>Kontakt oplysinger</h1></center>
                     <center><hr align="center" width="50%"></center>
                     
-                   
-                    <!--make your main code here-->
+                    
+                     <?php
+                     
+                     $sql_tabel = "SELECT * FROM kontaktop;"; 
+                     $data = mysqli_query($connect,$sql_tabel);
+                     $datacheck = mysqli_num_rows($data);
+                     
+                     if($data){
+                         while ($row = mysqli_fetch_assoc($data)){
+                             echo '<center><h3> Mail: '.$row['mail'].'</h3></center>';
+                             echo '<center><h3> Telefonnummer: '.$row['tf'].'</h3></center>';
+                             echo '<center><h3> Address: '.$row['bo'].'</h3></center>';
+                             echo '<center><h3> Postnummer: '.$row['post'].'</h3></center>';
+                             echo '<center><h3> Bynanv: '.$row['bynavn'].'</h3></center>';
+                             
+                             
+                         }  
+                     } 
+                     
+                     ?>
+                    
+                    
+                    
                     
                 </div><!--slutning på min personligform. søge ord personlig Personlig-->
                 <div id="arbejde"><!--starten på min arbejdefom, søge ord arbejde Arbejde-->
