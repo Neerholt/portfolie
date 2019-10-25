@@ -31,7 +31,6 @@
                     
                     
                      <?php
-                     
                      $sql_tabel = "SELECT * FROM kontaktop;"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);

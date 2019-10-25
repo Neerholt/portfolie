@@ -1,12 +1,8 @@
 <?php 
-if(isset($_POST['OPAR'])){
+if(isset($_POST['OPKO'])){
 
-  
-$servername = 'localhost';
-$username = 'root';
-$password = '';
-$databasename = 'portfolielogin';
-
+include 'databaseconn.php';
+    
 $mail = $_POST['mail'];
 $tf = $_POST['tf'];
 $bo = $_POST['bo'];
@@ -23,10 +19,33 @@ $sql_tabel = "UPDATE kontaktop SET ID= NULL,mail='$mail',tf='$tf',bo='$bo',post=
 
 $data = mysqli_query($connect,$sql_tabel);
 
-//header("location:loggedind.php");
+mysqli_close($connect);
+}
+?> 
+<?php 
+if(isset($_POST['OPA'])){
+
+include 'databaseconn.php';
+    
+$a = $_POST['a'];
+$r = $_POST['r'];
+$b = $_POST['b'];
+$e = $_POST['e'];
+$j = $_POST['j'];
+$d = $_POST['d'];
+$t = $_POST['t'];
+
+$connect = mysqli_connect($servername, $username, $password, $databasename);
+
+if(!$connect){
+    die("Connectiuon failed because" .mysqli_connect_error());
+} 
+
+$sql_tabel = "UPDATE arbejde SET ID=NULL,a='$a',r='$r',b='$b',e='$e',j='$j',d='$d',t='$t'";
+
+$data = mysqli_query($connect,$sql_tabel);
 
 mysqli_close($connect);
-
 }
 ?>    
 <?php
@@ -78,7 +97,7 @@ if(!isset($_SESSION['login'])){
                             <input type="text" name="by" placeholder="Opdater By" class="textboxsopret">
                             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                              <center><hr align="center" width="100%"></center>
-                              <button class="opdaterknapcss" type="submit" name="OPAR">Opdater Kontakt Oplysninger</button> 
+                              <button class="opdaterknapcss" type="submit" name="OPKO">Opdater Kontakt Oplysninger</button> 
                     </form></center>
                    
                     
@@ -110,9 +129,9 @@ if(!isset($_SESSION['login'])){
                     <h3>Opdater Arbejdsområder 6</h3>
                     <input type="text" name="d" placeholder="Opdater arbejdsområde" class="textboxsopret"> 
                     <h3>Opdater Arbejdsområder 7</h3>
-                    <input type="text" name="e" placeholder="Opdater arbejdsområde" class="textboxsopret">    
+                    <input type="text" name="t" placeholder="Opdater arbejdsområde" class="textboxsopret">    
                     <center><hr align="center" width="100%"></center>
-                    <button class="opdaterknapcss" type="submit" name="OPAR">Opdater arbejdsområde</button>     
+                    <button class="opdaterknapcss" type="submit" name="OPA">Opdater arbejdsområde</button>     
                         </form>   </center>
                   
                  
