@@ -9,9 +9,9 @@ body{
 
 /*Stylesheet for min container*/
 #container{
-    background-color: wheat;
+    background-color: red;
     width: 80%;
-    height: 100%;/*Har lavet på den her den 22/10/2019 Tirsdag*/
+    height: 80%;/*Har lavet på den her den 22/10/2019 Tirsdag*/
     margin-left: auto;
     margin-right: auto;
     /*background-image: url("img/hjemmesidebaggrund.JPG");*/
@@ -22,12 +22,12 @@ body{
 
 
 /*Stylesheet for mainheader*/
+
 #mainheader{
     width: auto;
     height: 7%;
     background-color: #4dc989;
     color: whitesmoke;
-    /*text-shadow: 3px 3px 5px white;*/
     box-shadow: 10px 10px 5px grey;
     min-width: 608px;
 
@@ -37,7 +37,7 @@ body{
 /*Stylesheet for min mainform*/
 #mainform{
     width:auto;
-    height: 82%;/*Jeg har lavet på den her den 22/10/2019 Tirsdag*/
+    height: 82%;/*82*/
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -107,7 +107,7 @@ li a:hover:not(.active) {
     margin-left: auto;
     margin-right: auto;
     background-color: #e6dada;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 5px 5px 5px grey;
     border: outset;
 }
 
