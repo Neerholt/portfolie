@@ -46,6 +46,9 @@
                      } 
                      ?>
                     
+                    
+                    <div class="konlije"></div>
+                    
                 </div><!--slutning på min personligform. søge ord personlig Personlig-->
                 <div id="arbejde"><!--starten på min arbejdefom, søge ord arbejde Arbejde-->
                      <center><h1>Arbejdsområder</h1></center>
