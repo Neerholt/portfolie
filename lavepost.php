@@ -74,7 +74,7 @@ if(!isset($_SESSION['login'])){
                                     <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" maxlength="40" required >
                                     <hr>
                                     <h3>Brødtekst</h3>
-                                    <center><textarea rows="3%" name="brodtekst"cols="40%" placeholder="Brødtekst"  maxlength="130" required></textarea></center>
+                                    <center><textarea rows="3%" name="brodtekst"cols="40%" placeholder="Brødtekst"  maxlength="120" required></textarea></center>
                                     <hr>
                                   <h3>Uploade en thumbnail</h3>
                                   <label> Uploade et billede: </label><input type="file" name="imagess" required><br/><br/>
