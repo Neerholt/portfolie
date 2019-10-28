@@ -92,7 +92,7 @@ li a:hover:not(.active) {
 
 /*Stylesheet for login main form. Css gælder kun på login formen!*/
 #loginmainform{
-    width: 50%;
+    width: 40%;
     height: 40%;
     margin-top: 50px;
     margin-left: auto;
@@ -183,10 +183,10 @@ li a:hover:not(.active) {
 /*stylesheet for det kasser som er uden om et opslag*/
 #textkasse{
   margin-top: 1%;
-  margin-left: 1%;
+  margin-left: 3.5%;
   margin-right: 3.3%;
   margin-bottom: 1%;
-  width: 17.5%;
+  width: 18%;
   height: 46%;
   overflow: hidden;
   float: right;
@@ -214,6 +214,7 @@ div.ex1 {
     height: 99%;
     background-color:#e6dada; 
     float: left; 
+    border-right: 1px solid;
 }
 
 /*Stylesheet til et af mine divs under kontakt siden*/
@@ -241,6 +242,7 @@ div.ex1 {
     height: 99%;
     background-color:#e6dada; 
     float: left;
+     border-left: 1px solid;
 }
 
 /*Stylesheet for den lille prik der er uden for de 2 første feltet under kontakt mig siden*/
@@ -300,8 +302,16 @@ div.ex1 {
 
 
 /*Stylesheet til den linje det er på kontakt mig siden*/
-.konlije1 {
+.konlinje {
   border-left: 1px solid black;
-  height: 500px;
-  margin-left: 40%;
+  height: 650px;
+  margin-top: -50%;
+  margin-left: 100%;
+}
+
+.konlinje2{
+     border-left: 1px solid black;
+  height: 650px;
+  margin-top: -71%;
+  margin-left: 100%;
 }

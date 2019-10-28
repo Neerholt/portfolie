@@ -47,7 +47,7 @@
                      ?>
                     
                     
-                    <div class="konlije"></div>
+                    
                     
                 </div><!--slutning på min personligform. søge ord personlig Personlig-->
                 <div id="arbejde"><!--starten på min arbejdefom, søge ord arbejde Arbejde-->
@@ -72,6 +72,9 @@
                          }  
                      } 
                      ?>
+                    
+                    
+                    
                 </div><!--slutning på min arbejdefom, søge ord arbejde Arbejde-->
                 <div id="Aboutme"><!--starten på aboutmeformen, søge ord Aboutme aboutme-->
                     <center><h1>Omkring mig</h1></center>
