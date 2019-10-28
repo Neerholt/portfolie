@@ -26,10 +26,10 @@
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 
-        
+                <h1>This is test text.</h1>
 
                 
-                  <font size="5%">This is test text.</font>
+                  
                 
                 <!--Code the main funktion here-->
                   

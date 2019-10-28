@@ -146,14 +146,14 @@ if(!isset($_SESSION['login'])){
                     <input type="text" name="e" placeholder="Opdater arbejdsområde 4"  style="width:70%"> <br/><br/>
                     <input type="text" name="j" placeholder="Opdater arbejdsområde 5"  style="width:70%"><br/><br/>
                     <input type="text" name="d" placeholder="Opdater arbejdsområde 6"  style="width:70%"> <br/><br/>
-                    <input type="text" name="t" placeholder="Opdater arbejdsområde 7"  style="width:70%"><br/><br/><!--Skift navn-->
-                    <input type="text" name="t" placeholder="Opdater arbejdsområde 8"  style="width:70%"><br/><br/>
-                    <input type="text" name="t" placeholder="Opdater arbejdsområde 9"  style="width:70%"><br/><br/>
-                    <input type="text" name="t" placeholder="Opdater arbejdsområde 10"  style="width:70%"><br/><br/>
-                    <input type="text" name="t" placeholder="Opdater arbejdsområde 11"  style="width:70%"><br/><br/>
-                    <input type="text" name="t" placeholder="Opdater arbejdsområde 12"  style="width:70%"><br/><br/>
-                    <input type="text" name="t" placeholder="Opdater arbejdsområde 13"  style="width:70%"><br/><br/>
-                    <input type="text" name="t" placeholder="Opdater arbejdsområde 14"  style="width:70%"><br/><br/>
+                    <input type="text" name="t" placeholder="Opdater arbejdsområde 7"  style="width:70%"><br/><br/><!--Skift navn, Gjort-->
+                    <input type="text" name="z" placeholder="Opdater arbejdsområde 8"  style="width:70%"><br/><br/>
+                    <input type="text" name="x" placeholder="Opdater arbejdsområde 9"  style="width:70%"><br/><br/>
+                    <input type="text" name="c" placeholder="Opdater arbejdsområde 10"  style="width:70%"><br/><br/>
+                    <input type="text" name="o" placeholder="Opdater arbejdsområde 11"  style="width:70%"><br/><br/>
+                    <input type="text" name="p" placeholder="Opdater arbejdsområde 12"  style="width:70%"><br/><br/>
+                    <input type="text" name="u" placeholder="Opdater arbejdsområde 13"  style="width:70%"><br/><br/>
+                    <input type="text" name="g" placeholder="Opdater arbejdsområde 14"  style="width:70%"><br/><br/>
                     
                     <center><hr align="center" width="100%"></center>
                     <button class="opdaterknapcss" type="submit" name="OPA">Opdater arbejdsområde</button>     
