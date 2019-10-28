@@ -60,10 +60,9 @@ if(!isset($_SESSION['login'])){
                  <center><hr align="center" width="90%"></center>
                  <br/>  
                  <center> <form action="" method="POST">
-                         <input type="number" name="id" placeholder="ID nummer"  style="width:60%" required=""><br/><br/>
-                    <button class="opdaterknapcss" type="submit" name="slet">Slet</button>     
+                         <input type="number" class="slettextboxs" name="id" placeholder="ID nummer"  style="width:60%" required=""><br/><br/>
+                    <button class="sletknapcss" type="submit" name="slet">Slet</button>     
                      </form></center>
-                 
                  
                  
                 </div><!--slutning på min sletform, søg ord Sletform sletform-->
