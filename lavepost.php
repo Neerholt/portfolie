@@ -55,7 +55,7 @@ if(!isset($_SESSION['login'])){
     <body>
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
             <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
-                <center><h1><font size="30">Opret Artikel</font></h1></center>
+                <center><h1>Opret Artikel</font></h1></center>
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
@@ -84,7 +84,7 @@ if(!isset($_SESSION['login'])){
                                   <label> Uploade et billede: </label><input type="file" name="imagess" required><br/><br/>
                                     <hr>
                                     <h3>Skriv din artikel her</h4>
-                                    <center><textarea rows="22%" name="atikeltext" cols="80%" placeholder="Skriv din artikel her." required></textarea></center>    
+                                    <center><textarea rows="22%" name="atikeltext" cols="80%" style="width:50%; height: 40%;" placeholder="Skriv din artikel her." required></textarea></center>    
                                     <button class="opretknap" onclick="sendbesked" type="submit" name="GEM">Opret artikel</button>
                                 </form></center>  
                         <center><div>

@@ -90,7 +90,7 @@ if(!isset($_SESSION['login'])){
     <body>
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
             <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
-                <center><h1><font size="30">Updater Kontakt Oplysninger</font></h1></center>
+                <center><h1>Updater Kontakt Oplysninger</font></h1></center>
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
@@ -173,7 +173,7 @@ if(!isset($_SESSION['login'])){
                     
                     <center> <form action="" method="POST">
                         <h3>Opdater Omkring mig</h4>
-                      <center><textarea rows="32%" name="omkring" cols="40%" style="width:70%" placeholder="Skriv din opdatering af omkring mig ." required></textarea></center> 
+                      <center><textarea rows="34%" name="omkring" cols="40%" style="width:70%" placeholder="Skriv din opdatering af omkring mig ." required></textarea></center> 
                       <center><hr align="center" width="100%"></center>
                       <button class="opdaterknapcss" type="submit" name="OPOM">Opdater omkring</button>
                         </form></center>

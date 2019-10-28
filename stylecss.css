@@ -26,6 +26,7 @@ body{
     background-color: #4dc989;
     color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.3vw;
 }
 
 
@@ -38,6 +39,7 @@ body{
     margin-right: auto;
     background-color: #e6dada;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     font-size: .90vw;
 }
 
 /*Stylesheet for min nav*/
@@ -59,6 +61,7 @@ ul {
   overflow: hidden;
   background-color: #333;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 1.0vw;
 }
 
 li {
@@ -99,6 +102,7 @@ li a:hover:not(.active) {
     margin-right: auto;
     background-color: #e6dada;
     box-shadow: 5px 5px 5px grey;
+    font-size: 1.0vw;
 }
 
 
@@ -192,6 +196,7 @@ li a:hover:not(.active) {
   float: right;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   line-height: 100%;
+  font-size: .90vw;
 }
 
 /*Stylesheet for at når der kommer et hvis antal opslag lave denne funktion
@@ -211,6 +216,8 @@ div.ex1 {
     background-color: #e6dada; 
     float: left; 
     border-right: 1px solid;
+    font-size: 1.0vw;
+    
 }
 
 /*Stylesheet til et af mine divs under kontakt #e6dada;  siden*/
@@ -221,6 +228,7 @@ div.ex1 {
     background-color: #e6dada; 
     float: left;
     margin-bottom: -100px;
+    font-size: 1.0vw;
 }
 
 /*Stylesheet til et af mine divs under kontakt siden */
@@ -231,6 +239,7 @@ div.ex1 {
     background-color: #e6dada; 
     float: left;
     border-left: 1px solid;
+     font-size: 1.0vw;
 }
 
 /*Stylesheet for den lille prik der er uden for de 2 første feltet under kontakt mig siden*/
@@ -248,6 +257,7 @@ div.ex1 {
     background-color:#e6dada; 
     float: left; 
     border: ridge;
+    font-size: .90vw;
 }
 
 /*Stylesheet til et af mine divs under opdater kontakt siden*/
@@ -259,6 +269,7 @@ div.ex1 {
     float: left;
     margin-bottom: -100px;
     border: ridge;
+    font-size: .90vw;
 }
 
 /*Stylesheet til et af mine divs under opdater kontakt siden */
@@ -269,6 +280,7 @@ div.ex1 {
     background-color:#e6dada; 
     float: left;
     border: ridge;
+    font-size: .90vw;
 }
 
 /*Styelsheet for opdater knap knappen*/
@@ -282,10 +294,6 @@ div.ex1 {
   margin: 4px 2px;
   cursor: pointer;
   display: flex;
-  margin-bottom: 0.5%;
-  margin-top: 0.5%;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
 }
 
 

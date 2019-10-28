@@ -9,7 +9,7 @@
     <body>
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
             <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
-                <center><h1><font size="30">Projektere</font></h1></center>
+                <center><h1>Projektere</font></h1></center>
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
@@ -38,14 +38,14 @@
                              //Dette billede skal kunne hentes fra databasen og skal ikke være prefix
                              //Dette er bare et exsempel på hvordan jeg gerne vil have det skal se ud!
                             // echo '&nbsp;';
-                             echo "<h4><font size='4%'>".$row['overskrift']."</font></h4>";
+                             echo "<h4><strong>".$row['overskrift']."</strong></h4>";
                              //echo '<br>';
                              //echo $row['dato'];
                              //echo '<br>';
                              //echo $row['atikeltext'];
-                             echo "<font size='3%'>".$row['brodtekst']."</font>";
+                             echo $row['brodtekst'];
                              echo '<br>';
-                             echo "<font size='3%'><a href='#Nothing'>Læse mere...</a></font>";
+                             echo "<a href='#Nothing'>Læse mere...</a></font>";
                              //Det her er bare n test på hvordan jeg gerne vil have det skal se ude
                              //Det skal laves sådan at det link over denne tekst linker til en ny side hvor
                              //man kan læse hele artiklen!
