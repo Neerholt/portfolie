@@ -29,8 +29,8 @@
                 <div class="ex1">
                     
                     <div id="sog"><!--Starten på min søg funktion, søge ord Søg søg Sog sog-->
-                   <form action=" " method="">
-                       <input type="text" name="" placeholder="Søg på et project" class="sogtextboxs" style="width:70%" required> 
+                   <form action="" method="">
+                       <input type="text" name="" placeholder="Søg efter en project overskrift..." class="sogtextboxs" style="width:70%" required> 
                           <button class="sogknapcss" type="submit" style="float:right" name="">Søg</button> 
                     </form>
                      <hr>
