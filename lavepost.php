@@ -71,7 +71,7 @@ if(!isset($_SESSION['login'])){
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform--> 
                 <center><form action="lavepost.php" method="POST" enctype="multipart/form-data">
                                     <h3>Overskrift</h3>
-                                    <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" maxlength="40" required >
+                                    <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" maxlength="30" required >
                                     <hr>
                                     <h3>Brødtekst</h3>
                                     <center><textarea rows="3%" name="brodtekst"cols="40%" placeholder="Brødtekst"  maxlength="120" required></textarea></center>
