@@ -27,7 +27,7 @@
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 <div id="personlig"><!--Starten på min personligform. søge ord personlig Personlig-->
                     <center><h1>Kontakt oplysinger</h1></center>
-                    <center><hr align="center" width="50%"></center>
+                    <center><hr align="center" width="90%"></center>
                     
                     
                      <?php
@@ -52,7 +52,7 @@
                 </div><!--slutning på min personligform. søge ord personlig Personlig-->
                 <div id="arbejde"><!--starten på min arbejdefom, søge ord arbejde Arbejde-->
                      <center><h1>Arbejdsområder</h1></center>
-                    <center><hr align="center" width="50%"></center>
+                    <center><hr align="center" width="90%"></center>
                    
                     
                       <?php
@@ -78,7 +78,7 @@
                 </div><!--slutning på min arbejdefom, søge ord arbejde Arbejde-->
                 <div id="Aboutme"><!--starten på aboutmeformen, søge ord Aboutme aboutme-->
                     <center><h1>Omkring mig</h1></center>
-                    <center><hr align="center" width="50%"></center>
+                    <center><hr align="center" width="90%"></center>
                     
                    
                     

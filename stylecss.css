@@ -183,10 +183,10 @@ li a:hover:not(.active) {
 /*stylesheet for det kasser som er uden om et opslag*/
 #textkasse{
   margin-top: 1%;
-  margin-left: 3.5%;
+  margin-left: 2%;
   margin-right: 3.3%;
   margin-bottom: 1%;
-  width: 18%;
+  width: 19%;
   height: 46%;
   overflow: hidden;
   float: right;
@@ -205,25 +205,17 @@ div.ex1 {
 
 /*Stylesheet til et af mine divs under kontakt siden*/
 #personlig{
-    border-left-color: #e6dada;
-    border-bottom-color:#e6dada;
-    border-top-color: #e6dada;
-    border-right-color:black;
-    margin-left: 2%;
+    margin-left: 2.5%;
     width: 30%;
     height: 99%;
-    background-color:#e6dada; 
+    background-color: #e6dada; 
     float: left; 
     border-right: 1px solid;
 }
 
-/*Stylesheet til et af mine divs under kontakt siden*/
+/*Stylesheet til et af mine divs under kontakt #e6dada;  siden*/
 #arbejde{
-    border-left-color: #e6dada;
-    border-bottom-color:#e6dada;
-    border-top-color: #e6dada;
-    border-right-color:black;
-    margin-left: 2%;
+    margin-left: 2.5%;
     width: 30%;
     height: 99%;
     background-color: #e6dada; 
@@ -233,16 +225,12 @@ div.ex1 {
 
 /*Stylesheet til et af mine divs under kontakt siden */
 #Aboutme{
-    border-left-color: #e6dada;
-    border-bottom-color:#e6dada;
-    border-top-color: #e6dada;
-    border-right-color:black;
-    margin-left: 2%;
+    margin-left: 2.5%;
     width: 30%;
     height: 99%;
-    background-color:#e6dada; 
+    background-color: #e6dada; 
     float: left;
-     border-left: 1px solid;
+    border-left: 1px solid;
 }
 
 /*Stylesheet for den lille prik der er uden for de 2 første feltet under kontakt mig siden*/
