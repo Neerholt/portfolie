@@ -34,7 +34,6 @@
                 </div><!--Sluting på min søg funktion, søge ord Søg søg Sog sog-->
                     
                     
-                
                 <div class="ex1">
                         <?php
                      $sql_tabel = "SELECT * FROM opret;"; 
@@ -48,7 +47,7 @@
                              //Dette billede skal kunne hentes fra databasen og skal ikke være prefix
                              //Dette er bare et exsempel på hvordan jeg gerne vil have det skal se ud!
                             // echo '&nbsp;';
-                             echo "<h4><strong>".$row['overskrift']."</strong></h4>";
+                             echo "<h4><strong> &nbsp;".$row['overskrift']."</strong></h4>";
                              //echo '<br>';
                              //echo $row['dato'];
                              //echo '<br>';

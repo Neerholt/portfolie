@@ -33,13 +33,13 @@ body{
 /*Stylesheet for min mainform*/
 #mainform{
     width:auto;
-    height: 82%;/*82*/
+    height: 82%;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     background-color: #e6dada;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-     font-size: .90vw;
+    font-size: .90vw;
 }
 
 /*Stylesheet for min nav*/
@@ -330,3 +330,25 @@ div.ex1 {
   margin-left: 1%;
 }
 
+
+/*stylesheet til min sletform på slet #e6dada;  en artikle side*/
+#sletform{
+    margin-left: 0.5%;
+    width: 15%;
+    height: 99%;
+    background-color: #e6dada;
+    float: left; 
+    border-right: 1px solid;
+    font-size: 1.0vw;
+}
+
+
+/*stylesheet for den side af slet hvor man kan borwse de artikel der sakl slettes*/
+#sletformartikelside{
+    width: 84.3%;
+    height: 100%;
+    background-color: #e6dada;
+    float: left; 
+    font-size: 1.0vw;
+    
+}

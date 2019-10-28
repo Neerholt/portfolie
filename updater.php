@@ -29,11 +29,7 @@ if(!isset($_SESSION['login'])){
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform--> 
-                 
-                <form action="loggedind.php" method="POST">
-                    <button class="opretknap" type="submit">Tilbage</button>
-                </form>
-               
+           
                 <!--Lave din main code her-->
                 
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->

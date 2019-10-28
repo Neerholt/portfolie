@@ -69,10 +69,6 @@ if(!isset($_SESSION['login'])){
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform--> 
-                 
-                <form action="loggedind.php" method="POST">
-                    <button class="tilbageknap" type="submit">Tilbage</button>
-                </form>
                 <center><form action="lavepost.php" method="POST" enctype="multipart/form-data">
                                     <h3>Overskrift</h3>
                                     <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" maxlength="40" required >
