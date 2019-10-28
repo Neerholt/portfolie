@@ -173,7 +173,7 @@ if(!isset($_SESSION['login'])){
                     
                     <center> <form action="" method="POST">
                         <h3>Opdater Omkring mig</h4>
-                      <center><textarea rows="34%" name="omkring" cols="40%" style="width:70%" placeholder="Skriv din opdatering af omkring mig ." required></textarea></center> 
+                      <center><textarea rows="34%" name="omkring" cols="40%" style="width:70%; height: 60%" placeholder="Skriv din opdatering af omkring mig ." required></textarea></center> 
                       <center><hr align="center" width="100%"></center>
                       <button class="opdaterknapcss" type="submit" name="OPOM">Opdater omkring</button>
                         </form></center>

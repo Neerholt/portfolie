@@ -43,7 +43,7 @@
                              //echo $row['dato'];
                              //echo '<br>';
                              //echo $row['atikeltext'];
-                             echo $row['brodtekst'];
+                             echo $row['brodtekst']."...";
                              echo '<br>';
                              echo "<a href='#Nothing'>Læse mere...</a></font>";
                              //Det her er bare n test på hvordan jeg gerne vil have det skal se ude
