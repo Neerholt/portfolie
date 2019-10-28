@@ -25,7 +25,20 @@
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
+                
                 <div class="ex1">
+                    
+                    <div id="sog"><!--Starten på min søg funktion, søge ord Søg søg Sog sog-->
+                   <form action=" " method="">
+                       <input type="text" name="" placeholder="Søg på et project" class="sogtextboxs" style="width:70%" required> 
+                          <button class="sogknapcss" type="submit" style="float:right" name="">Søg</button> 
+                    </form>
+                     <hr>
+                </div><!--Sluting på min søg funktion, søge ord Søg søg Sog sog-->
+                    
+                    
+                    
+                    
                         <?php
                      $sql_tabel = "SELECT * FROM opret;"; 
                      $data = mysqli_query($connect,$sql_tabel);
