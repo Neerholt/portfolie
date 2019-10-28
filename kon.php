@@ -37,11 +37,11 @@
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                             echo '<center><h2> Mail: '.$row['mail'].'</h2></center>';
-                             echo '<center><h2> Telefonnummer: '.$row['tf'].'</h2></center>';
-                             echo '<center><h2> Address: '.$row['bo'].'</h2></center>';
-                             echo '<center><h2> Postnummer: '.$row['post'].'</h2></center>';
-                             echo '<center><h2> Bynanv: '.$row['bynavn'].'</h2></center>';
+                             echo '<center><h3> Mail: '.$row['mail'].'</h3></center>';
+                             echo '<center><h3> Mobil: '.$row['tf'].'</h3></center>';
+                             echo '<center><h3> Address: '.$row['bo'].'</h3></center>';
+                             echo '<center><h3> Postnummer: '.$row['post'].'</h3></center>';
+                             echo '<center><h3> Bynanv: '.$row['bynavn'].'</h3></center>';
                          }  
                      } 
                      ?>
@@ -62,13 +62,15 @@
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                             echo '<center><h2>Har arbejdet med: '.$row['a'].'</h2></center>';
-                              echo '<center><h2>Har arbejdet med: '.$row['r'].'</h2></center>';
-                               echo '<center><h2>Har arbejdet med: '.$row['b'].'</h2></center>';
-                                echo '<center><h2>Har arbejdet med: '.$row['e'].'</h2></center>';
-                                 echo '<center><h2>Har arbejdet med: '.$row['j'].'</h2></center>';
-                                  echo '<center><h2>Har arbejdet med: '.$row['d'].'</h2></center>';
-                                   echo '<center><h2>Har arbejdet med: '.$row['t'].'</h2></center>';
+                             echo '<center><h3>Har arbejdet med: '.$row['a'].'</h3></center>';
+                              echo '<center><h3>Har arbejdet med: '.$row['r'].'</h3></center>';
+                               echo '<center><h3>Har arbejdet med: '.$row['b'].'</h3></center>';
+                                echo '<center><h3>Har arbejdet med: '.$row['e'].'</h3></center>';
+                                 echo '<center><h3>Har arbejdet med: '.$row['j'].'</h3></center>';
+                                  echo '<center><h3>Har arbejdet med: '.$row['d'].'</h3></center>';
+                                   echo '<center><h3>Har arbejdet med: '.$row['t'].'</h3></center>';
+                                    echo '<center><p>Se alle mine arbejdsområder på <a href="https://www.praktikpladsen.dk/">praktikpldasen.dk</a></p></center>';
+                                  
                          }  
                      } 
                      ?>

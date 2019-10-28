@@ -296,18 +296,3 @@ div.ex1 {
   display: flex;
 }
 
-
-/*Stylesheet til den linje det er på kontakt mig siden*/
-.konlinje {
-  border-left: 1px solid black;
-  height: 650px;
-  margin-top: -50%;
-  margin-left: 100%;
-}
-
-.konlinje2{
-     border-left: 1px solid black;
-  height: 650px;
-  margin-top: -71%;
-  margin-left: 100%;
-}
