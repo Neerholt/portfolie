@@ -18,12 +18,9 @@ $data = mysqli_query($connect,$sql_tabel);
 
 mysqli_close($connect);
 
-header("Refresh:1; url=slet.php");
+header("Refresh:0");
 
 }
-
-
-
 
 
 session_start();
@@ -72,6 +69,18 @@ if(!isset($_SESSION['login'])){
                 </div><!--slutning på min sletform, søg ord Sletform sletform-->
                  
                 <div id="sletformartikelside"><!--starten på min side hvor jeg kan browse de artikel jeg har skrevet for at se hvad jeg skal slette-->
+                    
+                    
+                     <div id="sog"><!--Starten på min søg funktion, søge ord Søg søg Sog sog-->
+                   <form action="" method="">
+                       <input type="text" name="" placeholder="Søg efter en project overskrift..." class="sogtextboxs" style="width:70%" required> 
+                          <button class="sogknapcss" type="submit" style="float:right" name="">Søg</button> 
+                    </form>
+                     <hr>
+                </div><!--Sluting på min søg funktion, søge ord Søg søg Sog sog-->
+                    
+                    
+                    
                     <div class="ex1">
                         <?php
                         include 'databaseconn.php';
@@ -85,7 +94,6 @@ if(!isset($_SESSION['login'])){
                             echo "<img src='images/".$row['billede']."' height='60%' width='100%'>";
                              echo "<h4><strong> &nbsp;".$row['overskrift']."</strong></h4>";
                              //echo $row['brodtekst']."...";
-                             echo '<br>';
                              echo "&nbsp; ID: ".$row['ID'];
                              echo '<br><br>';
                              echo " &nbsp;".$row['dato'];
