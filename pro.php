@@ -43,7 +43,7 @@
                 
                     
                 <div class="ex1">
-                        <?php
+                           <?php
                      $sql_tabel = "SELECT * FROM opret;"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
@@ -52,20 +52,10 @@
                          while ($row = mysqli_fetch_assoc($data)){
                             echo '<div id="textkasse">';
                             echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
-                             //Dette billede skal kunne hentes fra databasen og skal ikke være prefix
-                             //Dette er bare et exsempel på hvordan jeg gerne vil have det skal se ud!
-                            // echo '&nbsp;';
                              echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
-                             //echo '<br>';
-                             //echo $row['dato'];
-                             //echo '<br>';
-                             //echo $row['atikeltext'];
                              echo $row['brodtekst']."...";
                              echo '<br>';
-                             echo "<a href='#Nothing'>Læse mere...</a></font>";
-                             //Det her er bare n test på hvordan jeg gerne vil have det skal se ude
-                             //Det skal laves sådan at det link over denne tekst linker til en ny side hvor
-                             //man kan læse hele artiklen!
+                             echo "<a href=\"artikel.php?id=". $row['ID'] . "\">Borrow</a>";
                              echo '</div>';
                          }  
                      }  
