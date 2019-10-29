@@ -23,6 +23,31 @@ header("Refresh:0");
 }
 
 
+
+//Slet alle artikler funktion
+if(isset($_POST['slet'])){
+    
+include 'databaseconn.php';
+    
+$id = $_POST['id'];
+
+$connect = mysqli_connect($servername, $username, $password, $databasename);
+
+if(!$connect){
+    die("Connectiuon failed because" .mysqli_connect_error());
+} 
+
+$sql_tabel = "DELETE FROM `opret` WHERE";
+
+$data = mysqli_query($connect,$sql_tabel);
+
+mysqli_close($connect);
+
+header("Refresh:0");
+
+}
+
+
 session_start();
 if(!isset($_SESSION['login'])){
     header("location:index.html");
@@ -69,6 +94,13 @@ if(!isset($_SESSION['login'])){
                      <center><h1>Søg</h1></center>
                      <input type="text" class="slettextboxs" name="sogslet" placeholder="Søg..."  style="width:60%" required=""><br/><br/>
                       <button class="sletknapcss" type="submit" name="">Søg</button> 
+                     </form></center>
+                    <br/><br/>
+                  <center><hr align="center" width="90%" color="black"></center>
+                 
+                  <center><form action="" method="POST">
+                     <center><h1>Slet alle artikler</h1></center>
+                      <button class="sletknapcss" type="submit" name="deleteall">Slet alt</button> 
                      </form></center>
                  
                  
