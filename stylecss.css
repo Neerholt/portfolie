@@ -43,7 +43,6 @@ body{
 
 
 /*Stylesheet for min project side mainform*/
-/*
 #mainformpro{
     width:auto;
     height: 62%;
@@ -53,7 +52,7 @@ body{
     background-color: red;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: .90vw;
-}*/
+}
 
 
 /*Stylesheet for min nav*/
@@ -67,7 +66,7 @@ body{
 
 
 
-/*Head nav start*/
+/*Head nav css start*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -93,7 +92,7 @@ li a {
 li a:hover:not(.active) {
   background-color: #111;
 }
-/*Head nav slut*/
+/*Head nav  css slut*/
 
 
 
