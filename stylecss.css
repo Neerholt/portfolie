@@ -393,7 +393,7 @@ div.ex1{
   padding: 3% 15%;
   text-align: center;
   font-size: .70vw;
-  font-size: .70vh;
+  font-size: 1.3vh;
   cursor: pointer;
   display: flex;
 }
@@ -404,7 +404,7 @@ div.ex1{
     width: 20%;
     padding: 10px 3px 3px 3px;
     font-size: .70vw;
-  font-size: .70vh;
+    font-size: 1.3vh;
 }
 
 

@@ -19,7 +19,10 @@ Bare ikke noget med database på forsiden! Måske
 Måske kunne det være en god idé at lave det på sådan en måde at når man hover musen over en artikle 
 poper den frem som om den bliver valgt, samt at man bare kan klikke på hele arktikle preview for at
 komme til at læse hele artiklen, isted for at man skal kunne klikke på læse mere, det vil gøre 
-siden mere lækker at kigge på / sjover at browse min projecter! bare en tanke
+siden mere lækker at kigge på / sjover at browse min projecter! bare en tanke.
+......
+Link projecet til github på siden hvor man kan læse mere om hvad det er for et projecet
+
 ______________________________________
 
 #Problemer#
