@@ -68,7 +68,7 @@
                              //man kan læse hele artiklen!
                              echo '</div>';
                          }  
-                     }   
+                     }  
                      
                      ?>
                    </div>

@@ -25,7 +25,7 @@ header("Refresh:0");
 
 
 //Slet alle artikler funktion
-if(isset($_POST['slet'])){
+if(isset($_POST['deleteall'])){
     
 include 'databaseconn.php';
     
@@ -37,7 +37,7 @@ if(!$connect){
     die("Connectiuon failed because" .mysqli_connect_error());
 } 
 
-$sql_tabel = "DELETE FROM `opret` WHERE";
+$sql_tabel = "DELETE FROM `opret`";
 
 $data = mysqli_query($connect,$sql_tabel);
 
@@ -98,10 +98,15 @@ if(!isset($_SESSION['login'])){
                     <br/><br/>
                   <center><hr align="center" width="90%" color="black"></center>
                  
+                  
+                  <!--
+                  
+                  Sletter alting 
+                  
                   <center><form action="" method="POST">
                      <center><h1>Slet alle artikler</h1></center>
-                      <button class="sletknapcss" type="submit" name="deleteall">Slet alt</button> 
-                     </form></center>
+                     <button class="sletknapcss" type="submit" name="deleteall">Slet alt</button> 
+                     </form></center>-->
                  
                  
                 </div><!--slutning på min sletform, søg ord Sletform sletform-->
