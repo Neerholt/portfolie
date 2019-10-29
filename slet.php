@@ -12,7 +12,7 @@ if(!$connect){
     die("Connectiuon failed because" .mysqli_connect_error());
 } 
 
-$sql_tabel = "DELETE FROM `opret` WHERE id='$id'";
+$sql_tabel = "DELETE FROM `opret` WHERE idopret='$id'";
 
 $data = mysqli_query($connect,$sql_tabel);
 
