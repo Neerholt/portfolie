@@ -88,7 +88,7 @@ if(!isset($_SESSION['login'])){
                      </form></center>
                  
                  <br/><br/>
-                  <center><hr align="center" width="90%" color="black"></center>
+                  <center><hr align="center" width="90%"></center>
                  <br/>
                  <center><form action="" method="">
                      <center><h1>Søg</h1></center>
@@ -96,7 +96,7 @@ if(!isset($_SESSION['login'])){
                       <button class="sletknapcss" type="submit" name="">Søg</button> 
                      </form></center>
                     <br/><br/>
-                  <center><hr align="center" width="90%" color="black"></center>
+                  <center><hr align="center" width="90%"></center>
                  
                   
                   <!--
@@ -115,25 +115,25 @@ if(!isset($_SESSION['login'])){
                     
                    
                     <div class="ex1">
-                        <?php
-                        include 'databaseconn.php';
-                     $sql_tabel = "SELECT * FROM opret;"; 
+                     <?php
+                     
+                     include 'databaseconn.php';
+                     
+                     $sql_tabel = "SELECT * FROM opret"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
                             echo '<div id="textkasse">';
-                            echo "<img src='images/".$row['billede']."' height='60%' width='100%'>";
-                             echo "<h4><strong> &nbsp;".$row['overskrift']."</strong></h4>";
-                             echo "&nbsp; ID: ".$row['idopret'];
-                             echo '<br><br>';
-                             echo " &nbsp;".$row['dato']."<br>";
-                             echo "&nbsp;<a href='#Nothing'>Læse Artiklen...</a></font>";
-                             //skal laves :)
+                            echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
+                             echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
+                             echo $row['brodtekst']."...";
+                             echo '<br>';
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere...</a>";
                              echo '</div>';
                          }  
-                     } 
+                     }  
                      
                      ?>
                    </div>

@@ -36,12 +36,8 @@
                 </div><!--Sluting på min søg funktion, søge ord Søg søg Sog sog-->
             
            
-            
-            
             <div id="mainformpro"><!--Starten på min mainform, søge ord mainform Mainform-->
                 
-                
-                    
                 <div class="ex1">
                            <?php
                      $sql_tabel = "SELECT * FROM opret"; 

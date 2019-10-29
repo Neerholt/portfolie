@@ -66,7 +66,7 @@ body{
     margin-right: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: 1.0vw;
-  font-size: 1.5vh;
+    font-size: 1.5vh;
 }
 
 
@@ -111,6 +111,8 @@ li a:hover:not(.active) {
     box-shadow: 10px 10px 5px grey;
     border: none;
     text-align: center;
+    font-size: 1.7vw;
+    font-size: 1.7vh;
 }
 
 
@@ -140,6 +142,8 @@ li a:hover:not(.active) {
   font-size: 1.0vw;
   margin: 4px 2px;
   cursor: pointer;
+  font-size: 2.0vw;
+  font-size: 2.0vh;
 }
 
 
@@ -153,8 +157,10 @@ li a:hover:not(.active) {
   font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
-  margin-right: -200px;
+  margin-right: 10%;
   display: flex;
+  font-size: 1.7vw;
+  font-size: 1.7vh;
 }
 
 /*Styelsheet for cancel knappen*/
@@ -169,7 +175,9 @@ li a:hover:not(.active) {
   cursor: pointer;
   display: flex;
   margin-left: -200px;
-  margin-top: -53px;
+  margin-top: -3.7%;
+  font-size: 1.7vw;
+  font-size: 1.7vh;
 }
 
 
@@ -183,7 +191,7 @@ li a:hover:not(.active) {
 /*Stylesheet for min textboxs style når man laver en artikel*/
 .textboxsopret{
     background-color: #FFFFFF;
-    width: 20%;
+    width: 70%;
     padding: 10px 3px 3px 3px;
 }
 
@@ -460,7 +468,7 @@ div.ex1{
     background-color: #e6dada;
     font-size: .90vw;
     font-size: 1.7vh;
-     border-top: 1px solid;
+    border-top: 1px solid;
     
 }
 
@@ -476,3 +484,14 @@ div.ex1{
     font-size: 1.7vh;
 }
 
+#lavevenster{
+    margin-left: 1%;
+    width: 30%;
+    height: 99%;
+    background-color:#e6dada;
+    float: left;
+    font-size: .90vw;
+    font-size: 1.7vh;
+    border-right:  1px solid;
+    
+}

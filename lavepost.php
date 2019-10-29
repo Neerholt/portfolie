@@ -70,17 +70,26 @@ if(!isset($_SESSION['login'])){
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform--> 
                 <center><form action="lavepost.php" method="POST" enctype="multipart/form-data">
-                                    <h3>Overskrift</h3>
-                                    <input type="text"  class="textboxsopret" name="overskrift" placeholder="Overskrift" maxlength="30" required >
+                        
+                        
+                        <div id="lavevenster"><!--starten på min side form på lavepost-->
+                             <h3>Overskrift</h3>
+                                    <input type="text"  class="textboxsopret" name="overskrift" placeholder="Skriv en overskrift" maxlength="30" required ><br/>
                                     <hr>
                                     <h3>Brødtekst</h3>
-                                    <center><textarea rows="3%" name="brodtekst"cols="40%" placeholder="Brødtekst"  maxlength="100" required></textarea></center>
+                                    <center><textarea rows="3%" class="textboxsopret" name="brodtekst"cols="40%" placeholder="Skrive en brødtekst til din artikel"  maxlength="100" required></textarea></center><br/>
                                     <hr>
-                                  <h3>Uploade en thumbnail</h3>
-                                  <label> Uploade et billede: </label><input type="file" name="imagess" required><br/><br/>
+                                     <h3>Project link fra Github</h3>
+                                    <input type="text"  class="textboxsopret" name="gitlink" placeholder="Link dit project fra github"><br/><br/>
+                                    <hr>
+                                  <h3>Uploade billeder</h3>
+                                  <label> Uploade et brødtekst billede: </label><input type="file" name="imagess" required><br/><br/>
+                                  <label> Uploade et artikel billede : &nbsp;&nbsp; </label><input type="file" name="imagesss" required>
+                        </div><!--sluting på min side form på lavepost-->
+                        
                                     <hr>
                                     <h3>Skriv din artikel her</h4>
-                                    <center><textarea rows="22%" name="atikeltext" cols="80%" style="width:50%; height: 40%;" placeholder="Skriv din artikel her." maxlength="2100" required></textarea></center>    
+                                    <center><textarea rows="22%" name="atikeltext" cols="80%" style="width:50%; height: 80%;" placeholder="Skriv din artikel her." maxlength="2100" required></textarea></center>    
                                     <button class="opretknap" onclick="sendbesked" type="submit" name="GEM">Opret artikel</button>
                                 </form></center>  
                         <center><div>
