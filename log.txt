@@ -22,6 +22,9 @@ komme til at læse hele artiklen, isted for at man skal kunne klikke på læse m
 siden mere lækker at kigge på / sjover at browse min projecter! bare en tanke.
 ......
 Link projecet til github på siden hvor man kan læse mere om hvad det er for et projecet
+......
+Måske gør sådan at man kan uplaode et brødtekts billede og et artikel billede
+......
 
 ______________________________________
 

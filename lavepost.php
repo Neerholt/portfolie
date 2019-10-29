@@ -24,7 +24,7 @@ if(!$connect){
     die("Connectiuon failed because" .mysqli_connect_error());
 } 
 
-$sql_tabel = "INSERT INTO `opret`(`ID`, `overskrift`, `billede`, `atikeltext`, `dato`, `brodtekst`) VALUES (NULL,'$overskrift','$billede','$atikeltext',NULL,'$brodtekst')";
+$sql_tabel = "INSERT INTO `opret`(`idopret`, `overskrift`, `billede`, `atikeltext`, `dato`, `brodtekst`) VALUES (NULL,'$overskrift','$billede','$atikeltext',NULL,'$brodtekst')";
 
 $data = mysqli_query($connect,$sql_tabel);
 
@@ -80,7 +80,7 @@ if(!isset($_SESSION['login'])){
                                   <label> Uploade et billede: </label><input type="file" name="imagess" required><br/><br/>
                                     <hr>
                                     <h3>Skriv din artikel her</h4>
-                                    <center><textarea rows="22%" name="atikeltext" cols="80%" style="width:50%; height: 40%;" placeholder="Skriv din artikel her." required></textarea></center>    
+                                    <center><textarea rows="22%" name="atikeltext" cols="80%" style="width:50%; height: 40%;" placeholder="Skriv din artikel her." maxlength="2400" required></textarea></center>    
                                     <button class="opretknap" onclick="sendbesked" type="submit" name="GEM">Opret artikel</button>
                                 </form></center>  
                         <center><div>
