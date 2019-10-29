@@ -24,8 +24,9 @@
                       <li style="float:right"><a href="#IdoNothingYet">Praktikpladsen</a></li>
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
-            <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
-                
+            
+            
+             
                  <div id="sog"><!--Starten på min søg funktion, søge ord Søg søg Sog sog-->
                    <form action="" method="">
                        <input type="text" name="" placeholder="Søg efter et project..." class="sogtextboxs" style="width:70%" required> 
@@ -33,10 +34,13 @@
                     </form>
                     <hr>
                 </div><!--Sluting på min søg funktion, søge ord Søg søg Sog sog-->
+            
+           
+            
+            
+            <div id="mainformpro"><!--Starten på min mainform, søge ord mainform Mainform-->
                 
                 
-                  
-                    
                     
                 <div class="ex1">
                         <?php
@@ -47,7 +51,7 @@
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
                             echo '<div id="textkasse">';
-                            echo "<img src='images/".$row['billede']."' height='60%' width='100%'>";
+                            echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
                              //Dette billede skal kunne hentes fra databasen og skal ikke være prefix
                              //Dette er bare et exsempel på hvordan jeg gerne vil have det skal se ud!
                             // echo '&nbsp;';

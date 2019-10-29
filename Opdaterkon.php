@@ -130,7 +130,7 @@ if(!isset($_SESSION['login'])){
                             <input type="number" name="post" placeholder="Opdater Postnummer" maxlength="4" class="textboxsopret" style="width:70%"> 
                             <h3>Opdater By</h3>
                             <input type="text" name="by" placeholder="Opdater By" class="textboxsopret" style="width:70%">
-                            <br/><br/><br/><br/><br/><br/>
+                            <br/><br/><br/><br/><br/>
                              <center><hr align="center" width="100%"></center>
                               <button class="opdaterknapcss" type="submit" name="OPKO">Opdater Kontakt Oplysninger</button> 
                     </form></center>
@@ -143,11 +143,7 @@ if(!isset($_SESSION['login'])){
                      <center><h1 style="width:100%">Opdater Arbejdsområder</h1></center>
                     <center><hr align="center" width="100%"></center>
                      
-                    <!--Linje
-                    <svg height="100%">
-                    <line y2="100%" style="stroke:rgb(0,0,0);stroke-width:2" />
-                    </svg>-->
-                    
+                  
                    
                     
                     <center> <form action="" method="POST">    
@@ -164,7 +160,7 @@ if(!isset($_SESSION['login'])){
                     <input type="text" name="o" placeholder="Opdater arbejdsområde 11"  style="width:70%"><br/><br/>
                     <input type="text" name="p" placeholder="Opdater arbejdsområde 12"  style="width:70%"><br/><br/>
                     <input type="text" name="u" placeholder="Opdater arbejdsområde 13"  style="width:70%"><br/><br/>
-                    <input type="text" name="g" placeholder="Opdater arbejdsområde 14"  style="width:70%"><br/><br/>
+                    <input type="text" name="g" placeholder="Opdater arbejdsområde 14"  style="width:70%"><br/>
                     
                     <center><hr align="center" width="100%"></center>
                     <button class="opdaterknapcss" type="submit" name="OPA">Opdater arbejdsområde</button>     
@@ -176,12 +172,7 @@ if(!isset($_SESSION['login'])){
                 <div id="Aboutmeop"><!--starten på aboutmeformen, søge ord Aboutme aboutme-->
                     <center><h1>Opdater Omkring mig</h1></center>
                     <center><hr align="center" width="100%"></center>
-                    
-                    <!--Linje
-                    <svg height="100%">
-                    <line y2="100%" style="stroke:rgb(0,0,0);stroke-width:2" />
-                    </svg>-->
-                    
+                   
                     <center><form action="" method="POST">
                         <h3>Opdater Omkring mig</h4>
                       <center><textarea rows="34%" name="omkring" cols="40%" style="width:70%; height: 60%" placeholder="Skriv din opdatering af omkring mig ." required></textarea></center> 

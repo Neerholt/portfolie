@@ -57,11 +57,18 @@ if(!isset($_SESSION['login'])){
                 
                 <div id="sletform"><!--Starten på min sletform, søg ord Sletform sletform-->
                  <center><h1>Slet Artikel</h1></center>
-                 <center><hr align="center" width="90%"></center>
-                 <br/>  
                  <center> <form action="" method="POST">
                          <input type="number" class="slettextboxs" name="id" placeholder="ID nummer"  style="width:60%" required=""><br/><br/>
                          <button class="sletknapcss" type="submit" name="slet">Slet</button>   
+                     </form></center>
+                 
+                 <br/><br/>
+                  <center><hr align="center" width="90%" color="black"></center>
+                 <br/>
+                 <center><form action="" method="">
+                     <center><h1>Søg</h1></center>
+                     <input type="text" class="slettextboxs" name="sogslet" placeholder="Søg..."  style="width:60%" required=""><br/><br/>
+                      <button class="sletknapcss" type="submit" name="">Søg</button> 
                      </form></center>
                  
                  
@@ -69,17 +76,7 @@ if(!isset($_SESSION['login'])){
                  
                 <div id="sletformartikelside"><!--starten på min side hvor jeg kan browse de artikel jeg har skrevet for at se hvad jeg skal slette-->
                     
-                    
-                     <div id="sog"><!--Starten på min søg funktion, søge ord Søg søg Sog sog-->
-                   <form action="" method="">
-                       <input type="text" name="" placeholder="Søg efter en project overskrift..." class="sogtextboxs" style="width:70%" required> 
-                          <button class="sogknapcss" type="submit" style="float:right" name="">Søg</button> 
-                    </form>
-                     <hr>
-                </div><!--Sluting på min søg funktion, søge ord Søg søg Sog sog-->
-                    
-                    
-                    
+                   
                     <div class="ex1">
                         <?php
                         include 'databaseconn.php';
