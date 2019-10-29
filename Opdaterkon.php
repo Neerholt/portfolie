@@ -35,6 +35,13 @@ $e = $_POST['e'];
 $j = $_POST['j'];
 $d = $_POST['d'];
 $t = $_POST['t'];
+$z = $_POST['z'];
+$x = $_POST['x'];
+$c = $_POST['c'];
+$o = $_POST['o'];
+$p = $_POST['p'];
+$u = $_POST['u'];
+$g = $_POST['g'];
 
 $connect = mysqli_connect($servername, $username, $password, $databasename);
 
@@ -42,12 +49,16 @@ if(!$connect){
     die("Connectiuon failed because" .mysqli_connect_error());
 } 
 
-$sql_tabel = "UPDATE arbejde SET ID=NULL,a='$a',r='$r',b='$b',e='$e',j='$j',d='$d',t='$t'";
+
+
+
+$sql_tabel = "UPDATE arbejde SET ID=NULL,a='$a',r='$r',b='$b',e='$e',j='$j',d='$d',t='$t',z='$z',x='$x',c='$c',o='$o',p='$p',u='$u',g='$g'";
 
 $data = mysqli_query($connect,$sql_tabel);
 
 mysqli_close($connect);
 }
+
 
 //starten på min opdater omkring mig 
 if(isset($_POST['OPOM'])){
@@ -146,7 +157,7 @@ if(!isset($_SESSION['login'])){
                     <input type="text" name="e" placeholder="Opdater arbejdsområde 4"  style="width:70%"> <br/><br/>
                     <input type="text" name="j" placeholder="Opdater arbejdsområde 5"  style="width:70%"><br/><br/>
                     <input type="text" name="d" placeholder="Opdater arbejdsområde 6"  style="width:70%"> <br/><br/>
-                    <input type="text" name="t" placeholder="Opdater arbejdsområde 7"  style="width:70%"><br/><br/><!--Skift navn, Gjort-->
+                    <input type="text" name="t" placeholder="Opdater arbejdsområde 7"  style="width:70%"><br/><br/>
                     <input type="text" name="z" placeholder="Opdater arbejdsområde 8"  style="width:70%"><br/><br/>
                     <input type="text" name="x" placeholder="Opdater arbejdsområde 9"  style="width:70%"><br/><br/>
                     <input type="text" name="c" placeholder="Opdater arbejdsområde 10"  style="width:70%"><br/><br/>
@@ -171,7 +182,7 @@ if(!isset($_SESSION['login'])){
                     <line y2="100%" style="stroke:rgb(0,0,0);stroke-width:2" />
                     </svg>-->
                     
-                    <center> <form action="" method="POST">
+                    <center><form action="" method="POST">
                         <h3>Opdater Omkring mig</h4>
                       <center><textarea rows="34%" name="omkring" cols="40%" style="width:70%; height: 60%" placeholder="Skriv din opdatering af omkring mig ." required></textarea></center> 
                       <center><hr align="center" width="100%"></center>
