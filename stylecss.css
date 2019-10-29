@@ -41,6 +41,21 @@ body{
     font-size: .90vw;
 }
 
+
+/*Stylesheet for min project side mainform*/
+/*
+#mainformpro{
+    width:auto;
+    height: 62%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: .90vw;
+}*/
+
+
 /*Stylesheet for min nav*/
 #nav{
     width: auto;
@@ -202,7 +217,7 @@ li a:hover:not(.active) {
 en scroll bar mid på siden så den stadig for bliver standart fixed*/
 div.ex1 {
   width: 100%;
-  height: 93%;
+  height: 100%;
   overflow: auto;
 }
 
@@ -215,7 +230,6 @@ div.ex1 {
     float: left; 
     border-right: 1px solid;
     font-size: 1.0vw;
-    
 }
 
 /*Stylesheet til et af mine divs under kontakt #e6dada;  siden*/

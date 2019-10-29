@@ -61,7 +61,7 @@ if(!isset($_SESSION['login'])){
                  <br/>  
                  <center> <form action="" method="POST">
                          <input type="number" class="slettextboxs" name="id" placeholder="ID nummer"  style="width:60%" required=""><br/><br/>
-                    <button class="sletknapcss" type="submit" name="slet">Slet</button>     
+                         <button class="sletknapcss" type="submit" name="slet">Slet</button>   
                      </form></center>
                  
                  
@@ -109,7 +109,8 @@ if(!isset($_SESSION['login'])){
                 
              
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->
-            <footer style="float:right">&copy; Copyright <?php echo date("Y");?> Victor Neerholt</footer>
+            <!--<footer style="float:right">&copy; Copyright <?php echo date("Y");?> Victor Neerholt</footer>-->
+             <footer style="float:right">Website made by Victor Neerholt</footer>
         </div><!--Slut på min container div, Søge ord: Container container-->
     </body>
 </html>

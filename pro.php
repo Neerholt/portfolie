@@ -25,13 +25,16 @@
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
-                   <div id="sog"><!--Starten på min søg funktion, søge ord Søg søg Sog sog-->
+                
+                 <div id="sog"><!--Starten på min søg funktion, søge ord Søg søg Sog sog-->
                    <form action="" method="">
                        <input type="text" name="" placeholder="Søg efter et project..." class="sogtextboxs" style="width:70%" required> 
                           <button class="sogknapcss" type="submit" style="float:right" name="">Søg</button> 
                     </form>
-                     <hr>
+                    <hr>
                 </div><!--Sluting på min søg funktion, søge ord Søg søg Sog sog-->
+                
+                  
                     
                     
                 <div class="ex1">
@@ -47,7 +50,7 @@
                              //Dette billede skal kunne hentes fra databasen og skal ikke være prefix
                              //Dette er bare et exsempel på hvordan jeg gerne vil have det skal se ud!
                             // echo '&nbsp;';
-                             echo "<h4><strong> &nbsp;".$row['overskrift']."</strong></h4>";
+                             echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
                              //echo '<br>';
                              //echo $row['dato'];
                              //echo '<br>';
@@ -60,11 +63,12 @@
                              //man kan læse hele artiklen!
                              echo '</div>';
                          }  
-                     } 
+                     }   
                      
                      ?>
                    </div>
-            <footer style="float:right">&copy; Copyright <?php echo date("Y");?> Victor Neerholt</footer>
         </div><!--Slut på min container div, Søge ord: Container container-->
+        <!-- <footer style="float:right">&copy; Copyright <?php echo date("Y");?> Victor Neerholt</footer>-->
+         <footer style="float:right">Website made by Victor Neerholt</footer>
     </body>
 </html>
