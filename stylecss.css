@@ -421,3 +421,60 @@ div.ex1{
 }
 
 
+
+/*Stylesheet for læse mere siden*/
+#mainformlase{
+    width:50%;
+    height: 82%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6dada;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: .90vw;
+    font-size: 1.7vh;
+}
+    
+
+
+/*stylesheet for min kasse som holder mit billede for når folk læser mere*/
+#billedelase{
+    width:100%;
+    height: 25%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6dada;
+    font-size: .90vw;
+    font-size: 1.7vh;
+    
+}
+
+
+/*Stylesheet min for som huser min artikeln når folk læser mere*/
+#artikelselv{
+    
+    width:100%;
+    height: 62%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6dada;
+    font-size: .90vw;
+    font-size: 1.7vh;
+     border-top: 1px solid;
+    
+}
+
+/*stylesheet for min kasse som holder min overskrift for når folk læser mere*/
+
+#overskriftpirnt{
+    width:100%;
+    height: 10%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6dada;
+    font-size: .90vw;
+    font-size: 1.7vh;
+}
+

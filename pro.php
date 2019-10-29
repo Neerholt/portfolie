@@ -44,7 +44,7 @@
                     
                 <div class="ex1">
                            <?php
-                     $sql_tabel = "SELECT * FROM opret;"; 
+                     $sql_tabel = "SELECT * FROM opret"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      
@@ -55,7 +55,7 @@
                              echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
                              echo $row['brodtekst']."...";
                              echo '<br>';
-                             echo "<a href=\"artikel.php?id=". $row['ID'] . "\">Borrow</a>";
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere...</a>";
                              echo '</div>';
                          }  
                      }  

@@ -126,7 +126,7 @@ if(!isset($_SESSION['login'])){
                             echo '<div id="textkasse">';
                             echo "<img src='images/".$row['billede']."' height='60%' width='100%'>";
                              echo "<h4><strong> &nbsp;".$row['overskrift']."</strong></h4>";
-                             echo "&nbsp; ID: ".$row['ID'];
+                             echo "&nbsp; ID: ".$row['idopret'];
                              echo '<br><br>';
                              echo " &nbsp;".$row['dato']."<br>";
                              echo "&nbsp;<a href='#Nothing'>Læse Artiklen...</a></font>";
