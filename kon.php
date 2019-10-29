@@ -89,7 +89,10 @@
                     <center><h1>Omkring mig</h1></center>
                     <center><hr align="center" width="90%"></center>
                     
-                    <?php
+                   <div id="beskedboxs">
+                       
+
+                     <?php
                      $sql_tabel = "SELECT * FROM opdaterbesked;"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
@@ -102,6 +105,8 @@
                          }  
                      } 
                      ?>
+                        
+                        </div>
                     
                       
                     
@@ -112,3 +117,4 @@
         </div><!--Slut på min container div, Søge ord: Container container-->
     </body>
 </html>
+

@@ -107,9 +107,10 @@ li a:hover:not(.active) {
 .textboxs{
     background-color: #FFFFFF;
     width: 300px;
-    padding: 10px 3px 3px 3px;
+    padding: 10px 5px 5px 3px;
     box-shadow: 10px 10px 5px grey;
     border: none;
+    text-align: center;
 }
 
 
@@ -338,9 +339,9 @@ div.ex1{
     margin-bottom: -0.5%;
     background-color: #FFFFFF;
     width: 70%;
-    padding: 10px 3px 3px 3px;
+    padding: 5px 3px 3px 3px;
     font-size: .70vw;
-    font-size: 1.0vh;
+    font-size: 1.2vh;
 }
 
 
@@ -349,7 +350,7 @@ div.ex1{
   background-color: #ed2b2b;
   border: none;
   color: white;
-  padding: 0.5% 3%;
+  padding: 0.4% 3%;
   text-align: center;
   font-size: .70vw;
   cursor: pointer;
@@ -404,4 +405,18 @@ div.ex1{
     padding: 10px 3px 3px 3px;
     font-size: .70vw;
   font-size: .70vh;
+}
+
+
+/*#Stylesheet for min kasse til at holde min besked text*/
+#beskedboxs{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: #e6dada;
+    float: left;
+    font-size: .90vw;
+    font-size: 1.7vh;
+   
 }
