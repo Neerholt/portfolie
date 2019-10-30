@@ -107,7 +107,7 @@ include 'databaseconn.php';
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                             echo "Upladet den: ".$row['dato']." | ";
+                             echo "Uploadet den: ".$row['dato']." | ";
                              echo "<a href='".$row['gitlink']."'>Link til Github</a>"." | ";
                              echo 'Artikel skrevet af Victor Neerholt.';
                              //echo 'Github blev ikke brug til denne opgave.'; 
