@@ -4,7 +4,7 @@ include 'databaseconn.php';
 ?>
 <html>
     <head>
-        <title>Portfolie/Ikke Forside</title>
+        <title>Portfolie/Læse mere</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="stylecss.css">
@@ -55,7 +55,7 @@ include 'databaseconn.php';
                          while ($row = mysqli_fetch_assoc($data)){
                             echo "<img src='images/".$row['billede2']."' height='100%' width='100%'>";
                          }  
-                     }  
+                     }
                      
                      ?>
                 </div><!--sluting på min div billedelase-->
