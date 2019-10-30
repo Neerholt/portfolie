@@ -87,17 +87,36 @@ include 'databaseconn.php';
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
                              echo $row['atikeltext'];
-                             echo '<br>';
-                             echo '<hr>';
-                             echo "Upladet den ".$row['dato']." | ";
-                             echo "<a href='".$row['gitlink']."'>Link til Github project.</a>";
-                             //echo 'Github blev ikke brug til denne opgave.'; 
                          }  
                      }  
                      
                      ?>
                     
                 </div>
+                
+                
+                
+                <div id="artikelfooter"><!--starten på min artikel footer-->
+                    <?php
+                     
+                     
+                     
+                     $sql_tabel = "SELECT * FROM opret where idopret='$id'"; //Huske at lave det dynamisk
+                     $data = mysqli_query($connect,$sql_tabel);
+                     $datacheck = mysqli_num_rows($data);
+                     
+                     if($data){
+                         while ($row = mysqli_fetch_assoc($data)){
+                             echo "Upladet den: ".$row['dato']." | ";
+                             echo "<a href='".$row['gitlink']."'>Link til Github</a>"." | ";
+                             echo 'Artikel skrevet af Victor Neerholt.';
+                             //echo 'Github blev ikke brug til denne opgave.'; 
+                         }  
+                     }  
+                     
+                     ?>
+                    
+                </div><!--slutning på min artikel footer-->
                 
                 
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->

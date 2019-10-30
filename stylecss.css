@@ -157,7 +157,7 @@ li a:hover:not(.active) {
   font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
-  margin-right: 10%;
+  margin-right: -10%;
   display: flex;
   font-size: 1.7vw;
   font-size: 1.7vh;
@@ -173,9 +173,9 @@ li a:hover:not(.active) {
   font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
+  margin-right: 10%;
+  margin-top: -4%;
   display: flex;
-  margin-left: -200px;
-  margin-top: -3.7%;
   font-size: 1.7vw;
   font-size: 1.7vh;
 }
@@ -464,7 +464,7 @@ div.ex1{
 /*Stylesheet min for som huser min artikeln når folk læser mere*/
 #artikelselv{
     width:90%;
-    height: 65%;
+    height: 62%;
     margin-left: auto;
     margin-right: auto;
     background-color: #e6dada;
@@ -496,4 +496,17 @@ div.ex1{
     font-size: 1.7vh;
     border-right:  1px solid;
     
+}
+
+
+#artikelfooter{
+    width:90%;
+    height: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6dada;
+    font-size: .90vw;
+    font-size: 1.7vh;
+    border-top: 1px solid;
+    text-align: center;
 }

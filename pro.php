@@ -50,7 +50,7 @@
                             echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
                              echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
                              echo $row['brodtekst']."...";
-                             echo '<br>';
+                             echo '<br><br>';
                              echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
                              echo '</div>';
                          }  
