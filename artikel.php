@@ -14,9 +14,6 @@ include 'databaseconn.php';
             <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
                 <center><h1><?php
                 
-               
-                    
-
                      $sql_tabel = "select * from opret where idopret='$id'"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
@@ -47,6 +44,8 @@ include 'databaseconn.php';
             <div id="mainformlase"><!--Starten på min mainform, søge ord mainform Mainform-->
               
                 <div id="billedelase"><!--Starte på min div billedelase-->
+                    
+               
                      <?php
                      $sql_tabel = "SELECT * FROM opret where idopret='$id'"; 
                      $data = mysqli_query($connect,$sql_tabel);
@@ -54,7 +53,7 @@ include 'databaseconn.php';
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                            echo "<img src='images/".$row['billede']."' height='100%' width='100%'>";
+                            echo "<img src='images/".$row['billede2']."' height='100%' width='100%'>";
                          }  
                      }  
                      
@@ -80,8 +79,6 @@ include 'databaseconn.php';
                      <?php
                      
                      
-                  
-                     
                      
                      $sql_tabel = "SELECT * FROM opret where idopret='$id'"; //Huske at lave det dynamisk
                      $data = mysqli_query($connect,$sql_tabel);
@@ -94,7 +91,7 @@ include 'databaseconn.php';
                              echo '<hr>';
                              echo "Upladet den ".$row['dato']." | ";
                              echo "<a href='#nothing'>Link til projectet fra Github</a>";
-
+                             //echo 'Github blev ikke brug til denne opgave.'; 
                          }  
                      }  
                      

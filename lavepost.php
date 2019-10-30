@@ -10,9 +10,12 @@ $databasename = 'portfolielogin';
 
 
 $billede = $_FILES['imagess']['name'];
+$billede1 = $_FILES['imagesss']['name'];
 $overskrift = $_POST ['overskrift'];
 $atikeltext = $_POST ['atikeltext'];
 $brodtekst = $_POST ['brodtekst'];
+$git = $_POST['gitlink'];
+
 
 $target = 'images/';
 
@@ -24,7 +27,7 @@ if(!$connect){
     die("Connectiuon failed because" .mysqli_connect_error());
 } 
 
-$sql_tabel = "INSERT INTO `opret`(`idopret`, `overskrift`, `billede`, `atikeltext`, `dato`, `brodtekst`) VALUES (NULL,'$overskrift','$billede','$atikeltext',NULL,'$brodtekst')";
+$sql_tabel = "INSERT INTO `opret`(`idopret`, `overskrift`, `billede`, `atikeltext`, `dato`, `brodtekst`, `billede2`, `gitlink`) VALUES (NULL,'$overskrift','$billede','$atikeltext',NULL,'$brodtekst','$billede1','$git')";
 
 $data = mysqli_query($connect,$sql_tabel);
 
@@ -80,7 +83,10 @@ if(!isset($_SESSION['login'])){
                                     <center><textarea rows="3%" class="textboxsopret" name="brodtekst"cols="40%" placeholder="Skrive en brødtekst til din artikel"  maxlength="100" required></textarea></center><br/>
                                     <hr>
                                      <h3>Project link fra Github</h3>
-                                    <input type="text"  class="textboxsopret" name="gitlink" placeholder="Link dit project fra github"><br/><br/>
+                                    <input type="text"  class="textboxsopret" name="gitlink" placeholder="Link dit project fra github">
+                                    <p>Includer Github link?</p>
+                                    <label>Ja</label><input type="checkbox" name="checkyes">
+                                    <label>Nej</label><input type="checkbox" name="checkno">
                                     <hr>
                                   <h3>Uploade billeder</h3>
                                   <label> Uploade et brødtekst billede: </label><input type="file" name="imagess" required><br/><br/>
