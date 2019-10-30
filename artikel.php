@@ -1,4 +1,7 @@
-<?php include 'databaseconn.php';?>
+<?php 
+include 'databaseconn.php';
+ $id = $_GET['id'];
+?>
 <html>
     <head>
         <title>Portfolie/Ikke Forside</title>
@@ -12,9 +15,9 @@
                 <center><h1><?php
                 
                
-                
+                    
 
-                     $sql_tabel = "select * from opret where idopret='79'"; //Huske at lave det dynamisk
+                     $sql_tabel = "select * from opret where idopret='$id'"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      
@@ -45,7 +48,7 @@
               
                 <div id="billedelase"><!--Starte på min div billedelase-->
                      <?php
-                     $sql_tabel = "SELECT * FROM opret where idopret='79'"; //Huske at lave det dynamisk
+                     $sql_tabel = "SELECT * FROM opret where idopret='$id'"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      
@@ -60,7 +63,7 @@
                 
                 <div id="overskriftpirnt">
                    <?php
-                     $sql_tabel = "SELECT * FROM opret where idopret='79'"; //Huske at lave det dynamisk
+                     $sql_tabel = "SELECT * FROM opret where idopret='$id'"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      
@@ -75,7 +78,12 @@
                 
                 <div id="artikelselv">
                      <?php
-                     $sql_tabel = "SELECT * FROM opret where idopret='79'"; //Huske at lave det dynamisk
+                     
+                     
+                  
+                     
+                     
+                     $sql_tabel = "SELECT * FROM opret where idopret='$id'"; //Huske at lave det dynamisk
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      
