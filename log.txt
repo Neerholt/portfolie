@@ -1,14 +1,7 @@
 #Ting jeg skal kigge på#
 Jeg skal have kigge sql injection.
 ......
-Hordan jeg kan gøre det sådan at når man kikker læse mere på et
-opslag skal den opne et ny window hvor man kan læse alle detaljer
-......
 Måske lave en side hvor man kan skifte/ måske add flere accounts til hjemmesiden.
-......
-Lave en side hvor amn kan opdater ens oplysninger på "Personlig, arbejdsområde og omkring mig"
-alt den data der er i disse divs skal kunne ænderes senere hen i livet!
-lave et interface til denne opagev
 ......
 lave en dropdown hvor man kan vælge om om vil opdater personlig, arbejdsområde eller omkringmig!
 ......
@@ -21,11 +14,6 @@ poper den frem som om den bliver valgt, samt at man bare kan klikke på hele ark
 komme til at læse hele artiklen, isted for at man skal kunne klikke på læse mere, det vil gøre 
 siden mere lækker at kigge på / sjover at browse min projecter! bare en tanke.
 ......
-Link projecet til github på siden hvor man kan læse mere om hvad det er for et projecet
-......
-Måske gør sådan at man kan uplaode et brødtekts billede og et artikel billede
-......
-
 ______________________________________
 
 #Problemer#
