@@ -10,7 +10,11 @@
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
             <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
                 <center><h1><?php
-                     $sql_tabel = "SELECT * FROM opret where idopret= '2'"; //Huske at lave det dynamisk
+                
+               
+                
+
+                     $sql_tabel = "select * from opret where idopret='79'"; //Huske at lave det dynamisk
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      
@@ -29,7 +33,7 @@
                     <li><a href="pro.php">Projekter</a></li>
                     <li><a href="kon.php">Kontakt</a></li>
                     <li><a href="login.html">Login</a></li>
-                     <li class="selected"><a href="index.html">Læse mere...</a></li>
+                    <li class="selected"><a href="#Nothing">Læse mere...</a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Steam</a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Facebook</a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Twitter</a></li>
@@ -41,7 +45,7 @@
               
                 <div id="billedelase"><!--Starte på min div billedelase-->
                      <?php
-                     $sql_tabel = "SELECT * FROM opret where idopret='2'"; //Huske at lave det dynamisk
+                     $sql_tabel = "SELECT * FROM opret where idopret='79'"; //Huske at lave det dynamisk
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      
@@ -56,7 +60,7 @@
                 
                 <div id="overskriftpirnt">
                    <?php
-                     $sql_tabel = "SELECT * FROM opret where idopret='2'"; //Huske at lave det dynamisk
+                     $sql_tabel = "SELECT * FROM opret where idopret='79'"; //Huske at lave det dynamisk
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      
@@ -71,7 +75,7 @@
                 
                 <div id="artikelselv">
                      <?php
-                     $sql_tabel = "SELECT * FROM opret where idopret='2'"; //Huske at lave det dynamisk
+                     $sql_tabel = "SELECT * FROM opret where idopret='79'"; //Huske at lave det dynamisk
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      
@@ -80,7 +84,9 @@
                              echo $row['atikeltext'];
                              echo '<br>';
                              echo '<hr>';
-                             echo "Upladet den ".$row['dato'];
+                             echo "Upladet den ".$row['dato']." | ";
+                             echo "<a href='#nothing'>Link til projectet fra Github</a>";
+
                          }  
                      }  
                      

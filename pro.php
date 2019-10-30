@@ -29,8 +29,8 @@
              
                  <div id="sog"><!--Starten på min søg funktion, søge ord Søg søg Sog sog-->
                    <form action="" method="">
-                       <input type="text" name="" placeholder="Søg efter et project..." class="sogtextboxs" style="width:70%" required> 
-                          <button class="sogknapcss" type="submit" style="float:right" name="">Søg</button> 
+                       <input type="text" name="" placeholder="Søg efter et project..." class="sogtextboxs" style="width:70%" disabled> <!--Enable disable hvis søg virker required huske!-->
+                       <button class="sogknapcss" type="submit" style="float:right" name="" disabled>Søg</button> <!--Enable disable hvis søg virker-->
                     </form>
                     <hr>
                 </div><!--Sluting på min søg funktion, søge ord Søg søg Sog sog-->
@@ -51,7 +51,7 @@
                              echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
                              echo $row['brodtekst']."...";
                              echo '<br>';
-                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere...</a>";
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
                              echo '</div>';
                          }  
                      }  

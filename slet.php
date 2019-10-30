@@ -128,9 +128,11 @@ if(!isset($_SESSION['login'])){
                             echo '<div id="textkasse">';
                             echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
                              echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
-                             echo $row['brodtekst']."...";
-                             echo '<br>';
-                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere...</a>";
+                             echo "ID: ".$row['idopret'];
+                             echo '<br><br>';
+                             echo $row['dato'];
+                             echo '<br><br>';
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Se artiklen</a>";//Måske lave det sådan at man kommer in på en anden side, end den en clint kommer ind på
                              echo '</div>';
                          }  
                      }  

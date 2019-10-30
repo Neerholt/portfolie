@@ -13,7 +13,7 @@
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
-                    <li class="selected"><a href="index.html">Forside</a></li>
+                    <li class="selected"><a href="index.php">Forside</a></li>
                     <li><a href="pro.php">Projekter</a></li>
                     <li><a href="kon.php">Kontakt</a></li>
                     <li><a href="login.html">Login</a></li>

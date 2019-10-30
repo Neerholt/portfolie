@@ -217,7 +217,7 @@ li a:hover:not(.active) {
 /*stylesheet for det kasser som er uden om et opslag*/
 #textkasse{
   margin-top: 1%;
-  margin-left: 4.7%;
+  margin-left: 6.5%;
   margin-bottom: 1%;
   width: 17%;
   height: 47%;
@@ -349,6 +349,7 @@ div.ex1{
     padding: 5px 3px 3px 3px;
     font-size: .70vw;
     font-size: 1.2vh;
+    cursor: not-allowed; /*Slet hvis søge funktionen kommer til at virke*/
 }
 
 
@@ -365,6 +366,7 @@ div.ex1{
   margin-right: 16%;
   margin-top: 0.5%;
   margin-left: 1%;
+  cursor: not-allowed; /*Slet hvis søge funktionen kommer til at virke*/
 }
 
 
@@ -462,7 +464,7 @@ div.ex1{
 /*Stylesheet min for som huser min artikeln når folk læser mere*/
 #artikelselv{
     width:90%;
-    height: 62%;
+    height: 65%;
     margin-left: auto;
     margin-right: auto;
     background-color: #e6dada;
@@ -475,7 +477,7 @@ div.ex1{
 /*stylesheet for min kasse som holder min overskrift for når folk læser mere*/
 #overskriftpirnt{
     width:100%;
-    height: 10%;
+    height: 7%;
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;

@@ -89,7 +89,7 @@ if(!isset($_SESSION['login'])){
                         
                                     <hr>
                                     <h3>Skriv din artikel her</h4>
-                                    <center><textarea rows="22%" name="atikeltext" cols="80%" style="width:50%; height: 80%;" placeholder="Skriv din artikel her." maxlength="2100" required></textarea></center>    
+                                    <center><textarea rows="22%" name="atikeltext" cols="80%" style="width:50%; height: 80%;" placeholder="Skriv din artikel her." maxlength="2000" required></textarea></center>    
                                     <button class="opretknap" onclick="sendbesked" type="submit" name="GEM">Opret artikel</button>
                                 </form></center>  
                         <center><div>
