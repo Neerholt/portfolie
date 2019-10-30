@@ -316,6 +316,7 @@ div.ex1{
     border: ridge;
     font-size: .90vw;
     font-size: 1.7vh;
+    text-align: left;
 }
 
 /*Styelsheet for opdater knap knappen*/
@@ -511,3 +512,6 @@ div.ex1{
     border-top: 1px solid;
     text-align: center;
 }
+
+
+
