@@ -90,7 +90,7 @@ include 'databaseconn.php';
                              echo '<br>';
                              echo '<hr>';
                              echo "Upladet den ".$row['dato']." | ";
-                             echo "<a href='".$row['gitlink']."'>Link til projectet fra Github</a>";
+                             echo "<a href='".$row['gitlink']."'>Link til Github project.</a>";
                              //echo 'Github blev ikke brug til denne opgave.'; 
                          }  
                      }  
