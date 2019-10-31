@@ -47,8 +47,8 @@
                              echo $row['brodtekst']."...";
                              echo '</div>';
                              echo '<div id="artikellink">';
-                             //echo "<a href=\"artikel.php?id=". $row['idopret'] . "\"><button class='linkknapcss'>Læse mere</button></a>"; Måske
-                              echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
+                              echo "<a href=\"artikel.php?id=". $row['idopret'] . "\"><button class='linkknapcss'>Klik her for at læse hele artiklen</button></a>"; 
+                             // echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
                              echo '</div>';
                              echo '</div>';
                          }  
@@ -105,7 +105,7 @@
                              echo $row['brodtekst']."...";
                              echo '</div>';
                              echo '<div id="artikellink">';
-                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\"><button class='linkknapcss'>Klik her for at læse hele artiklen</button></a>"; 
                              echo '</div>';
                              echo '</div>';
                          }  

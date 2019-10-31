@@ -219,7 +219,7 @@ li a:hover:not(.active) {
   margin-top: 1%;
   margin-left: 6%;
   margin-bottom: 1%;
-  width: 17.5%;
+  width: 16%;
   height: 46%;
   float: left;
   overflow: hidden;
@@ -349,7 +349,7 @@ div.ex1{
 
 /*Styelsheet for min sog textsboxs*/
 .sogtextboxs{
-    margin-left: 5%;
+    margin-left: 6%;
     margin-top: 0.5%;
     margin-bottom: -0.5%;
     background-color: #FFFFFF;
@@ -371,7 +371,7 @@ div.ex1{
   font-size: .70vw;
   cursor: pointer;
   display: flex;
-  margin-right: 16%;
+  margin-right: 15%;
   margin-top: 0.5%;
   margin-left: 1%;
   cursor: not-allowed; /*Slet hvis søge funktionen kommer til at virke*/
@@ -652,16 +652,31 @@ div.ex1{
 }
 
 
-/*Stylesheet for link knap css, bliver ikke brugt til noget*/
+/*Stylesheet for link knap css index side*/
 
 .linkknapcss{
   background-color: #ed2b2b;
   border: none;
   color: white;
-  padding: 3px 90px;
+  padding: 3px 17px;
   cursor: pointer;
-  font-size: 1.2vw;
-  font-size: 1.2vh;
+  font-size: 14px;
+  text-decoration: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+
+/*Stylesheet for link knap css projekt side*/
+.linkknapcsspro{
+  background-color: #ed2b2b;
+  border: none;
+  color: white;
+  padding: 3px 16px;
+  cursor: pointer;
+  font-size: 14px;
   text-decoration: none;
   border-left: 1px solid black;
   border-right: 1px solid black;
