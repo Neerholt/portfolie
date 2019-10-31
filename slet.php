@@ -125,14 +125,19 @@ if(!isset($_SESSION['login'])){
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                            echo '<div id="textkasse">';
-                            echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
-                             echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
+                             echo '<div id="textkassesletside">';
+                             echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
+                             echo '<div id="overskriftcss">';
+                             echo "<h4><strong>&nbsp;".$row['overskrift']."</strong></h4>";
+                             echo '</div>';
+                             echo '<div id="kassebrodtekst">';
                              echo "ID: ".$row['idopret'];
-                             echo '<br><br>';
+                             echo '<br>';
                              echo $row['dato'];
-                             echo '<br><br>';
-                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Se artiklen</a>";//Måske lave det sådan at man kommer in på en anden side, end den en clint kommer ind på
+                             echo '</div>';
+                             echo '<div id="artikellink">';
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Se artiklen</a>";
+                             echo '</div>';
                              echo '</div>';
                          }  
                      }  

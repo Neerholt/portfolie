@@ -629,7 +629,26 @@ div.ex1{
     border-left: 2px solid red;
     border-right: 2px solid red;
     background-color: #f0efed;
-    
-    
+
 }
+
+
+/*stylesheet for det kasser som er uden om et opslag på slet siden*/
+#textkassesletside{
+  margin-top: 1%;
+  margin-left: 9%;
+  margin-bottom: 1%;
+  width: 21%;
+  height: 40%;
+  float: left;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: .90vw;
+  font-size: 1.7vh;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
 
