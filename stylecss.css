@@ -221,12 +221,17 @@ li a:hover:not(.active) {
   margin-bottom: 1%;
   width: 17%;
   height: 46%;
-  overflow: hidden;
   float: left;
+  overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  line-height: 100%;
   font-size: .90vw;
   font-size: 1.7vh;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+
+
 }
 
 
@@ -525,9 +530,12 @@ div.ex1{
   float: top;
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  line-height: 100%;
   font-size: .90vw;
   font-size: 1.7vh;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
 
@@ -588,13 +596,41 @@ div.ex1{
     font-size: 1.7vh;
 }
 
-
-#artiklebrodholder{
+/*Stylesheet for css inde i texsboxs artikel ting kassen*/
+#kassebrodtekst{
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
-     margin-top: -7%;
-     width: 95%;
-     height: 43%;
-     background-color: #e6dada;
+    margin-bottom: -10%;
+    width: 95%;
+    height: 21%;
+    background-color: #e6dada;
+}
+
+
+/*Stylesheet for css inde i texsboxs artikel ting kassen*/
+#artikellink{
+    margin-top: 16.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2%;
+    width: 95%;
+    height: 6%;
+    background-color: #e6dada;
+
+}
+
+/*Stylesheet for min css overskrift ting*/
+#overskriftcss{
+    margin-top: -5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    width: 95%;
+    height: 6%;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    background-color: #f0efed;
+    
 }
 

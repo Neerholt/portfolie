@@ -40,10 +40,13 @@
                          while ($row = mysqli_fetch_assoc($data)){
                              echo '<div id="textkassebofloat">';
                              echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
-                             echo '<div id="artiklebrodholder">';
-                             echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
+                             echo '<div id="overskriftcss">';
+                             echo "<h4><strong>&nbsp;".$row['overskrift']."</strong></h4>";
+                             echo '</div>';
+                             echo '<div id="kassebrodtekst">';
                              echo $row['brodtekst']."...";
-                             echo '<br><br>';
+                             echo '</div>';
+                             echo '<div id="artikellink">';
                              echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
                              echo '</div>';
                              echo '</div>';
@@ -87,12 +90,15 @@
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                            echo '<div id="textkassebofloat">';
+                             echo '<div id="textkassebofloat">';
                              echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
-                             echo '<div id="artiklebrodholder">';
-                             echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
+                             echo '<div id="overskriftcss">';
+                             echo "<h4><strong>&nbsp;".$row['overskrift']."</strong></h4>";
+                             echo '</div>';
+                             echo '<div id="kassebrodtekst">';
                              echo $row['brodtekst']."...";
-                             echo '<br><br>';
+                             echo '</div>';
+                             echo '<div id="artikellink">';
                              echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
                              echo '</div>';
                              echo '</div>';
@@ -103,6 +109,10 @@
                     
                 </div><!--Slutning på min div anbefaling-->
 
+                
+                
+                
+               
                 
                   
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->
