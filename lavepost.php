@@ -1,12 +1,9 @@
 <?php 
+include 'databseconn.php';
+
+
 if(isset($_POST['GEM'])){
   
-  
-$servername = 'localhost';
-$username = 'root';
-$password = '';
-$databasename = 'portfolielogin';
-
 
 
 $billede = $_FILES['imagess']['name'];
