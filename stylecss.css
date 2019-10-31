@@ -515,20 +515,6 @@ div.ex1{
     text-align: center;
 }
 
-
-#anbefaling{
-    margin-top: -4.5%;
-    margin-left: 77%;
-    width: 23%;
-    height: 100%;
-    background-color:#e6dada;
-    border-left: 1px solid;
-    font-size: 1.0vw;
-    font-size: 1.7vh;
-    overflow: hidden;
-}
-
-
 /*stylesheet for det kasser som er uden om et opslag på index anbefaling kassen*/
 #textkassebofloat{
   margin-top: 2%;
@@ -544,4 +530,45 @@ div.ex1{
   font-size: 1.7vh;
 }
 
+
+/*Stylesheet til et af mine divs under opdater kontakt siden*/
+#anbefaling{
+    width: 23%;
+    height: 100%;
+    background-color: #e6dada;
+    float: left;
+    border-left: 1px solid;
+    font-size: .90vw;
+    font-size: 1.7vh;
+}
+
+/*Stylesheet til et af mine divs under opdater kontakt siden */
+#formainindex{
+    width: 76.9%;
+    height: 100%;
+    background-color:#e6dada;
+    float: left;
+    font-size: .90vw;
+    font-size: 1.7vh;
+}
+
+
+/*Stylesheet for min border der er tundt om index spågsmål*/
+.borderting{
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+  background-color: #f0efed;
+  width: 50%;
+  height: 4%;
+}
+
+/*Styelsheet for min spøgsmåls box på index side*/
+.spg1{
+    background-color: #f0efed;
+    width: 50%;
+    height: 20%;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 

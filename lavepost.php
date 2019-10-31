@@ -15,7 +15,6 @@ $overskrift = $_POST ['overskrift'];
 $atikeltext = $_POST ['atikeltext'];
 $brodtekst = $_POST ['brodtekst'];
 $git = $_POST['gitlink'];
-$checkbox = $_POST['checkyes'];
 
 
 $target = 'images/';
@@ -28,7 +27,7 @@ if(!$connect){
     die("Connectiuon failed because" .mysqli_connect_error());
 } 
 
-$sql_tabel = "INSERT INTO `opret`(`idopret`, `overskrift`, `billede`, `atikeltext`, `dato`, `brodtekst`, `billede2`, `gitlink`) VALUES (NULL,'$overskrift','$billede','$atikeltext',NULL,'$brodtekst','$billede1','$git','$checkbox')";
+$sql_tabel = "INSERT INTO `opret`(`idopret`, `overskrift`, `billede`, `atikeltext`, `dato`, `brodtekst`, `billede2`, `gitlink`) VALUES (NULL,'$overskrift','$billede','$atikeltext',NULL,'$brodtekst','$billede1','$git')";
 
 $data = mysqli_query($connect,$sql_tabel);
 

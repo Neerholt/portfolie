@@ -26,7 +26,20 @@
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 
-                <h1>Velkommen til min portfolie hjemmeside :)</h1>
+                
+                <div id="formainindex"><!--Starten på min main indexform-->
+                    <center><h1>Velkommen til min portfolie hjemmeside</h1></center>
+                     <center><hr align="center" width="90%"></center>
+                     <center><h2 class="borderting">Omkring denne hjemmesiden.</h2></center>
+                     
+                     <center><form class="spg1">
+                             <p>Test</p>
+                         </form></center>
+                  
+                     
+                    
+                </div><!--slutning på min main form index-->
+              
                 
                 
                 
@@ -35,11 +48,11 @@
                 
                 
                 <div id="anbefaling"><!--Starten  på mit div anbefaling-->
-                    <center><h1>Anbefalet Artikler</h1></center>
-                    <center><hr align="center" width="90%"></center>
+                    <center><h1>Ny Artikler</h1></center>
+                    <center><hr align="center" width="75%"></center>
                     
                       <?php
-                     $sql_tabel = "SELECT * FROM opret LIMIT 2"; 
+                     $sql_tabel = "SELECT * FROM opret order by idopret desc limit 2"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      
