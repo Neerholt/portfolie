@@ -522,9 +522,9 @@ div.ex1{
 /*stylesheet for det kasser som er uden om et opslag på index anbefaling kassen*/
 #textkassebofloat{
   margin-top: 2%;
-  margin-left: 13%;
+  margin-left: 15%;
   margin-bottom: 6%;
-  width: 75%;
+  width: 70%;
   height: 42%;
   float: top;
   overflow: hidden;
