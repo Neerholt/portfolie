@@ -47,7 +47,7 @@
                              echo $row['brodtekst']."...";
                              echo '</div>';
                              echo '<div id="artikellink">';
-                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\"><button>Link Text</button></a>";
                              echo '</div>';
                              echo '</div>';
                          }  
@@ -68,6 +68,11 @@
                      
                      <center><form class="spg1">
                              <p>Test Test Test TestTest TestTest TestTest TestTest TestTest TestTest Test</p>
+                             <a href="#"><button class="testfortest" >Link Text</button></a>
+
+                             <!--Du er ved at lave noget css til en link knap-->
+                             
+                            
                          </form></center>
                   
                 </div><!--slutning på min main form index-->
