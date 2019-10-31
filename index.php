@@ -38,12 +38,14 @@
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                            echo '<div id="textkassebofloat">';
-                            echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
+                             echo '<div id="textkassebofloat">';
+                             echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
+                             echo '<div id="artiklebrodholder">';
                              echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
                              echo $row['brodtekst']."...";
                              echo '<br><br>';
                              echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
+                             echo '</div>';
                              echo '</div>';
                          }  
                      }  
@@ -86,11 +88,13 @@
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
                             echo '<div id="textkassebofloat">';
-                            echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
+                             echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
+                             echo '<div id="artiklebrodholder">';
                              echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
                              echo $row['brodtekst']."...";
                              echo '<br><br>';
                              echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
+                             echo '</div>';
                              echo '</div>';
                          }  
                      }  

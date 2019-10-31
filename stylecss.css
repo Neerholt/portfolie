@@ -576,8 +576,9 @@ div.ex1{
     font-size: 1.7vh;
 }
 
+
+/*stylesheet for leftside panel på index side*/
 #indexleft{
-    
     width: 23%;
     height: 100%;
     background-color: #e6dada;
@@ -585,5 +586,15 @@ div.ex1{
     border-right: 1px solid;
     font-size: .90vw;
     font-size: 1.7vh;
-    
 }
+
+
+#artiklebrodholder{
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: -7%;
+     width: 95%;
+     height: 43%;
+     background-color: #e6dada;
+}
+
