@@ -34,7 +34,7 @@ body{
 #mainform{
     width:auto;
     height: 82%;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
     background-color: #e6dada;
@@ -61,7 +61,7 @@ body{
 /*Stylesheet for min nav*/
 #nav{
     width: auto;
-    height: 2.5%;
+    height: 4.4%;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -223,13 +223,14 @@ li a:hover:not(.active) {
   height: 46%;
   float: left;
   overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 10px 10px 5px grey;
   font-size: .90vw;
   font-size: 1.7vh;
   border-left: 1px solid black;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+  
 }
 
 
@@ -343,7 +344,7 @@ div.ex1{
     margin-left: auto;
     margin-right: auto;
     background-color:#c7c2b3;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 /*Styelsheet for min sog textsboxs*/
