@@ -1,8 +1,8 @@
 <?php
-$servername = 'localhost';
-$username = 'root';
-$password = '';
-$databasename = 'portfolielogin';
+$servername = 'neerholt.it.mysql';
+$username = 'neerholt_it';
+$password = 'Mejerivej2';
+$databasename = 'neerholt_it';
 
 $connect = mysqli_connect($servername, $username, $password, $databasename);
 

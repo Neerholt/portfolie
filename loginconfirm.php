@@ -1,10 +1,10 @@
 <?php 
 
 session_start();
-$hostname="localhost"; //Host navn på min database.
-$username="root"; //standard brugernavn på database for linux.
-$password=""; //adgangskode.
-$database_name="portfolielogin"; //Navnet på min SQL database.
+$servername = 'neerholt.it.mysql';
+$username = 'neerholt_it';
+$password = 'Mejerivej2';
+$databasename = 'neerholt_it';
 $tabel_name="loginform"; //Navnet på min SQL databases tabel hvor mine brugere står listet. 
 
 
