@@ -217,9 +217,9 @@ li a:hover:not(.active) {
 /*stylesheet for det kasser som er uden om et opslag*/
 #textkasse{
   margin-top: 1%;
-  margin-left: 6.5%;
+  margin-left: 6%;
   margin-bottom: 1%;
-  width: 17%;
+  width: 17.5%;
   height: 46%;
   float: left;
   overflow: hidden;
@@ -230,8 +230,6 @@ li a:hover:not(.active) {
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
-
-
 }
 
 
@@ -631,6 +629,7 @@ div.ex1{
     border-left: 2px solid red;
     border-right: 2px solid red;
     background-color: #f0efed;
+    
     
 }
 
