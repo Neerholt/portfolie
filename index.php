@@ -27,17 +27,44 @@
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 
                 
+                <div id="indexleft"><!--Starten på mit div til venster side på index side-->
+                     <center><h1>Anbefalet Artikler</h1></center>
+                    <center><hr align="center" width="75%"></center>
+                    
+                      <?php
+                     $sql_tabel = "SELECT * FROM opret limit 2"; 
+                     $data = mysqli_query($connect,$sql_tabel);
+                     $datacheck = mysqli_num_rows($data);
+                     
+                     if($data){
+                         while ($row = mysqli_fetch_assoc($data)){
+                            echo '<div id="textkassebofloat">';
+                            echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
+                             echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
+                             echo $row['brodtekst']."...";
+                             echo '<br><br>';
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
+                             echo '</div>';
+                         }  
+                     }  
+                     
+                     ?>
+                    
+                </div><!--slutning på mit div til venster side på index side-->
+                
+                
+                
+                
+                
                 <div id="formainindex"><!--Starten på min main indexform-->
                     <center><h1>Velkommen til min portfolie hjemmeside</h1></center>
                      <center><hr align="center" width="90%"></center>
                      <center><h2 class="borderting">Omkring denne hjemmesiden.</h2></center>
                      
                      <center><form class="spg1">
-                             <p>Test</p>
+                             <p>Test Test Test TestTest TestTest TestTest TestTest TestTest TestTest Test</p>
                          </form></center>
                   
-                     
-                    
                 </div><!--slutning på min main form index-->
               
                 

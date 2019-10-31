@@ -542,9 +542,9 @@ div.ex1{
     font-size: 1.7vh;
 }
 
-/*Stylesheet til et af mine divs under opdater kontakt siden */
+/*Stylesheet til et af mine divs under indexside kontakt siden */
 #formainindex{
-    width: 76.9%;
+    width: 53.8%;
     height: 100%;
     background-color:#e6dada;
     float: left;
@@ -560,15 +560,30 @@ div.ex1{
   background-color: #f0efed;
   width: 50%;
   height: 4%;
+  font-size: .90vw;
+  font-size: 2.5vh;
 }
 
 /*Styelsheet for min spøgsmåls box på index side*/
 .spg1{
     background-color: #f0efed;
-    width: 50%;
+    width: 70%;
     height: 20%;
     border-left: 3px solid red;
     border-right: 3px solid red;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: .90vw;
+    font-size: 1.7vh;
 }
 
+#indexleft{
+    
+    width: 23%;
+    height: 100%;
+    background-color: #e6dada;
+    float: left;
+    border-right: 1px solid;
+    font-size: .90vw;
+    font-size: 1.7vh;
+    
+}
