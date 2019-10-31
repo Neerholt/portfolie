@@ -26,12 +26,40 @@
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 
-                <h1>This is test text.</h1>
+                <h1>Velkommen til min portfolie hjemmeside :)</h1>
+                
+                
+                
+                
+                
+                
+                
+                <div id="anbefaling"><!--Starten  på mit div anbefaling-->
+                    <center><h1>Anbefalet Artikler</h1></center>
+                    <center><hr align="center" width="90%"></center>
+                    
+                      <?php
+                     $sql_tabel = "SELECT * FROM opret LIMIT 2"; 
+                     $data = mysqli_query($connect,$sql_tabel);
+                     $datacheck = mysqli_num_rows($data);
+                     
+                     if($data){
+                         while ($row = mysqli_fetch_assoc($data)){
+                            echo '<div id="textkassebofloat">';
+                            echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
+                             echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
+                             echo $row['brodtekst']."...";
+                             echo '<br><br>';
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
+                             echo '</div>';
+                         }  
+                     }  
+                     
+                     ?>
+                    
+                </div><!--Slutning på min div anbefaling-->
 
                 
-                  
-                
-                <!--Code the main funktion here-->
                   
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->
            <!-- <footer style="float:right">&copy; Copyright <?php echo date("Y");?> Victor Neerholt</footer>-->

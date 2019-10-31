@@ -15,6 +15,7 @@ $overskrift = $_POST ['overskrift'];
 $atikeltext = $_POST ['atikeltext'];
 $brodtekst = $_POST ['brodtekst'];
 $git = $_POST['gitlink'];
+$checkbox = $_POST['checkyes'];
 
 
 $target = 'images/';
@@ -27,7 +28,7 @@ if(!$connect){
     die("Connectiuon failed because" .mysqli_connect_error());
 } 
 
-$sql_tabel = "INSERT INTO `opret`(`idopret`, `overskrift`, `billede`, `atikeltext`, `dato`, `brodtekst`, `billede2`, `gitlink`) VALUES (NULL,'$overskrift','$billede','$atikeltext',NULL,'$brodtekst','$billede1','$git')";
+$sql_tabel = "INSERT INTO `opret`(`idopret`, `overskrift`, `billede`, `atikeltext`, `dato`, `brodtekst`, `billede2`, `gitlink`) VALUES (NULL,'$overskrift','$billede','$atikeltext',NULL,'$brodtekst','$billede1','$git','$checkbox')";
 
 $data = mysqli_query($connect,$sql_tabel);
 
@@ -86,8 +87,8 @@ if(!isset($_SESSION['login'])){
                                      <h3>Project link fra Github</h3>
                                     <input type="text"  class="textboxsopret" name="gitlink" placeholder="Link dit project fra github">
                                     <p>Include Github link?</p>
-                                    <label>Ja</label><input type="checkbox" name="checkyes" checked>
-                                    <label>Nej</label><input type="checkbox" name="checkno">
+                                    <label>Ja</label><input type="checkbox" name="checkyes" >
+                                    <label>Nej</label><input type="checkbox" name="checkno" checked>
                                     <hr>
                                   <h3>Uploade billeder</h3>
                                   <label>Uploade et brødtekst billede:<br/></label><input type="file" name="imagess" required><br/><br/>

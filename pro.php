@@ -47,7 +47,7 @@
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
                             echo '<div id="textkasse">';
-                            echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
+                             echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
                              echo "<h4><strong> ".$row['overskrift']."</strong></h4>";
                              echo $row['brodtekst']."...";
                              echo '<br><br>';

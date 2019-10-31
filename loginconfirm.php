@@ -37,7 +37,7 @@ if($count == 1){
 
 } else {
 
-    header("location:https://www.google.com/search?rlz=1C1CHBD_daDK872DK872&sxsrf=ACYBGNQmISqdK_gAsp7Bs11Ma2dZkefUZw%3A1571988340218&ei=dKOyXYn8DK6cmwXAkYCADw&q=how+to+hack+a+website+with+sql+injection&oq=how+to+hack+a+website+with+s&gs_l=psy-ab.3.0.0i203l2.5252.13746..15121...1.1..0.149.2724.19j9......0....1..gws-wiz.....10..0i71j35i362i39j35i39i19j35i39j0i131j0j0i67.BfNeZUPIDoU");
+    header("location:login.html");
 
 }
 
