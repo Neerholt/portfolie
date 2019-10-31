@@ -608,7 +608,7 @@ div.ex1{
 
 /*Stylesheet for css inde i texsboxs artikel ting kassen*/
 #artikellink{
-    margin-top: 16.5%;
+    margin-top: 15%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -2%;
@@ -651,3 +651,19 @@ div.ex1{
 }
 
 
+/*Stylesheet for link knap css, bliver ikke brugt til noget*/
+
+.linkknapcss{
+  background-color: #ed2b2b;
+  border: none;
+  color: white;
+  padding: 3px 90px;
+  cursor: pointer;
+  font-size: 1.2vw;
+  font-size: 1.2vh;
+  text-decoration: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
