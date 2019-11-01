@@ -56,7 +56,7 @@
                              echo $row['brodtekst']."...";
                              echo '</div>';
                              echo '<div id="artikellink">';
-                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\"><button class='linkknapcsspro'>Læse hele artiklen?</button></a>"; 
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\" target='_blank'><button class='linkknapcss'>Læse hele artiklen?</button></a>"; 
                              echo '</div>';
                              echo '</div>';
                          }  

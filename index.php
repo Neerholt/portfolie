@@ -17,9 +17,9 @@
                     <li><a href="pro.php">Projekter</a></li>
                     <li><a href="kon.php">Kontakt</a></li>
                     <li><a href="login.html">Login</a></li>
-                    <li style="float:right"><a href="https://steamcommunity.com/id/qvikke93steamaccount">Steam</a></li>
+                    <li style="float:right"><a href="https://steamcommunity.com/id/qvikke93steamaccount" target="_blank">Steam</a></li>
                     <li style="float:right"><a href="#">Facebook</a></li>
-                    <li style="float:right"><a href="https://twitter.com/qvikke93">Twitter</a></li>
+                    <li style="float:right"><a href="https://twitter.com/qvikke93" target="_blank">Twitter</a></li>
                     <li style="float:right"><a href="#">Linkedin</a></li>
                     <li style="float:right"><a href="#">Praktikpladsen</a></li>
                 </ul>
@@ -47,7 +47,7 @@
                              echo $row['brodtekst']."...";
                              echo '</div>';
                              echo '<div id="artikellink">';
-                              echo "<a href=\"artikel.php?id=". $row['idopret'] . "\"><button class='linkknapcss'>Læse hele artiklen?</button></a>"; 
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\" target='_blank'><button class='linkknapcss'>Læse hele artiklen?</button></a>"; 
                              // echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
                              echo '</div>';
                              echo '</div>';
@@ -111,7 +111,7 @@
                              echo $row['brodtekst']."...";
                              echo '</div>';
                              echo '<div id="artikellink">';
-                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\"><button class='linkknapcss'>Læse hele artiklen?</button></a>"; 
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\" target='_blank'><button class='linkknapcss'>Læse hele artiklen?</button></a>"; 
                              echo '</div>';
                              echo '</div>';
                          }  
