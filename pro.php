@@ -17,9 +17,9 @@
                     <li class="selected"><a href="pro.html" >Projekter</a></li>
                     <li><a href="kon.php">Kontakt</a></li>
                     <li><a href="login.html">Login</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Steam </a></li>
+                    <li style="float:right"><a href="https://steamcommunity.com/id/qvikke93steamaccount">Steam </a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Facebook</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Twitter</a></li>
+                    <li style="float:right"><a href="https://twitter.com/qvikke93">Twitter</a></li>
                      <li style="float:right"><a href="#IdoNothingYet">Linkedin</a></li>
                       <li style="float:right"><a href="#IdoNothingYet">Praktikpladsen</a></li>
                 </ul>

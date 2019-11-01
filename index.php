@@ -17,11 +17,11 @@
                     <li><a href="pro.php">Projekter</a></li>
                     <li><a href="kon.php">Kontakt</a></li>
                     <li><a href="login.html">Login</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Steam</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Facebook</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Twitter</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Linkedin</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Praktikpladsen</a></li>
+                    <li style="float:right"><a href="https://steamcommunity.com/id/qvikke93steamaccount">Steam</a></li>
+                    <li style="float:right"><a href="#">Facebook</a></li>
+                    <li style="float:right"><a href="https://twitter.com/qvikke93">Twitter</a></li>
+                    <li style="float:right"><a href="#">Linkedin</a></li>
+                    <li style="float:right"><a href="#">Praktikpladsen</a></li>
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
@@ -67,8 +67,8 @@
                      <center><hr align="center" width="90%"></center>
                      <center><h2 class="borderting">Omkring denne hjemmesiden.</h2></center>
                      
-                     <center><form class="spg1">
-                             <p>Denne hjemmesides funktion er ude lukket til at jeg kan uploade min projekter jeg laver her på <a href="https://www.sde.dk/">SDE</a>. Det er som hjemmesiden siger det en portfolie, hvor folk som måske søger en elev, eller bare er nysgerrige på hvad jeg går og laver her på skolen.</p>
+                     <center><form class="spg1"><br/>
+<p>Hjemmesiden du sidder og kigger på er en portfolie hjemmeside. Det er en hjemmeside hvor jeg kan uploade en "artikel" om et projekt jeg har lavet i den tid jeg er her i SKP på <a href="https://www.sde.dk/">SDE</a>. Det er en god måde at vise mulige mesterer hvad jeg kan og hvad jeg har laver/arbejdet med. Så for at lave et lile recap. Hjemmesiden her giver mig en mulighed for at vise folk hvad jeg kan. </p>
                              
 
                             

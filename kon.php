@@ -17,7 +17,7 @@
                     <li><a href="pro.php">Projekter</a></li>
                     <li class="selected"><a href="kon.html">Kontakt</a></li>
                     <li><a href="login.html">Login</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Steam </a></li>
+                    <li style="float:right"><a href="https://steamcommunity.com/id/qvikke93steamaccount">Steam </a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Facebook</a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Twitter</a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Linkedin</a></li>
