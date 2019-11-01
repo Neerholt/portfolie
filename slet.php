@@ -136,7 +136,7 @@ if(!isset($_SESSION['login'])){
                              echo $row['dato'];
                              echo '</div>';
                              echo '<div id="artikellink">';
-                               echo "<a href=\"adminArtikel.php?id=". $row['idopret'] . "\"><button class='linkknapcsspro'>Klik her for at læse hele artiklen</button></a>"; 
+                               echo "<a href=\"adminArtikel.php?id=". $row['idopret'] . "\"><button class='linkknapcsspro'>Læse hele artiklen</button></a>"; 
                              echo '</div>';
                              echo '</div>';
                          }  

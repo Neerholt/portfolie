@@ -404,6 +404,7 @@ div.ex1{
     border-right: 1px solid;
     font-size: 1.0vw;
     font-size: 1.0vh;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 
@@ -429,6 +430,7 @@ div.ex1{
   font-size: 1.3vh;
   cursor: pointer;
   display: flex;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 /*stylesheet for min slet textboxsgit */
@@ -438,6 +440,7 @@ div.ex1{
     padding: 10px 3px 3px 3px;
     font-size: .70vw;
     font-size: 1.3vh;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 
@@ -609,6 +612,35 @@ div.ex1{
 }
 
 
+/*Stylesheet for min border der er tundt om index spågsmål*/
+.borderting1{
+  border-left: 3px solid #d10244;
+  border-right: 3px solid #d10244;
+  background-color: #f0efed;
+  width: 50%;
+  height: 4%;
+  font-size: .90vw;
+  font-size: 2.5vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+/*Styelsheet for min spøgsmåls box på index side*/
+.spg2{
+    background-color: #f0efed;
+    text-align: center;
+    width: 70%;
+    height: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: .90vw;
+    font-size: 1.5vh;
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+
+
+
+
+
 /*stylesheet for leftside panel på index side*/
 #indexleft{
     width: 23%;
@@ -634,14 +666,14 @@ div.ex1{
     font-size: .90vw;
     font-size: 1.4vh;
     font-family: 'IBM Plex Mono', monospace;
+    text-align: left;
 }
 
 
 /*Stylesheet for css inde i texsboxs artikel ting kassen*/
 #artikellink{
-    margin-top: 15%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 9%;
+    margin-top: 10%;
     margin-bottom: -2%;
     width: 95%;
     height: 6%;
@@ -690,7 +722,8 @@ div.ex1{
 /*Stylesheet for link knap css index side*/
 
 .linkknapcss{
-  margin-left: 9%;
+  margin-top: 7%;
+  margin-left: 5%;
   background-color: #d10244;
   border: none;
   color: white;
@@ -708,7 +741,8 @@ div.ex1{
 
 /*Stylesheet for link knap css projekt side*/
 .linkknapcsspro{
-    margin-left: 9%;
+    margin-top: 7%;
+  margin-left: 5%;
   background-color: #d10244;
   border: none;
   color: white;
