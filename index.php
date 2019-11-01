@@ -29,7 +29,7 @@
                 
                 <div id="indexleft"><!--Starten på mit div til venster side på index side-->
                      <center><h1>Anbefalet Artikler</h1></center>
-                    <center><hr align="center" width="75%"></center>
+                    
                     
                       <?php
                      $sql_tabel = "SELECT * FROM opret ORDER BY rand() limit 2"; 
@@ -72,7 +72,8 @@
                              
                          </form></center>
                      
-                     <hr>
+                     <br/>
+                     
                      <!--------------------------------------->
                      <center><h2 class="borderting1">Test tekst.</h2></center>
                      
@@ -92,7 +93,7 @@
                 
                 <div id="anbefaling"><!--Starten  på mit div anbefaling-->
                     <center><h1>Ny Artikler</h1></center>
-                    <center><hr align="center" width="75%"></center>
+                    
                     
                       <?php
                      $sql_tabel = "SELECT * FROM opret order by idopret desc limit 2"; 

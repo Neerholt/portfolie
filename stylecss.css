@@ -282,7 +282,7 @@ div.ex1{
     border-left: 1px solid;
     font-size: 1.0vw;
     font-size: 1.7vh;
-    text-align: justify;
+    text-align: left;
     font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -566,7 +566,7 @@ div.ex1{
     height: 100%;
     background-color: #e6dada;
     float: left;
-    border-left: 1px solid;
+    
     font-size: .90vw;
     font-size: 1.4vh;
     font-family: 'IBM Plex Mono', monospace;
@@ -647,7 +647,7 @@ div.ex1{
     height: 100%;
     background-color: #e6dada;
     float: left;
-    border-right: 1px solid;
+
     font-size: .90vw;
     font-size: 1.4vh;
     overflow: hidden;
