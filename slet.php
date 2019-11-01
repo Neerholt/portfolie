@@ -119,7 +119,7 @@ if(!isset($_SESSION['login'])){
                      
                      include 'databaseconn.php';
                      
-                     $sql_tabel = "SELECT * FROM opret"; 
+                    $sql_tabel = "SELECT * FROM opret order by idopret desc limit 400"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      

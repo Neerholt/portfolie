@@ -289,44 +289,49 @@ div.ex1{
 
 
 /*Stylesheet til et af mine divs under opdater kontakt siden*/
+
+/*Stylesheet til et af mine divs under kontakt siden*/
 #personligop{
-    margin-left: 2%;
+    margin-left: 2.5%;
     width: 30%;
     height: 99%;
-    background-color:#e6dada; 
+    background-color: #e6dada; 
     float: left; 
-    border: ridge;
-    font-size: .90vw;
+    border-right: 1px solid;
+    font-size: 1.0vw;
     font-size: 1.7vh;
+    text-align: left;
 }
 
-/*Stylesheet til et af mine divs under opdater kontakt siden*/
+/*Stylesheet til et af mine divs under kontakt #e6dada;  siden*/
 #arbejdeop{
-    margin-left: 2%;
+    margin-left: 2.5%;
     width: 30%;
     height: 99%;
     background-color: #e6dada; 
     float: left;
     margin-bottom: -100px;
-    border: ridge;
-    font-size: .90vw;
+    font-size: 1.0vw;
     font-size: 1.7vh;
+    text-align: justify;
 }
 
-/*Stylesheet til et af mine divs under opdater kontakt siden */
+/*Stylesheet til et af mine divs under kontakt siden */
 #Aboutmeop{
-    margin-left: 2%;
+    margin-left: 2.5%;
     width: 30%;
     height: 99%;
-    background-color:#e6dada; 
+    background-color: #e6dada; 
     float: left;
-    border: ridge;
-    font-size: .90vw;
+    border-left: 1px solid;
+    font-size: 1.0vw;
     font-size: 1.7vh;
+    text-align: justify;
 }
 
 /*Styelsheet for opdater knap knappen*/
 .opdaterknapcss{
+    margin-top: 10%;
   background-color: #ed2b2b;
   border: none;
   color: white;
