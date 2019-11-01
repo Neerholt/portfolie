@@ -41,7 +41,7 @@
                              echo '<div id="textkassebofloat">';
                              echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
                              echo '<div id="overskriftcss">';
-                             echo "<h4><strong>&nbsp;".$row['overskrift']."</strong></h4>";
+                             echo "<h4><strong>".$row['overskrift']."</strong></h4>";
                              echo '</div>';
                              echo '<div id="kassebrodtekst">';
                              echo $row['brodtekst']."...";
@@ -99,7 +99,7 @@
                              echo '<div id="textkassebofloat">';
                              echo "<img src='images/".$row['billede']."' height='55%' width='100%'>";
                              echo '<div id="overskriftcss">';
-                             echo "<h4><strong>&nbsp;".$row['overskrift']."</strong></h4>";
+                             echo "<h4><strong>".$row['overskrift']."</strong></h4>";
                              echo '</div>';
                              echo '<div id="kassebrodtekst">';
                              echo $row['brodtekst']."...";
