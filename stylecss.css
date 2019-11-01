@@ -27,6 +27,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: 1.3vw;
     font-size: 2.5vh;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 
@@ -61,7 +62,7 @@ body{
 /*Stylesheet for min nav*/
 #nav{
     width: auto;
-    height: 4.4%;
+    height: 4.3%;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -81,6 +82,7 @@ ul {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: 1.0vw;
   font-size: 1.5vh;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 li {
@@ -253,6 +255,7 @@ div.ex1{
     font-size: 1.0vw;
     font-size: 1.7vh;
     text-align: left;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /*Stylesheet til et af mine divs under kontakt #e6dada;  siden*/
@@ -266,6 +269,7 @@ div.ex1{
     font-size: 1.0vw;
     font-size: 1.7vh;
     text-align: justify;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /*Stylesheet til et af mine divs under kontakt siden */
@@ -279,6 +283,7 @@ div.ex1{
     font-size: 1.0vw;
     font-size: 1.7vh;
     text-align: justify;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /*Stylesheet for den lille prik der er uden for de 2 første feltet under kontakt mig siden*/
@@ -301,6 +306,7 @@ div.ex1{
     font-size: 1.0vw;
     font-size: 1.7vh;
     text-align: left;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /*Stylesheet til et af mine divs under kontakt #e6dada;  siden*/
@@ -314,6 +320,7 @@ div.ex1{
     font-size: 1.0vw;
     font-size: 1.7vh;
     text-align: justify;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /*Stylesheet til et af mine divs under kontakt siden */
@@ -327,6 +334,7 @@ div.ex1{
     font-size: 1.0vw;
     font-size: 1.7vh;
     text-align: justify;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /*Styelsheet for opdater knap knappen*/
@@ -341,6 +349,7 @@ div.ex1{
   margin: 4px 2px;
   cursor: pointer;
   display: flex;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 /*Stylesheet for min søg form på project siden*/
@@ -363,6 +372,7 @@ div.ex1{
     font-size: .70vw;
     font-size: 1.2vh;
     cursor: not-allowed; /*Slet hvis søge funktionen kommer til at virke*/
+     font-family: 'IBM Plex Mono', monospace;
 }
 
 
@@ -380,6 +390,7 @@ div.ex1{
   margin-top: 0.5%;
   margin-left: 1%;
   cursor: not-allowed; /*Slet hvis søge funktionen kommer til at virke*/
+   font-family: 'IBM Plex Mono', monospace;
 }
 
 
@@ -482,9 +493,9 @@ div.ex1{
     margin-right: auto;
     background-color: #e6dada;
     font-size: .90vw;
-    font-size: 1.7vh;
+    font-size: 1.5vh;
     border-top: 1px solid;
-    
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /*stylesheet for min kasse som holder min overskrift for når folk læser mere*/
@@ -497,6 +508,7 @@ div.ex1{
     background-color: #e6dada;
     font-size: .90vw;
     font-size: 1.7vh;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 #lavevenster{
@@ -508,6 +520,7 @@ div.ex1{
     font-size: .90vw;
     font-size: 1.7vh;
     border-right:  1px solid;
+    font-family: 'IBM Plex Mono', monospace;
     
 }
 
@@ -519,9 +532,10 @@ div.ex1{
     margin-right: auto;
     background-color: #e6dada;
     font-size: .90vw;
-    font-size: 1.7vh;
+    font-size: 1.2vh;
     border-top: 1px solid;
     text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /*stylesheet for det kasser som er uden om et opslag på index anbefaling kassen*/
@@ -551,7 +565,8 @@ div.ex1{
     float: left;
     border-left: 1px solid;
     font-size: .90vw;
-    font-size: 1.7vh;
+    font-size: 1.4vh;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /*Stylesheet til et af mine divs under indexside kontakt siden */
@@ -561,7 +576,9 @@ div.ex1{
     background-color:#e6dada;
     float: left;
     font-size: .90vw;
-    font-size: 1.7vh;
+    font-size: 1.5vh;
+    font-family: 'IBM Plex Mono', monospace;
+   
 }
 
 
@@ -575,16 +592,20 @@ div.ex1{
   font-size: .90vw;
   font-size: 2.5vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
 
 /*Styelsheet for min spøgsmåls box på index side*/
 .spg1{
     background-color: #f0efed;
+    text-align: center;
     width: 70%;
     height: 20%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: .90vw;
-    font-size: 1.7vh;
+    font-size: 1.5vh;
+    font-family: 'IBM Plex Mono', monospace;
+    
 }
 
 
@@ -596,8 +617,9 @@ div.ex1{
     float: left;
     border-right: 1px solid;
     font-size: .90vw;
-    font-size: 1.7vh;
+    font-size: 1.4vh;
     overflow: hidden;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /*Stylesheet for css inde i texsboxs artikel ting kassen*/
@@ -609,6 +631,9 @@ div.ex1{
     width: 95%;
     height: 21%;
     background-color: #e6dada;
+    font-size: .90vw;
+    font-size: 1.4vh;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 
@@ -621,6 +646,7 @@ div.ex1{
     width: 95%;
     height: 6%;
     background-color: #e6dada;  
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /*Stylesheet for min css overskrift ting*/
@@ -635,6 +661,9 @@ div.ex1{
     border-right: 2px solid #d10244;
     background-color: #f0efed;
     text-align: center;
+    font-size: .90vw;
+    font-size: 1.4vh;
+    font-family: 'IBM Plex Mono', monospace;
 
 }
 
@@ -661,6 +690,7 @@ div.ex1{
 /*Stylesheet for link knap css index side*/
 
 .linkknapcss{
+  margin-left: 9%;
   background-color: #d10244;
   border: none;
   color: white;
@@ -672,11 +702,13 @@ div.ex1{
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 
 /*Stylesheet for link knap css projekt side*/
 .linkknapcsspro{
+    margin-left: 9%;
   background-color: #d10244;
   border: none;
   color: white;
@@ -688,5 +720,6 @@ div.ex1{
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+  font-family: 'IBM Plex Mono', monospace;
 }
 

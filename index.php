@@ -32,7 +32,7 @@
                     <center><hr align="center" width="75%"></center>
                     
                       <?php
-                     $sql_tabel = "SELECT * FROM opret ORDER BY rand()"; 
+                     $sql_tabel = "SELECT * FROM opret ORDER BY rand() limit 2"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      
@@ -47,7 +47,7 @@
                              echo $row['brodtekst']."...";
                              echo '</div>';
                              echo '<div id="artikellink">';
-                              echo "<a href=\"artikel.php?id=". $row['idopret'] . "\"><button class='linkknapcss'>Klik her for at læse hele artiklen</button></a>"; 
+                              echo "<a href=\"artikel.php?id=". $row['idopret'] . "\"><button class='linkknapcss'>Læse hele artiklen?</button></a>"; 
                              // echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
                              echo '</div>';
                              echo '</div>';
@@ -97,7 +97,7 @@
                              echo $row['brodtekst']."...";
                              echo '</div>';
                              echo '<div id="artikellink">';
-                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\"><button class='linkknapcss'>Klik her for at læse hele artiklen</button></a>"; 
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\"><button class='linkknapcss'>Læse hele artiklen?</button></a>"; 
                              echo '</div>';
                              echo '</div>';
                          }  
