@@ -593,6 +593,7 @@ div.ex1{
     border-right: 1px solid;
     font-size: .90vw;
     font-size: 1.7vh;
+    overflow: hidden;
 }
 
 /*Stylesheet for css inde i texsboxs artikel ting kassen*/

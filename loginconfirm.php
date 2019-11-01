@@ -1,10 +1,10 @@
 <?php 
 
 session_start();
-$servername = 'neerholt.it.mysql';
-$username = 'neerholt_it';
-$password = 'Mejerivej2';
-$databasename = 'neerholt_it';
+$servername = 'localhost';
+$username = 'root';
+$password = '';
+$databasename = 'portfolielogin';
 $tabel_name="loginform"; //Navnet på min SQL databases tabel hvor mine brugere står listet. 
 
 

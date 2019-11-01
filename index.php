@@ -32,7 +32,7 @@
                     <center><hr align="center" width="75%"></center>
                     
                       <?php
-                     $sql_tabel = "SELECT * FROM opret limit 2"; 
+                     $sql_tabel = "SELECT * FROM opret ORDER BY rand()"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      

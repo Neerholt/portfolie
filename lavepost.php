@@ -75,7 +75,7 @@ if(!isset($_SESSION['login'])){
                         
                         <div id="lavevenster"><!--starten på min side form på lavepost-->
                              <h3>Overskrift</h3>
-                                    <input type="text"  class="textboxsopret" name="overskrift" placeholder="Skriv en overskrift" maxlength="30" required ><br/><br/>
+                                    <input type="text"  class="textboxsopret" name="overskrift" placeholder="Skriv en overskrift" maxlength="20" required ><br/><br/>
                                     <hr>
                                     <h3>Brødtekst</h3>
                                     <center><textarea rows="3%" class="textboxsopret" name="brodtekst"cols="40%" placeholder="Skrive en brødtekst til din artikel"  maxlength="93" required></textarea></center><br/>
