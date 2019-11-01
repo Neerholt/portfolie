@@ -1,11 +1,10 @@
 <?php 
-
 session_start();
-$servername = 'localhost';
-$username = 'root';
-$password = '';
-$databasename = 'portfolielogin';
-$tabel_name="loginform"; //Navnet på min SQL databases tabel hvor mine brugere står listet. 
+$hostname="localhost"; 
+$username="root"; 
+$password=""; 
+$database_name="portfolielogin"; 
+$tabel_name="loginform"; 
 
 
 $connect = mysqli_connect($hostname, $username, $password, $database_name);
@@ -21,7 +20,7 @@ $user = $_POST ['brugernavn'];
 $pass = $_POST ['adgangskode'];
 
  
-$sqldatabase = "SELECT * FROM $tabel_name WHERE brugernavn = '$user' && adgangskode = '$pass'";
+$sqldatabase = "SELECT * FROM loginform WHERE brugernavn = '$user' && adgangskode = '$pass'";
 
 $outputresult = mysqli_query($connect, $sqldatabase);
 
@@ -41,4 +40,4 @@ if($count == 1){
 
 }
 
-mysqli_close($connect);//Jeg er ikke helt sikker på om jeg skal lukke min connection?
+mysqli_close($connect);

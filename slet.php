@@ -57,7 +57,7 @@ if(!isset($_SESSION['login'])){
 ?>
 <html>
     <head>
-        <title>Portfolie/Slet Artikel</title>
+        <title>Portfolie</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="stylecss.css">
@@ -136,7 +136,7 @@ if(!isset($_SESSION['login'])){
                              echo $row['dato'];
                              echo '</div>';
                              echo '<div id="artikellink">';
-                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Se artiklen</a>";
+                             echo "<a href=\"adminArtikel.php?id=". $row['idopret'] . "\">Se artiklen</a>";
                              echo '</div>';
                              echo '</div>';
                          }  

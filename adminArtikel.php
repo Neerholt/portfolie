@@ -20,7 +20,8 @@ include 'databaseconn.php';
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                             echo $row['overskrift'];
+                             echo "ID: ".$row['idopret']. " | ";
+                             echo $row['dato'];
                          }  
                      }  
                      
@@ -29,16 +30,14 @@ include 'databaseconn.php';
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
-                    <li><a href="index.php">Forside</a></li>
-                    <li><a href="pro.php">Projekter</a></li>
-                    <li><a href="kon.php">Kontakt</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li class="selected"><a href="#Nothing">Læse mere...</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Steam</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Facebook</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Twitter</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Linkedin</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Praktikpladsen</a></li>
+                     <li><a href="loggedind.php">Admin Panel</a></li>
+                    <li><a href="lavepost.php">Opret en Artikel</a></li>
+                    <li><a href="updater.php">Opdater en Artikel</a></li>
+                    <li><a href="slet.php">Slet en Artikel</a></li>
+                     <li><a href="Opdaterkon.php">Opdater Kontakt</a></li>
+                      <li><a href="pro.php">Se Opslag</a></li>
+                     <li class="selected"><a href="#Nothing">Gennem se artikel</a></li>
+                    <li style="float:right"><a href="index.php">Log ud</a></li>
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
             <div id="mainformlase"><!--Starten på min mainform, søge ord mainform Mainform-->
