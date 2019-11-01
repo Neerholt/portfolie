@@ -68,22 +68,14 @@
                      <center><h2 class="borderting">Omkring denne hjemmesiden.</h2></center>
                      
                      <center><form class="spg1">
-                             <p>Test Test Test TestTest TestTest TestTest TestTest TestTest TestTest Test</p>
+                             <p>Denne hjemmesides funktion er ude lukket til at jeg kan uploade min projekter jeg laver her på <a href="https://www.sde.dk/">SDE</a>. Det er som hjemmesiden siger det en portfolie, hvor folk som måske søger en elev, eller bare er nysgerrige på hvad jeg går og laver her på skolen.</p>
                              
 
-                             
-                             
                             
                          </form></center>
                   
                 </div><!--slutning på min main form index-->
               
-                
-                
-                
-                
-                
-                
                 
                 <div id="anbefaling"><!--Starten  på mit div anbefaling-->
                     <center><h1>Ny Artikler</h1></center>

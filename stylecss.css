@@ -132,7 +132,7 @@ li a:hover:not(.active) {
 
 /*Stylesheet til mine  login knap*/
 .loginknap{
-  background-color: #ed2b2b;
+  background-color: #d10244;
   border: none;
   color: white;
   padding: 1% 10%;
@@ -149,7 +149,7 @@ li a:hover:not(.active) {
 
 /*Styelsheet for opret knappen*/
 .opretknap{
-  background-color: #ed2b2b;
+  background-color: #d10244;
   border: none;
   color: white;
   padding: 10px 15px;
@@ -165,7 +165,7 @@ li a:hover:not(.active) {
 
 /*Styelsheet for cancel knappen*/
 .cancelknap{
-  background-color: #ed2b2b;
+  background-color: #d10244;
   border: none;
   color: white;
   padding: 10px 15px;
@@ -184,7 +184,7 @@ li a:hover:not(.active) {
 /*Stylesheet til hvis man skal disable noget*/
 .selected {
     pointer-events:none; 
-    background-color:  #ed2b2b;
+    background-color:  #d10244;
 }
 
 
@@ -332,7 +332,7 @@ div.ex1{
 /*Styelsheet for opdater knap knappen*/
 .opdaterknapcss{
     margin-top: 10%;
-  background-color: #ed2b2b;
+  background-color: #d10244;
   border: none;
   color: white;
   padding: 10px 15px;
@@ -368,7 +368,7 @@ div.ex1{
 
 /*Styelsheet for opdater knap knappen*/
 .sogknapcss{
-  background-color: #ed2b2b;
+  background-color: #d10244;
   border: none;
   color: white;
   padding: 0.4% 3%;
@@ -409,7 +409,7 @@ div.ex1{
 
 /*stylesheet for min slet knap*/
 .sletknapcss{
-  background-color: #ed2b2b;
+  background-color: #d10244;
   border: none;
   color: white;
   padding: 3% 15%;
@@ -567,13 +567,14 @@ div.ex1{
 
 /*Stylesheet for min border der er tundt om index spågsmål*/
 .borderting{
-  border-left: 3px solid red;
-  border-right: 3px solid red;
+  border-left: 3px solid #d10244;
+  border-right: 3px solid #d10244;
   background-color: #f0efed;
   width: 50%;
   height: 4%;
   font-size: .90vw;
   font-size: 2.5vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*Styelsheet for min spøgsmåls box på index side*/
@@ -581,8 +582,6 @@ div.ex1{
     background-color: #f0efed;
     width: 70%;
     height: 20%;
-    border-left: 3px solid red;
-    border-right: 3px solid red;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: .90vw;
     font-size: 1.7vh;
@@ -632,8 +631,8 @@ div.ex1{
     margin-bottom: 4%;
     width: 95%;
     height: 6%;
-    border-left: 2px solid red;
-    border-right: 2px solid red;
+    border-left: 2px solid #d10244;
+    border-right: 2px solid #d10244;
     background-color: #f0efed;
     text-align: center;
 
@@ -662,7 +661,7 @@ div.ex1{
 /*Stylesheet for link knap css index side*/
 
 .linkknapcss{
-  background-color: #ed2b2b;
+  background-color: #d10244;
   border: none;
   color: white;
   padding: 3px 17px;
@@ -678,7 +677,7 @@ div.ex1{
 
 /*Stylesheet for link knap css projekt side*/
 .linkknapcsspro{
-  background-color: #ed2b2b;
+  background-color: #d10244;
   border: none;
   color: white;
   padding: 3px 16px;
@@ -690,3 +689,4 @@ div.ex1{
   border-bottom: 1px solid black;
   border-top: 1px solid black;
 }
+
