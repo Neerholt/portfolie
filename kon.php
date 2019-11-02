@@ -9,7 +9,7 @@
     <body>
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
             <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
-                <center><h1>Kontakt mig</font></h1></center>
+                <center><h1>Kontakt mig</h1></center>
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
@@ -17,9 +17,9 @@
                     <li><a href="pro.php">Projekter</a></li>
                     <li class="selected"><a href="kon.html">Kontakt</a></li>
                     <li><a href="login.html">Login</a></li>
-                    <li style="float:right"><a href="https://steamcommunity.com/id/qvikke93steamaccount">Steam </a></li>
+                    <li style="float:right"><a href="https://steamcommunity.com/id/qvikke93steamaccount" target="_blank">Steam </a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Facebook</a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Twitter</a></li>
+                    <li style="float:right"><a href="https://twitter.com/qvikke93" target="_blank">Twitter</a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Linkedin</a></li>
                      <li style="float:right"><a href="#IdoNothingYet">Praktikpladsen</a></li>
                 </ul>

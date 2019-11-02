@@ -9,7 +9,7 @@
     <body>
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
             <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
-                <center><h1>Victor Neerholt's Portfolie</font></h1></center>
+                <center><h1>Victor Neerholt's Portfolie</h1></center>
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
@@ -47,7 +47,7 @@
                              echo $row['brodtekst']."...";
                              echo '</div>';
                              echo '<div id="artikellink">';
-                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\" target='_blank'><button class='linkknapcss'>Læse hele artiklen?</button></a>"; 
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\"><button class='linkknapcss'>Læse hele artiklen?</button></a>"; 
                              // echo "<a href=\"artikel.php?id=". $row['idopret'] . "\">Læse mere?</a>";
                              echo '</div>';
                              echo '</div>';
@@ -111,7 +111,7 @@
                              echo $row['brodtekst']."...";
                              echo '</div>';
                              echo '<div id="artikellink">';
-                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\" target='_blank'><button class='linkknapcss'>Læse hele artiklen?</button></a>"; 
+                             echo "<a href=\"artikel.php?id=". $row['idopret'] . "\"><button class='linkknapcss'>Læse hele artiklen?</button></a>"; 
                              echo '</div>';
                              echo '</div>';
                          }  

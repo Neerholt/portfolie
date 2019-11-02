@@ -566,7 +566,6 @@ div.ex1{
     height: 100%;
     background-color: #e6dada;
     float: left;
-    
     font-size: .90vw;
     font-size: 1.4vh;
     font-family: 'IBM Plex Mono', monospace;
@@ -646,16 +645,12 @@ div.ex1{
 }
 
 
-
-
-
 /*stylesheet for leftside panel på index side*/
 #indexleft{
     width: 23%;
     height: 100%;
     background-color: #e6dada;
     float: left;
-
     font-size: .90vw;
     font-size: 1.4vh;
     overflow: hidden;
@@ -675,18 +670,6 @@ div.ex1{
     font-size: 1.4vh;
     font-family: 'IBM Plex Mono', monospace;
     text-align: left;
-}
-
-
-/*Stylesheet for css inde i texsboxs artikel ting kassen*/
-#artikellink{
-    margin-left: 9%;
-    margin-top: 10%;
-    margin-bottom: -2%;
-    width: 95%;
-    height: 6%;
-    background-color: #e6dada;  
-    font-family: 'IBM Plex Mono', monospace;
 }
 
 /*Stylesheet for min css overskrift ting*/
@@ -714,7 +697,7 @@ div.ex1{
   margin-left: 9%;
   margin-bottom: 1%;
   width: 21%;
-  height: 40%;
+  height: 45%;
   float: left;
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -730,10 +713,9 @@ div.ex1{
 /*Stylesheet for link knap css index side*/
 
 .linkknapcss{
-  margin-top: 7%;
-  margin-left: 5%;
+  margin-top: 2%;
+  margin-left: 13%;
   background-color: #d10244;
-  border: none;
   color: white;
   padding: 3px 17px;
   cursor: pointer;
@@ -746,22 +728,16 @@ div.ex1{
   font-family: 'IBM Plex Mono', monospace;
 }
 
-
-/*Stylesheet for link knap css projekt side*/
-.linkknapcsspro{
-    margin-top: 7%;
-  margin-left: 5%;
-  background-color: #d10244;
-  border: none;
-  color: white;
-  padding: 3px 16px;
-  cursor: pointer;
-  font-size: 14px;
-  text-decoration: none;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  font-family: 'IBM Plex Mono', monospace;
+/*Stylesheet for css inde i texsboxs artikel ting kassen*/
+#artikellink{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+    width: 100%;
+    height: 11%;
+    background-color: #e6dada;
+    font-family: 'IBM Plex Mono', monospace;
 }
+
+
 
