@@ -176,7 +176,7 @@ li a:hover:not(.active) {
   margin: 4px 2px;
   cursor: pointer;
   margin-right: 10%;
-  margin-top: -4%;
+  margin-top: -3.6%;
   display: flex;
   font-size: 1.7vw;
   font-size: 1.7vh;
@@ -527,15 +527,16 @@ div.ex1{
     
 }
 
-
+/*#e6dada;*/
 #artikelfooter{
+    margin-top: -0%;
     width:90%;
-    height: 3%;
+    height: 2%;
     margin-left: auto;
     margin-right: auto;
     background-color: #e6dada;
     font-size: .90vw;
-    font-size: 1.2vh;
+    font-size: 1.4vh;
     border-top: 1px solid;
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
@@ -737,6 +738,23 @@ div.ex1{
     height: 11%;
     background-color: #e6dada;
     font-family: 'IBM Plex Mono', monospace;
+}
+
+
+/*Stylesheet for min tilbage knap når man er inde op læse en artikel*/
+.tilbagelinkknapcss{
+  margin-top: -3.3%;
+  background-color: #d10244;
+  color: white;
+  padding: 3px 17px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 

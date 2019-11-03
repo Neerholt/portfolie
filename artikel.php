@@ -54,6 +54,7 @@ include 'databaseconn.php';
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
                             echo "<img src='images/".$row['billede2']."' height='100%' width='100%'>";
+                            echo "<a href='pro.php'><button class='tilbagelinkknapcss'>&#8617; Tilbage</button></a>"; 
                          }  
                      }
                      
@@ -80,7 +81,7 @@ include 'databaseconn.php';
                      
                      
                      
-                     $sql_tabel = "SELECT * FROM opret where idopret='$id'"; //Huske at lave det dynamisk
+                     $sql_tabel = "SELECT * FROM opret where idopret='$id'"; 
                      $data = mysqli_query($connect,$sql_tabel);
                      $datacheck = mysqli_num_rows($data);
                      
@@ -98,8 +99,6 @@ include 'databaseconn.php';
                 
                 <div id="artikelfooter"><!--starten på min artikel footer-->
                     <?php
-                     
-                     
                      
                      $sql_tabel = "SELECT * FROM opret where idopret='$id'"; //Huske at lave det dynamisk
                      $data = mysqli_query($connect,$sql_tabel);

@@ -136,7 +136,7 @@ if(!isset($_SESSION['login'])){
                              echo $row['dato'];
                              echo '</div>';
                              echo '<div id="artikellink">';
-                            echo "<a href=\"adminArtikel.php?id=". $row['idopret'] . "\" target='_blank'><button class='linkknapcss'>Læse hele artiklen?</button></a>"; 
+                            echo "<a href=\"adminArtikel.php?id=". $row['idopret'] . "\"><button class='linkknapcss'>Læse hele artiklen?</button></a>"; 
                              echo '</div>';
                              echo '</div>';
                          }  
@@ -148,7 +148,6 @@ if(!isset($_SESSION['login'])){
                 </div><!--slutnign på min side hvor jeg kan browse de artikel jeg har skrevet for at se hvad jeg skal slette-->
                 
                 
-             
             </div><!--Slutning på min mainform, søge ord mainform Mainform-->
             <!--<footer style="float:right">&copy; Copyright <?php echo date("Y");?> Victor Neerholt</footer>-->
              <footer style="float:right">Website made by Victor Neerholt</footer>
