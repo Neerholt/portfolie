@@ -11,7 +11,8 @@ include 'databaseconn.php';
     </head>
     <body>
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
-            <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
+            <div id="mainHeaderContaioner"><!--Straten på mit div kasse for min mainheader og min nav-->
+                    <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
                 <center><h1><?php
                 
                      $sql_tabel = "select * from opret where idopret='$id'"; 
@@ -41,6 +42,8 @@ include 'databaseconn.php';
                     <li style="float:right"><a href="#IdoNothingYet">Praktikpladsen</a></li>
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
+               
+            </div><!--slutning på mit div kasse for min mainheader og min nav-->
             <div id="mainformlase"><!--Starten på min mainform, søge ord mainform Mainform-->
               
                 <div id="billedelase"><!--Starte på min div billedelase-->
