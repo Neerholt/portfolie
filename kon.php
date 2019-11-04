@@ -32,7 +32,7 @@
                     <center><h1>Kontakt oplysinger</h1></center>
                     <center><hr align="center" width="90%"></center>
                     
-                    
+
                      <?php
                      $sql_tabel = "SELECT * FROM kontaktop;"; 
                      $data = mysqli_query($connect,$sql_tabel);
@@ -40,24 +40,23 @@
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                             echo '<center><h3> Mail: '.$row['mail'].'</h3></center>';
-                             echo '<center><h3> Mobil: '.$row['tf'].'</h3></center>';
-                             echo '<center><h3> Address: '.$row['bo'].'</h3></center>';
-                             echo '<center><h3> Postnummer: '.$row['post'].'</h3></center>';
-                             echo '<center><h3> Bynanv: '.$row['bynavn'].'</h3></center>';
+                             echo '<center><h3 class="bordertilkon">Mail: '.$row['mail'].'</h3></center>';
+                             echo '<center><h3 class="bordertilkon">Mobil: '.$row['tf'].'</h3></center>';
+                             echo '<center><h3 class="bordertilkon">Address: '.$row['bo'].'</h3></center>';
+                             echo '<center><h3 class="bordertilkon">Postnummer: '.$row['post'].'</h3></center>';
+                             echo '<center><h3 class="bordertilkon">By: '.$row['bynavn'].'</h3></center>';
                          }  
                      } 
                      ?>
                     
                     
-                    
+                   
                     
                 </div><!--slutning på min personligform. søge ord personlig Personlig-->
                 <div id="arbejde"><!--starten på min arbejdefom, søge ord arbejde Arbejde-->
                      <center><h1>Arbejdsområder</h1></center>
                     <center><hr align="center" width="90%"></center>
                    
-                    
                       <?php
                      $sql_tabel = "SELECT * FROM arbejde;"; 
                      $data = mysqli_query($connect,$sql_tabel);
@@ -65,27 +64,27 @@
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                             echo '<center><h3>'.$row['a'].'</h3></center>';//1
-                              echo '<center><h3>'.$row['r'].'</h3></center>';//2
-                               echo '<center><h3>'.$row['b'].'</h3></center>';//3
-                                echo '<center><h3>'.$row['e'].'</h3></center>';//4
-                                 echo '<center><h3>'.$row['j'].'</h3></center>';//5
-                                  echo '<center><h3>'.$row['d'].'</h3></center>';//6
-                                   echo '<center><h3>'.$row['t'].'</h3></center>';//7 Test punkt
-                                    echo '<center><h3>'.$row['z'].'</h3></center>';//8
-                                     echo '<center><h3>'.$row['x'].'</h3></center>';//9
-                                      echo '<center><h3>'.$row['c'].'</h3></center>';//10
-                                       echo '<center><h3>'.$row['o'].'</h3></center>';//11
-                                        echo '<center><h3>'.$row['p'].'</h3></center>';//12
-                                         echo '<center><h3>'.$row['u'].'</h3></center>';//13
-                                          echo '<center><h3>'.$row['g'].'</h3></center>';//14
+                             echo '<center><h3  class="bordertilkon">'.$row['a'].'</h3></center>';//1
+                              echo '<center><h3  class="bordertilkon">'.$row['r'].'</h3></center>';//2
+                               echo '<center><h3  class="bordertilkon">'.$row['b'].'</h3></center>';//3
+                               echo '<center><h3  class="bordertilkon">'.$row['e'].'</h3></center>';//4
+                                 echo '<center><h3  class="bordertilkon">'.$row['j'].'</h3></center>';//5
+                                   echo '<center><h3  class="bordertilkon">'.$row['d'].'</h3></center>';//6
+                                   echo '<center><h3  class="bordertilkon">'.$row['t'].'</h3></center>';//7 
+                                    echo '<center><h3  class="bordertilkon">'.$row['z'].'</h3></center>';//8
+                                     echo '<center><h3  class="bordertilkon">'.$row['x'].'</h3></center>';//9
+                                      echo '<center><h3  class="bordertilkon">'.$row['c'].'</h3></center>';//10
+                                       echo '<center><h3  class="bordertilkon">'.$row['o'].'</h3></center>';//11
+                                        /*echo '<center><h3  class="bordertilkon">'.$row['p'].'</h3></center>';//12
+                                         echo '<center><h3  class="bordertilkon">'.$row['u'].'</h3></center>';//13
+                                          echo '<center><h3  class="bordertilkon">'.$row['g'].'</h3></center>';//14*/
                                     echo '<center><p>Se alle mine arbejdsområder på <a href="https://www.praktikpladsen.dk/">praktikpldasen.dk</a></p></center>';
                                   
                          }  
                      } 
                      ?>
                     
-                    
+                  
                     
                 </div><!--slutning på min arbejdefom, søge ord arbejde Arbejde-->
                 <div id="Aboutme"><!--starten på aboutmeformen, søge ord Aboutme aboutme-->
@@ -102,7 +101,7 @@
                      
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
-                             echo '<center><h4>'.$row['opdaterbesked'].'</h4></center>';//1
+                             echo '<h4>'.$row['opdaterbesked'].'</h4>';//1
                        
                                   
                          }  
