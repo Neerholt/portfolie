@@ -110,7 +110,7 @@ include 'databaseconn.php';
                      if($data){
                          while ($row = mysqli_fetch_assoc($data)){
                              echo "Uploadet den: ".$row['dato']." | ";
-                             echo "<a href='".$row['gitlink']."'>Link til Github</a>"." | ";
+                             echo "<a href='".$row['gitlink']."' target='_blank'>Link til Github</a>"." | ";//er ikke sikker på at min "target="_blank"" virker som den skal, tid må vise
                              echo 'Artikel skrevet af Victor Neerholt.';
                              //echo 'Github blev ikke brug til denne opgave.'; 
                          }  
