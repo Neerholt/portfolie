@@ -8,25 +8,27 @@
     </head>
     <body>
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
-            <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
-                <center><h1>Projekter</font></h1></center>
+             <div id="mainHeaderContaioner"><!--Straten på mit div kasse for min mainheader og min nav-->
+                 <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
+                <center><h1>Projekter</h1></center>
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
                     <li><a href="index.php">Forside</a></li>
-                    <li class="selected"><a href="pro.html" >Projekter</a></li>
+                    <li class="selected"><a href="pro.php">Projekter</a></li>
                     <li><a href="kon.php">Kontakt</a></li>
                     <li><a href="login.html">Login</a></li>
-                    <li style="float:right"><a href="https://steamcommunity.com/id/qvikke93steamaccount" target="_blank">Steam </a></li>
-                    <li style="float:right"><a href="#IdoNothingYet">Facebook</a></li>
+                    <li style="float:right"><a href="https://steamcommunity.com/id/qvikke93steamaccount" target="_blank">Steam</a></li>
+                    <li style="float:right"><a href="#">Facebook</a></li>
                     <li style="float:right"><a href="https://twitter.com/qvikke93" target="_blank">Twitter</a></li>
-                     <li style="float:right"><a href="#IdoNothingYet">Linkedin</a></li>
-                      <li style="float:right"><a href="#IdoNothingYet">Praktikpladsen</a></li>
+                    <li style="float:right"><a href="#">Linkedin</a></li>
+                    <li style="float:right"><a href="#">Praktikpladsen</a></li>
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
+               
+            </div><!--slutning på mit div kasse for min mainheader og min nav-->
             
             
-             
                  <div id="sog"><!--Starten på min søg funktion, søge ord Søg søg Sog sog-->
                    <form action="" method="">
                        <input type="text" name="" placeholder="Søg efter et projekt..." class="sogtextboxs" style="width:70%" disabled> <!--Enable disable hvis søg virker required huske!-->

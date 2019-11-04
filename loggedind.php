@@ -14,8 +14,9 @@ if(!isset($_SESSION['login'])){
     </head>
     <body>
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
-            <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
-                <center><h1>Admin Panel</font></h1></center>
+             <div id="mainHeaderContaioner"><!--Straten på mit div kasse for min mainheader og min nav-->
+                 <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
+                <center><h1>Projekter</h1></center>
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
@@ -28,6 +29,8 @@ if(!isset($_SESSION['login'])){
                     <li style="float:right"><a href="index.php">Log ud</a></li>
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
+               
+            </div><!--slutning på mit div kasse for min mainheader og min nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform-->
                 
                 

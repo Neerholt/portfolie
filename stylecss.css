@@ -24,7 +24,6 @@ body{
     height: 6%;
     background-color: #4dc989;
     color: whitesmoke;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: 1.3vw;
     font-size: 2.5vh;
     font-family: 'IBM Plex Mono', monospace;
@@ -44,6 +43,16 @@ body{
     font-size: 1.7vh;
 }
 
+#mainHeaderContaioner{
+    width: auto;
+    height: 10.3%;
+    background-color:#4dc989;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: .90vw;
+    font-size: 1.2vh;
+    
+}
+
 
 /*Stylesheet for min project side mainform*/
 #mainformpro{
@@ -61,11 +70,11 @@ body{
 
 /*Stylesheet for min nav*/
 #nav{
+    margin-top: 3.8%;
     width: auto;
     height: 4.3%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: 1.0vw;
     font-size: 1.5vh;
 }
