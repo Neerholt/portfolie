@@ -70,9 +70,10 @@
                      <center><hr align="center" width="90%"></center>
                      <center><h2 class="borderting">Omkring denne hjemmesiden.</h2></center>
                      
-                     <center><form class="spg1"><br/>
-<p>Hjemmesiden du sidder og kigger på er en portfolie hjemmeside. Det er en hjemmeside hvor jeg kan uploade en "artikel" om et projekt jeg har lavet i den tid jeg er her i SKP på <a href="https://www.sde.dk/" target="_blank">SDE</a>. Det er en god måde at vise mulige lærepladse hvad jeg kan samt hvad jeg har laver/arbejdet med.</p>
-                             
+                     <center><form class="spg1">
+                             <div id="kassemellemrum">
+                                 <p>Hjemmesiden du sidder og kigger på er en portfolie hjemmeside. Det er en hjemmeside hvor jeg kan uploade en "artikel" om et projekt jeg har lavet i den tid jeg er her i SKP på <a href="https://www.sde.dk/" target="_blank">SDE</a>. Det er en god måde at vise mulige lærepladse hvad jeg kan samt hvad jeg har laver/arbejdet med.</p>
+                             </div>
                          </form></center>
                      
                      <br/>

@@ -669,6 +669,7 @@ div.ex1{
 
 /*Stylesheet for css inde i texsboxs artikel ting kassen*/
 #kassebrodtekst{
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -5%;
@@ -686,7 +687,6 @@ div.ex1{
     margin-top: -5%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1%;
     width: 95%;
     height: 6%;
     border-left: 2px solid #d10244;
@@ -720,7 +720,6 @@ div.ex1{
 
 
 /*Stylesheet for link knap css index side */
-
 .linkknapcss{
   margin-left: 12.5%;
   background-color: #d10244;
@@ -778,4 +777,16 @@ div.ex1{
   font-size: 2.2vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
+}
+
+#kassemellemrum{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f0efed;
+    text-align: justify;
+    width: 90%;
+    height: 20%;
+    font-size: .90vw;
+    font-size: 1.5vh;
+    font-family: 'IBM Plex Mono', monospace;
 }

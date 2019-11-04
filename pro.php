@@ -31,7 +31,7 @@
             
                  <div id="sog"><!--Starten på min søg funktion, søge ord Søg søg Sog sog-->
                    <form action="" method="">
-                       <input type="text" name="" placeholder="Søg efter et projekt..." class="sogtextboxs" style="width:70%" disabled> <!--Enable disable hvis søg virker required huske!-->
+                       <input type="text" name="" placeholder="Lave en live search på et projekt..." class="sogtextboxs" style="width:70%" disabled> <!--Enable disable hvis søg virker required huske!-->
                        <button class="sogknapcss" type="submit" style="float:right" name="" disabled>Søg</button> <!--Enable disable hvis søg virker-->
                     </form>
                     <hr>
