@@ -9,7 +9,7 @@ if(isset($_POST['GEM'])){
 $billede = $_FILES['imagess']['name'];
 $billede1 = $_FILES['imagesss']['name'];
 $overskrift = $_POST ['overskrift'];
-$atikeltext = $_POST ['atikeltext'];
+$artikeltext = $_POST ['artikeltext'];
 $brodtekst = $_POST ['brodtekst'];
 $git = $_POST['gitlink'];
 
@@ -24,7 +24,7 @@ if(!$connect){
     die("Connectiuon failed because" .mysqli_connect_error());
 } 
 
-$sql_tabel = "INSERT INTO `opret`(`idopret`, `overskrift`, `billede`, `atikeltext`, `dato`, `brodtekst`, `billede2`, `gitlink`) VALUES (NULL,'$overskrift','$billede','$atikeltext',NULL,'$brodtekst','$billede1','$git')";
+$sql_tabel = "INSERT INTO `opret`(`idopret`, `overskrift`, `billede`, `artikeltext`, `dato`, `brodtekst`, `billede2`, `gitlink`) VALUES (NULL,'$overskrift','$billede','$artikeltext',NULL,'$brodtekst','$billede1','$git')";
 
 $data = mysqli_query($connect,$sql_tabel);
 
@@ -94,7 +94,7 @@ if(!isset($_SESSION['login'])){
                         
                                     <hr>
                                     <h3>Skriv din artikel her</h4>
-                                    <center><textarea rows="22%" name="atikeltext" cols="80%" style="width:50%; height: 80%;" placeholder="Skriv din artikel her." maxlength="1800" required></textarea></center>    
+                                    <center><textarea rows="22%" name="artikeltext" cols="80%" style="width:50%; height: 80%;" placeholder="Skriv din artikel her." maxlength="1800" required></textarea></center>    
                                     <button class="opretknap" onclick="sendbesked" type="submit" name="GEM">Opret artikel</button>
                                 </form></center>  
                         <center><div>

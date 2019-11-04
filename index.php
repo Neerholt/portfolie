@@ -68,7 +68,7 @@
                      <center><h2 class="borderting">Omkring denne hjemmesiden.</h2></center>
                      
                      <center><form class="spg1"><br/>
-<p>Hjemmesiden du sidder og kigger på er en portfolie hjemmeside. Det er en hjemmeside hvor jeg kan uploade en "artikel" om et projekt jeg har lavet i den tid jeg er her i SKP på <a href="https://www.sde.dk/">SDE</a>. Det er en god måde at vise mulige mesterer hvad jeg kan og hvad jeg har laver/arbejdet med. Så for at lave et lile recap. Hjemmesiden her giver mig en mulighed for at vise folk hvad jeg kan. </p>
+<p>Hjemmesiden du sidder og kigger på er en portfolie hjemmeside. Det er en hjemmeside hvor jeg kan uploade en "artikel" om et projekt jeg har lavet i den tid jeg er her i SKP på <a href="https://www.sde.dk/">SDE</a>. Det er en god måde at vise mulige lærepladse hvad jeg kan samt hvad jeg har laver/arbejdet med.</p>
                              
                          </form></center>
                      

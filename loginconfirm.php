@@ -1,10 +1,20 @@
 <?php 
 session_start();
 $hostname="localhost"; 
+$username="mvi01.skp-dp.sde"; 
+$password="23q3z5y5"; 
+$database_name="mvi01_skp_dp_sde_dk"; 
+$tabel_name="mvi01_skp_dp_sde_dk";
+
+
+
+/*
+$hostname="localhost"; 
 $username="root"; 
 $password=""; 
 $database_name="portfolielogin"; 
-$tabel_name="loginform"; 
+$tabel_name="loginform"; */
+
 
 
 $connect = mysqli_connect($hostname, $username, $password, $database_name);
@@ -20,7 +30,7 @@ $user = $_POST ['brugernavn'];
 $pass = $_POST ['adgangskode'];
 
  
-$sqldatabase = "SELECT * FROM loginform WHERE brugernavn = '$user' && adgangskode = '$pass'";
+$sqldatabase = "SELECT `ID`, `brugernavn`, `adgangskode` FROM `loginform` WHERE brugernavn = '$user' && adgangskode = '$pass'";
 
 $outputresult = mysqli_query($connect, $sqldatabase);
 

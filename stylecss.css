@@ -454,6 +454,7 @@ div.ex1{
     float: left;
     font-size: .90vw;
     font-size: 1.7vh;
+    overflow: auto;
    
 }
 
@@ -496,9 +497,10 @@ div.ex1{
     margin-right: auto;
     background-color: #e6dada;
     font-size: .90vw;
-    font-size: 1.5vh;
+    font-size: 1.4vh;
     border-top: 1px solid;
     font-family: 'IBM Plex Mono', monospace;
+    overflow: auto;
 }
 
 /*stylesheet for min kasse som holder min overskrift for når folk læser mere*/
@@ -536,7 +538,7 @@ div.ex1{
     margin-right: auto;
     background-color: #e6dada;
     font-size: .90vw;
-    font-size: 1.4vh;
+    font-size: 1.2vh;
     border-top: 1px solid;
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
@@ -726,6 +728,8 @@ div.ex1{
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+  font-size: .90vw;
+  font-size: 1.3vh;
   font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -754,6 +758,8 @@ div.ex1{
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+  font-size: .90vw;
+  font-size: 1.3vh;
   font-family: 'IBM Plex Mono', monospace;
 }
 
