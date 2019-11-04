@@ -86,7 +86,7 @@ mysqli_close($connect);
 //selvom man har et link til siden!
 session_start();
 if(!isset($_SESSION['login'])){
-    header("location:index.html");
+    header("location:index.php");
     exit;
 }
 ?>

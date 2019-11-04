@@ -1,6 +1,16 @@
 <?php 
 include 'databaseconn.php';
  $id = $_GET['id'];
+ 
+ 
+ //Funktion som sikkrer at man skal være logget ind for at kunne til gå denne side
+//selvom man har et link til siden!
+session_start();
+if(!isset($_SESSION['login'])){
+    header("location:index.php");
+    exit;
+}
+  
 ?>
 <html>
     <head>

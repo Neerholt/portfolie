@@ -42,7 +42,7 @@ mysqli_close($connect);
 <?php
 session_start();
 if(!isset($_SESSION['login'])){
-    header("location:index.html");
+    header("location:index.php");
     exit;
 }
 ?>
