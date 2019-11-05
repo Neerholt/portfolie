@@ -16,7 +16,7 @@ if(!isset($_SESSION['login'])){
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
              <div id="mainHeaderContaioner"><!--Straten på mit div kasse for min mainheader og min nav-->
                  <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
-                <center><h1>Projekter</h1></center>
+                <center><h1>Admin panel</h1></center>
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>

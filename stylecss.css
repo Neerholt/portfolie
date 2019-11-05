@@ -779,6 +779,7 @@ div.ex1{
     
 }
 
+/*Stylesheet for at lave plads mellem text og border*/
 #kassemellemrum{
     margin-left: auto;
     margin-right: auto;
@@ -789,4 +790,29 @@ div.ex1{
     font-size: .90vw;
     font-size: 1.5vh;
     font-family: 'IBM Plex Mono', monospace;
+}
+
+
+.sogknapopdaterpro{
+  background-color: #d10244;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: 15px;
+  margin: 4px 2px;
+  margin-left: 10%;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.4vw;
+  font-size: 1.4vh;
+}
+
+.textboxssog{
+    margin-left: 10%;
+    margin-right: -15%;
+    float: left;
+    background-color: #FFFFFF;
+    width: 55%;
+    padding: 10px 3px 3px 3px;
 }

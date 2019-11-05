@@ -66,7 +66,7 @@ if(!isset($_SESSION['login'])){
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
            <div id="mainHeaderContaioner"><!--Straten på mit div kasse for min mainheader og min nav-->
                  <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
-                <center><h1>Projekter</h1></center>
+                <center><h1>Slet Artikel</h1></center>
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
@@ -102,14 +102,14 @@ if(!isset($_SESSION['login'])){
                   <center><hr align="center" width="90%"></center>
                  
                   
-                  <!--
                   
-                  Sletter alting 
+                  
+                  <!--Sletter alting--> 
                   
                   <center><form action="" method="POST">
-                     <center><h1>Slet alle artikler</h1></center>
+                     <center><h1>Slet Alt</h1></center>
                      <button class="sletknapcss" type="submit" name="deleteall">Slet alt</button> 
-                     </form></center>-->
+                     </form></center>
                  
                  
                 </div><!--slutning på min sletform, søg ord Sletform sletform-->

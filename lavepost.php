@@ -31,8 +31,8 @@ $data = mysqli_query($connect,$sql_tabel);
  move_uploaded_file($_FILES['imagess']['tmp_name'],$target.$billede);
  move_uploaded_file($_FILES['imagesss']['tmp_name'],$target.$billede1);
 
-
-header("location:loggedind.php");
+header("Refresh:0");
+//header("location:loggedind.php");
 
 mysqli_close($connect);
 
@@ -57,7 +57,7 @@ if(!isset($_SESSION['login'])){
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
             <div id="mainHeaderContaioner"><!--Straten på mit div kasse for min mainheader og min nav-->
                  <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
-                <center><h1>Projekter</h1></center>
+                <center><h1>Opret Artikel</h1></center>
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
@@ -97,7 +97,7 @@ if(!isset($_SESSION['login'])){
                         
                                     <hr>
                                     <h3>Skriv din artikel her</h4>
-                                    <center><textarea rows="22%" name="artikeltext" cols="80%" style="width:50%; height: 80%;" placeholder="Skriv din artikel her." maxlength="1800" required></textarea></center>    
+                                    <center><textarea rows="22%" name="artikeltext" cols="80%" style="width:50%; height: 80%;" placeholder="Skriv din artikel her." maxlength="2200" required></textarea></center>    
                                     <button class="opretknap" onclick="sendbesked" type="submit" name="GEM">Opret artikel</button>
                                 </form></center>  
                         <center><div>

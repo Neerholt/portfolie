@@ -1,24 +1,45 @@
 <?php 
+//Includer databasen.
 include 'databaseconn.php';
 
+ $nyoverskrift = "";
+ $nyartikeltext = "";
+ $nybrodtekst = "";      
+ $nygit = ""; 
 
-if(isset($_POST['GEM'])){
+
+//Funktion som søger på artikel data fra databasen.
+if(isset($_POST['sogopdater'])){
+    
+     $id = $_POST['idsog'];
+    
+     $sql_tabel = "SELECT overskrift, artikeltext, brodtekst, gitlink FROM opret WHERE idopret= $id LIMIT 1"; 
+     $data = mysqli_query($connect,$sql_tabel);
+                     
+        while ($row = mysqli_fetch_array($data)){
+        $nyoverskrift = ['overskrift'];
+        $nyartikeltext = ['artikeltext'];
+        $nybrodtekst = ['brodtekst'];
+        $nygit = ['gitlink'];  
+    } 
+    mysqli_close($connect);  
+}  
+        
+
+
+//Funktion til at opdater et artikel.
+if(isset($_POST['opdater'])){
   
-
-
 $billede = $_FILES['imagess']['name'];
 $billede1 = $_FILES['imagesss']['name'];
 $overskrift = $_POST ['overskrift'];
-$atikeltext = $_POST ['atikeltext'];
+$artikeltext = $_POST ['artikeltext'];
 $brodtekst = $_POST ['brodtekst'];
 $git = $_POST['gitlink'];
 
-
 $target = 'images/';
 
- 
 $connect = mysqli_connect($servername, $username, $password, $databasename);
-
 
 if(!$connect){
     die("Connectiuon failed because" .mysqli_connect_error());
@@ -28,11 +49,9 @@ $sql_tabel = "INSERT INTO `opret`(`idopret`, `overskrift`, `billede`, `atikeltex
 
 $data = mysqli_query($connect,$sql_tabel);
 
- move_uploaded_file($_FILES['imagess']['tmp_name'],$target.$billede);
- move_uploaded_file($_FILES['imagesss']['tmp_name'],$target.$billede1);
+move_uploaded_file($_FILES['imagess']['tmp_name'],$target.$billede);
+move_uploaded_file($_FILES['imagesss']['tmp_name'],$target.$billede1);
 
-
-header("location:loggedind.php");
 
 mysqli_close($connect);
 
@@ -57,7 +76,7 @@ if(!isset($_SESSION['login'])){
         <div id="container"><!--Starten på min container div, Søge ord: Container container-->
            <div id="mainHeaderContaioner"><!--Straten på mit div kasse for min mainheader og min nav-->
                  <div id="mainheader"><!--Starten på min mainheader, søge ord mainheader Mainheader-->
-                <center><h1>Projekter</h1></center>
+                <center><h1>Opdater Artikel</h1></center>
             </div><!--Slutning på min mainheader, søge ord mainheader Mainheader-->
             <div id="nav"><!--Starten på min nav, søge ord Nav nav-->
                 <ul>
@@ -73,35 +92,34 @@ if(!isset($_SESSION['login'])){
                
             </div><!--slutning på mit div kasse for min mainheader og min nav-->
             <div id="mainform"><!--Starten på min mainform, søge ord mainform Mainform--> 
-                <center><form action="lavepost.php" method="POST" enctype="multipart/form-data">
-                        
-                        
+                <center><form action="" method="POST" enctype="multipart/form-data">
                         <div id="lavevenster"><!--starten på min side form på lavepost-->
-                             <h3>Opdater Overskrift</h3>
-                                    <input type="text"  class="textboxsopret" name="overskrift" placeholder="Skriv en ny overskrift" maxlength="20" required ><br/><br/>
+                             <h3>Overskrift</h3>
+                             <input type="text"  class="textboxsopret" name="overskrift" value="<?php var_dump($nyoverskrift)?>" maxlength="20" ><br/><br/>
                                     <hr>
-                                    <h3>Opdater Brødtekst</h3>
-                                    <center><textarea rows="3%" class="textboxsopret" name="brodtekst"cols="40%" placeholder="Skrive en ny brødtekst til din artikel"  maxlength="75" required></textarea></center><br/>
+                                    <h3>Brødtekst</h3>
+                                    <center><textarea rows="3%" class="textboxsopret" name="brodtekst"cols="40%" value="<?php echo var_dump($nybrodtekst);?>"  maxlength="75" ></textarea></center><br/>
                                     <hr>
                                      <h3>Project link fra Github</h3>
-                                    <input type="text"  class="textboxsopret" name="gitlink" placeholder="Link dit project fra github">
+                                     <input type="text"  class="textboxsopret" name="gitlink" value="<?php echo var_dump($nygit);?>">
                                     <p>Include Github link?</p>
                                     <label>Ja</label><input type="checkbox" name="checkyes" >
                                     <label>Nej</label><input type="checkbox" name="checkno" checked>
                                     <hr>
-                                  <h3>Opdater Uploade billeder</h3>
-                                  <label>Uploade et nyt brødtekst billede:<br/></label><input type="file" name="imagess" required><br/><br/>
-                                  <label>Uploade et nyt artikel billede:<br/></label><input type="file" name="imagesss" required><br/><br/>
+                                  <h3>Uploade billeder</h3>
+                                  <label>Uploade et brødtekst billede:<br/></label><input type="file" name="imagess" ><br/><br/>
+                                  <label>Uploade et artikel billede:<br/></label><input type="file" name="imagesss" ><br/><br/>
                                   <hr>
-                                  <h3>Søg på den artikle du vil opdater</h3>
-                                  <input type="number"  class="textboxsopret" name="" placeholder="Søg...">
+                                  <h3>Søg på en artikle</h3>
+                                  <input type="number"  class="textboxssog" name="idsog" placeholder="Søg...">
+                                  <button class="sogknapopdaterpro" type="submit" name="sogopdater">Søg</button>
                         </div><!--sluting på min side form på lavepost-->
                         
                                     <hr>
-                                    <h3>Opdater artikel</h4>
-                                    <center><textarea rows="22%" name="atikeltext" cols="80%" style="width:50%; height: 80%;" placeholder="Skriv din artikel her." maxlength="1800" required></textarea></center>    
+                                    <h3>Skriv din artikel her</h4>
+                                    <center><textarea rows="22%" name="artikeltext" cols="80%" style="width:50%; height: 80%;" value="teat" maxlength="1800" ></textarea></center>    
                                     <button class="opretknap" onclick="sendbesked" type="submit" name="GEM">Opdater</button>
-                                </form></center>  
+                                </form></center> 
                         <center><div>
                                     <form method="POST" action="loggedind.php">
                                     <input class="cancelknap" type="submit" name="logut" value="Cancel">
