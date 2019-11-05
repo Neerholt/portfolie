@@ -16,7 +16,7 @@ if(isset($_POST['sogopdater'])){
      $sql_tabel = "SELECT overskrift, artikeltext, brodtekst, gitlink FROM opret WHERE idopret= $id LIMIT 1"; 
      $data = mysqli_query($connect,$sql_tabel);
                      
-        while ($row = mysqli_fetch_array($data)){
+        while ($row = mysqli_fetch_assoc($data)){
         $nyoverskrift = ['overskrift'];
         $nyartikeltext = ['artikeltext'];
         $nybrodtekst = ['brodtekst'];
@@ -95,7 +95,7 @@ if(!isset($_SESSION['login'])){
                 <center><form action="" method="POST" enctype="multipart/form-data">
                         <div id="lavevenster"><!--starten på min side form på lavepost-->
                              <h3>Overskrift</h3>
-                             <input type="text"  class="textboxsopret" name="overskrift" value="<?php var_dump($nyoverskrift)?>" maxlength="20" ><br/><br/>
+                             <input type="text"  class="textboxsopret" name="overskrift" value="<?php print $nyoverskrift;?>" maxlength="20" ><br/><br/>
                                     <hr>
                                     <h3>Brødtekst</h3>
                                     <center><textarea rows="3%" class="textboxsopret" name="brodtekst"cols="40%" value="<?php echo var_dump($nybrodtekst);?>"  maxlength="75" ></textarea></center><br/>

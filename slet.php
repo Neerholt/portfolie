@@ -17,9 +17,6 @@ $sql_tabel = "DELETE FROM `opret` WHERE idopret='$id'";
 $data = mysqli_query($connect,$sql_tabel);
 
 mysqli_close($connect);
-
-header("Refresh:0");
-
 }
 
 
