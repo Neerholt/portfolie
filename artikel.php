@@ -33,7 +33,6 @@ include 'databaseconn.php';
                     <li><a href="index.php">Forside</a></li>
                     <li><a href="pro.php">Projekter</a></li>
                     <li><a href="kon.php">Kontakt</a></li>
-                    <li><a href="login.html">Login</a></li>
                     <li class="selected"><a href="#Nothing">Læse mere...</a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Steam</a></li>
                     <li style="float:right"><a href="#IdoNothingYet">Facebook</a></li>
