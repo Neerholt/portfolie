@@ -17,11 +17,9 @@
                     <li class="selected"><a href="index.php">Forside</a></li>
                     <li><a href="pro.php">Projekter</a></li>
                     <li><a href="kon.php">Kontakt</a></li>
-                    <li style="float:right"><a href="https://steamcommunity.com/id/qvikke93steamaccount" target="_blank">Steam</a></li>
-                    <li style="float:right"><a href="#">Facebook</a></li>
-                    <li style="float:right"><a href="https://twitter.com/qvikke93" target="_blank">Twitter</a></li>
-                    <li style="float:right"><a href="#">Linkedin</a></li>
-                    <li style="float:right"><a href="#">Praktikpladsen</a></li>
+                   <li style="float:right"><a href="#IdoNothingYet">Facebook</a></li>
+                    <li style="float:right"><a href="#IdoNothingYet">Linkedin</a></li>
+                    <li style="float:right"><a href="#IdoNothingYet">Praktikpladsen</a></li>
                 </ul>
             </div><!--Slutning på min nav, søge ord Nav nav-->
                
