@@ -737,6 +737,13 @@ div.ex1{
   font-family: 'IBM Plex Mono', monospace;
 }
 
+linkknapcss:hover{
+    color: black;
+}
+
+
+
+
 /*Stylesheet for css inde i texsboxs artikel ting kassen*/
 #artikellink{
     margin-left: auto;
