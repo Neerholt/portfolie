@@ -6,6 +6,7 @@ $password="23q3z5y5";
 $database_name="mvi01_skp_dp_sde_dk"; 
 $tabel_name="mvi01_skp_dp_sde_dk";
 
+
 /*
 $hostname="localhost"; 
 $username="root"; 
